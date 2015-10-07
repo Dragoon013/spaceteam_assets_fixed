@@ -25,6 +25,9 @@ db/*.sqlite3
 logs
 *.log
 
+config/database.yml
+config/application.yml
+
 # various artifacts
 **.war
 *.rbc
