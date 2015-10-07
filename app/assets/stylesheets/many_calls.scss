@@ -1,0 +1,79 @@
+.imageHolder {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+}
+.space-img{
+  max-height: 200px;
+}
+.caption {
+  position: relative;
+  width: 150px;
+  height: 30px;
+  bottom: 0px;
+  color: #000000;
+  background: white;
+  text-align:center;
+  font-weight:bold;
+  line-height: 2em;
+  opacity:0.7;
+}
+.whos_in_space{
+  background-image: url('/assets/stars.jpg');
+}
+.location, .location .map {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+/* for the astronaut container*/
+.iss {
+  margin-left: -130px;
+  margin-top: -50px;
+  position: absolute;
+  z-index: 1000;
+}
+.map-image {
+  z-index: 1;
+  margin-left: 45%;
+  position: absolute;
+  top: 231px;
+  left: 0px;
+}
+.caption2 {
+  width: 100%;
+  height: 60px;
+  padding: 15px;
+  background-color: white;
+  opacity: 0.6;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #5865cd;
+  color: white;
+}
+
+.iss-overhead{
+  position: absolute;
+  margin-left: 60%;
+  margin-right: 5%;
+  margin-top: 20%;
+  background-color: rgba(219,219,222,0.6);
+}

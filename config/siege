@@ -1,0 +1,3 @@
+siege
+
+siege http://localhost:3000/many_assets

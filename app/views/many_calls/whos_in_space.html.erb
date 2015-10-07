@@ -1,0 +1,98 @@
+<div class="stars">
+  <div class="row" style="height: 700px;">
+    <div class="iss">
+      <img src="/assets/cupola-ISS.png">
+    </div>
+    <div class="col-md-7 col-md-offset-6">
+      <h2 style="color: white;">Who's in Space Right Now?</h2>
+      <p style="color: white;">
+        This data is from the <a href="http://open-notify.org/Open-Notify-API/">ISS</a> API showing you who is actually in space at this very moment.
+      </p>
+    </div>
+  </div>
+
+  <script type="text/html" id="template-astronaut">
+    <div class="imageHolder a">
+      <img class="space-img" src="/assets/astronaut.png" alt="" />
+      <div class="caption"></div>
+    </div>
+  </script>
+</div>
+
+
+<% content_for :footer do %>
+  <script>
+    function makeNewPosition($container) {
+      // Get viewport dimensions (remove the dimension of the div)
+      $container = ($container || $(window))
+      var h = $container.height() - 50;
+      var w = $container.width() - 50;
+
+      var nh = Math.floor(Math.random() * h);
+      var nw = Math.floor(Math.random() * w);
+
+      return [nh, nw];
+    }
+
+    function animateDiv($target) {
+      var newq = makeNewPosition($target.parent());
+      var oldq = $target.offset();
+      var speed = calcSpeed([oldq.top, oldq.left], newq);
+
+      $target.animate({
+        top: newq[0],
+        left: newq[1]
+      }, speed, function() {
+        animateDiv($target);
+      });
+    };
+
+    function calcSpeed(prev, next) {
+      var x = Math.abs(prev[1] - next[1]);
+      var y = Math.abs(prev[0] - next[0]);
+
+      var greatest = x > y ? x : y;
+
+      var speedModifier = .02;
+
+      var speed = Math.ceil(greatest / speedModifier);
+
+      return speed;
+    }
+
+    function drawAstronauts() {
+      $.getJSON("/api/astronauts", function(data) {
+        data["people"].forEach(function (person) {
+          var template = $($("#template-astronaut").html());
+          $(".caption", template).text(person.name);
+          $(".stars").append(template);
+          animateDiv($(template));
+        });
+      });
+    }
+
+    $(document).ready(function() {
+      drawAstronauts();
+    });
+  </script>
+
+<% end %>
+
+<!--
+
+Kata Name Idea: Many Calls to View the Sky
+===============
+
+EvalError: Raised when the eval() functions is used in an incorrect manner.
+
+RangeError: Raised when a numeric variable exceeds its allowed range.
+
+ReferenceError: Raised when an invalid reference is used.
+
+SyntaxError: Raised when a syntax error occurs while parsing JavaScript code.
+
+TypeError: Raised when the type of a variable is not as expected.
+
+URIError: Raised when the encodeURI() or decodeURI() functions are used in an incorrect manner.
+
+-->
