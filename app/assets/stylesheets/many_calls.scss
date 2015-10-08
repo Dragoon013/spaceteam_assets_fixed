@@ -21,7 +21,7 @@
   opacity:0.7;
 }
 .whos_in_space{
-  background-image: url('/assets/stars.jpg');
+  background: url(assets/('stars.jpg')) no-repeat center center;
 }
 .location, .location .map {
   height: 500px;
