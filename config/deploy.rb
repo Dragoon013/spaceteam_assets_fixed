@@ -25,3 +25,7 @@ set :puma_workers, 0
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true
 set :puma_preload_app, false
+# Force puma to re-evaluate the bundle environment or it will
+# fail to restart every 5th deploy
+# https://github.com/seuros/capistrano-puma/issues/82
+set :puma_prune_bundler, true
