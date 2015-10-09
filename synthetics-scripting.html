@@ -226,56 +226,41 @@ $browser.getCapabilities().then(function () { })
 .then(function (el) { el.click(); })
 
 
->>>>>>>>>>
-
 // Step 25
 .then(function() {
-  log(25, 'clickElement "*"');
-  return $browser.waitForAndFindElement(By.js('onclick="gridSearch()"'), DefaultTimeout); })
+  log(25, 'clickElement "ENGAGE SEARCH PROTOCOL"');
+  return $browser.waitForAndFindElement(By.id("systemCheck1"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 26
 .then(function() {
-  log(26, 'clickElement "*"');
-  return $browser.waitForAndFindElement(By.js('onclick="gridSearch()"'), DefaultTimeout); })
+  log(26, 'clickElement "ENGAGE SEARCH PROTOCOL"');
+  return $browser.waitForAndFindElement(By.id("systemCheck2"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 27
 .then(function() {
   log(27, 'clickElement "ENGAGE SEARCH PROTOCOL"');
-  return $browser.waitForAndFindElement(By.id("systemCheck1"), DefaultTimeout); })
-.then(function (el) { el.click(); })
-
-// Step 28
-.then(function() {
-  log(28, 'clickElement "ENGAGE SEARCH PROTOCOL"');
-  return $browser.waitForAndFindElement(By.id("systemCheck2"), DefaultTimeout); })
-.then(function (el) { el.click(); })
-
-// Step 29
-.then(function() {
-  log(28, 'clickElement "ENGAGE SEARCH PROTOCOL"');
   return $browser.waitForAndFindElement(By.id("systemCheck3"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
-// Step 30
+// Step 28
 .then(function() {
   log(28, 'clickElement "SYSTEM CHECK <br> LEVEL I"');
   return $browser.waitForAndFindElement(By.id("gridSearch1"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
-// Step 31
+// Step 29
 .then(function() {
   log(28, 'clickElement "SYSTEM CHECK <br> LEVEL II"');
   return $browser.waitForAndFindElement(By.id("gridSearch2"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
-// Step 32
+// Step 30
 .then(function() {
   log(28, 'clickElement "SYSTEM CHECK <br> LEVEL III"');
   return $browser.waitForAndFindElement(By.id("gridSearch3"), DefaultTimeout); })
 .then(function (el) { el.click(); })
-
 
 
 /** END OF SCRIPT **/
