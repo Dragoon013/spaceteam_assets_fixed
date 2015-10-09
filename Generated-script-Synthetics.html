@@ -1,0 +1,259 @@
+/**
+ * Generated script for New Relic Synthetics
+ * Generated using se-builder with New Relic Synthetics Formatter
+ *
+ * Welcome to the Synthetics JavaScript IDE - Browser Edition
+ * You can think of it like node.js lite. Everything you'd expect to find in a
+ * node.js environment is also available here, with a few notable exceptions:
+ *
+ * - 'require' is limited to a useful subset of modules, get the full list from
+ *   https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/scripting-monitors/writing-scripted-browsers
+ *
+ * - We've added a few top-level vars to the scope, all starting with '$':
+ *
+ *     $browser - Synthetics-flavored WebDriver session for browser automation
+ *     $driver - Main WebDriver public API module
+ *     $http - 'request' node.js module (for making HTTP requests)
+ *     $util - Common tools to aid with grunt work
+ *
+ * Feel free to explore, or check out the full documentation for details:
+ * https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/scripting-monitors/writing-scripted-browsers
+ */
+
+/** CONFIGURATIONS **/
+
+// Script-wide timeout for wait and waitAndFind functions (in ms)
+var DefaultTimeout = 10000;
+// Change to any User Agent you want to use.
+// Leave as "default" or empty to use the Synthetics default.
+var UserAgent = "default";
+
+/** HELPER VARIABLES AND FUNCTIONS **/
+
+var assert = require('assert'),
+  By = $driver.By,
+  browser = $browser.manage(),
+  startTime = Date.now(),
+  stepStartTime = Date.now(),
+  lastMsg = '',
+  VARS = {};
+
+var log = function(thisStep, msg) {
+   if (thisStep > 0) {
+     var lastStep = thisStep - 1;
+     var lastStepTimeElapsed = Date.now() - (startTime + stepStartTime);
+     console.log('Step ' + lastStep + ': ' + lastMsg + ' FINISHED. It took ' + lastStepTimeElapsed + 'ms to complete.');
+     $util.insights.set('Step ' + lastStep + ': ' + lastMsg, lastStepTimeElapsed);
+   }
+   stepStartTime = Date.now() - startTime;
+   console.log('Step ' + thisStep + ': ' + msg + ' STARTED at ' + stepStartTime + 'ms.');
+   lastMsg = msg;
+ };
+
+function isAlertPresent() {
+  try {
+    var thisAlert = $browser.switchTo().alert();
+    return true;
+  } catch (err) { return false; }
+}
+
+function isElementSelected(el) { return $browser.findElement(el).isSelected(); }
+function isTextPresentIn(text, sourceEl) {
+  return sourceEl.getText()
+  .then(function (wholetext) {
+    return wholetext.indexOf(text) != -1;
+  });
+}
+
+function isTextPresent(text) {
+  return isTextPresentIn(text, $browser.findElement(By.tagName('html')));
+}
+
+/** BEGINNING OF SCRIPT **/
+
+log(0, 'init');
+
+// Setting User Agent is not then-able, so we do this first (if defined and not default)
+if (UserAgent && (0 !== UserAgent.trim().length) && (UserAgent != 'default')) {
+  $browser.addHeader('User-Agent', UserAgent);
+  console.log('Setting User-Agent to ' + UserAgent);
+}
+
+// Get browser capabilities and do nothing with it, so that we start with a then-able command
+$browser.getCapabilities().then(function () { })
+
+// Step 1
+.then(function() {
+  log(1, '$browser.get("http://52.88.223.59/")');
+  return $browser.get("http://52.88.223.59/"); })
+
+// Step 2
+.then(function() {
+  log(2, 'clickElement "Kata Pages"');
+  return $browser.waitForAndFindElement(By.linkText("Kata Pages"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 3
+.then(function() {
+  log(3, 'clickElement "The Loop"');
+  return $browser.waitForAndFindElement(By.linkText("The Loop"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 4
+.then(function() {
+  log(4, 'clickElement "Kata Pages"');
+  return $browser.waitForAndFindElement(By.linkText("Kata Pages"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 5
+.then(function() {
+  log(5, 'clickElement "ISS Tweets"');
+  return $browser.waitForAndFindElement(By.linkText("ISS Tweets"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 6
+.then(function() {
+  log(6, 'clickElement "Kata Pages"');
+  return $browser.waitForAndFindElement(By.linkText("Kata Pages"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 7
+.then(function() {
+  log(7, 'clickElement "The Many Assets"');
+  return $browser.waitForAndFindElement(By.linkText("The Many Assets"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 8
+.then(function() {
+  log(8, 'clickElement "Kata Pages"');
+  return $browser.waitForAndFindElement(By.linkText("Kata Pages"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 9
+.then(function() {
+  log(9, 'clickElement "The Loop"');
+  return $browser.waitForAndFindElement(By.linkText("The Loop"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 10
+.then(function() {
+  log(10, 'clickElement "Kata Pages"');
+  return $browser.waitForAndFindElement(By.linkText("Kata Pages"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 11
+.then(function() {
+  log(11, 'clickElement "The Error"');
+  return $browser.waitForAndFindElement(By.linkText("The Error"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 12
+.then(function() {
+  log(12, 'clickElement "number1"');
+  return $browser.waitForAndFindElement(By.id("number1"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 13
+.then(function() {
+  log(13, 'clickElement "number2"');
+  return $browser.waitForAndFindElement(By.id("number2"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 14
+.then(function() {
+  log(14, 'clickElement "number3"');
+  return $browser.waitForAndFindElement(By.id("number3"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 15
+.then(function() {
+  log(15, 'clickElement "//div[@class=\'lcars-container\']//li[.=\'Launch Probe\']"');
+  return $browser.waitForAndFindElement(By.xpath("//div[@class=\'lcars-container\']//li[.=\'Launch Probe\']"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 16
+.then(function() {
+  log(16, 'clickElement "//div[@class=\'lcars-container\']/div[6]/div[2]/ul/li[1]"');
+  return $browser.waitForAndFindElement(By.xpath("//div[@class=\'lcars-container\']/div[6]/div[2]/ul/li[1]"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 17
+.then(function() {
+  log(17, 'clickElement "//div[@class=\'lcars-container\']//li[.=\'Testing Large 2\']"');
+  return $browser.waitForAndFindElement(By.xpath("//div[@class=\'lcars-container\']//li[.=\'Testing Large 2\']"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 18
+.then(function() {
+  log(18, 'clickElement "number1"');
+  return $browser.waitForAndFindElement(By.id("number1"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 19
+.then(function() {
+  log(19, 'clickElement "//div[@class=\'lcars-container\']/div[4]/div[4]/div/div[2]/a"');
+  return $browser.waitForAndFindElement(By.xpath("//div[@class=\'lcars-container\']/div[4]/div[4]/div/div[2]/a"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 20
+.then(function() {
+  log(20, 'clickElement "//div[@class=\'lcars-container\']/div[2]/div[3]/ul"');
+  return $browser.waitForAndFindElement(By.xpath("//div[@class=\'lcars-container\']/div[2]/div[3]/ul"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 21
+.then(function() {
+  log(21, 'clickElement "//div[@class=\'lcars-container\']//li[.=\'GRID ALPHA\']"');
+  return $browser.waitForAndFindElement(By.xpath("//div[@class=\'lcars-container\']//li[.=\'GRID ALPHA\']"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 22
+.then(function() {
+  log(22, 'clickElement "li.lcars-tan-bg.large-gap"');
+  return $browser.waitForAndFindElement(By.css("li.lcars-tan-bg.large-gap"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 23
+.then(function() {
+  log(23, 'clickElement "//div[@class=\'lcars-container\']//li[.=\'PATTERN 4432\']"');
+  return $browser.waitForAndFindElement(By.xpath("//div[@class=\'lcars-container\']//li[.=\'PATTERN 4432\']"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 24
+.then(function() {
+  log(24, 'clickElement "//div[@class=\'lcars-container\']//li[.=\'GRID ALPHA\']"');
+  return $browser.waitForAndFindElement(By.xpath("//div[@class=\'lcars-container\']//li[.=\'GRID ALPHA\']"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 25
+.then(function() {
+  log(25, 'clickElement "Kata Pages"');
+  return $browser.waitForAndFindElement(By.linkText("Kata Pages"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 26
+.then(function() {
+  log(26, 'clickElement "Many Calls"');
+  return $browser.waitForAndFindElement(By.linkText("Many Calls"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 27
+.then(function() {
+  log(27, 'clickElement "Kata Pages"');
+  return $browser.waitForAndFindElement(By.linkText("Kata Pages"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 28
+.then(function() {
+  log(28, 'clickElement "Where is the ISS?"');
+  return $browser.waitForAndFindElement(By.linkText("Where is the ISS?"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+.then(function() {
+  console.log('Browser script execution SUCCEEDED.');
+}, function(err) {
+  console.log ('Browser script execution FAILED.');
+  throw(err);
+});
+
+/** END OF SCRIPT **/

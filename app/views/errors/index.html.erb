@@ -3,6 +3,7 @@
 <div class="lcars-container">
 	<h1>THE SPACE ERRORS GAME</h1>
 	<hr class="tallhr4">
+
 	<div class="lcars-row spaced">
 		<div class="lcars-column u-2-8 lcars-elbow left bottom lcars-grayBlue-bg">
 		</div>
@@ -18,7 +19,9 @@
 		  </div>
 		 </div>
 	</div>
+
 	<hr class="tallhr4">
+
 	<div class="lcars-row spaced">
 		<div class="lcars-column u-1-8">
 			<!-- <hr class="tallhr2"> -->
@@ -62,6 +65,7 @@
 			<div style="clear:both"></div>
 		</div>
 	</div>
+
 	<div class="lcars-row spaced">
 		<div class="lcars-column u-1-8">
 			<ul class="lcars-menu">
@@ -118,6 +122,7 @@
 		  </div>
 		</div>
 	</div>
+
 	<div class="lcars-row spaced">
 		<div class="lcars-column u-1-8">
 			<ul class="lcars-menu">
@@ -132,28 +137,28 @@
 		</div>
 		<div class="lcars-column u-1-8">
 			<ul class="lcars-menu">
-			  <li  class="lcars-blue-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
+			  <li  id="gridSearch1" class="lcars-blue-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
 			</ul>
 			<ul class="lcars-menu">
-			  <li  class="lcars-tan-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
+			  <li  id="gridSearch2" class="lcars-tan-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
 			</ul>
 			<ul class="lcars-menu">
-			  <li  class="lcars-blue-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
+			  <li  id="gridSearch3" class="lcars-blue-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
 			</ul>
 		</div>
 		<div class="lcars-column u-1-8">
 			<ul class="lcars-menu">
-			  <li onclick="systemsCheck()" class="lcars-purple-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL I</li>
+			  <li id="systemCheck1" onclick="systemsCheck()" class="lcars-purple-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL I</li>
 			</ul>
 			<ul class="lcars-menu">
-			  <li onclick="systemsCheck()" class="lcars-tan-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL II</li>
+			  <li id="systemCheck2" onclick="systemsCheck()" class="lcars-tan-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL II</li>
 			</ul>
 			<ul class="lcars-menu">
-			  <li onclick="systemsCheck()" class="lcars-purple-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL III</li>
+			  <li id="systemCheck3" onclick="systemsCheck()" class="lcars-purple-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL III</li>
 			</ul>
 		</div>
 		<div id="search1" class="lcars-column u-5-8">
-				<ol class=SYSTEMS CHECK LEVEL I">
+				<ol class="SYSTEMS CHECK LEVEL I">
 				  <li>
 				    <span><strong>USS Yamato</strong></span> - NCC-71807 - Crew discovered Iconian artifacts but is infected by a computer virus that causes antimatter containment loss. The virus causes the ship to explode with all hands lost.
 				  </li>
@@ -181,12 +186,7 @@
 				  </li>
 				</ol>
 		</div>
-
 	</div>
-
-
-
-
 
 	<div class="lcars-row spaced">
 		<div class="lcars-column u-2-8 lcars-elbow left top lcars-grayBlue-bg">
@@ -282,32 +282,28 @@
 		});
 	</script>
 
-<script type="text/javascript">
-	function systemsCheck() {
-	  var #search1 = $("#search1").click(function() {
-	      onclick.("#search1").hide();
-	      onclick.("#search2").show();
+	<script type="text/javascript">
+		function systemsCheck() {
+		  var #search1 = $("#search1").click(function() {
+		      onclick.("#search1").hide();
+		      onclick.("#search2").show();
 
 
-	      if("#search2") //return true if source element is empty
-	      {
+		      if("#search2") //return true if source element is empty
+		      {
 
-	      }else{
-	          onclick.("#search1").show();
-	          onclick.("#search2").hide();
-	      }
-	  });
-	}
+		      }else{
+		          onclick.("#search1").show();
+		          onclick.("#search2").hide();
+		      }
+		  });
+		}
 
-	$(document).ready( function(){
-	  systemsCheck();
-	});
-</script>
+		$(document).ready( function(){
+		  systemsCheck();
+		});
+	</script>
 
 </div>
-
-
-  <!-- TOP ROW
-  =========================================================== -->
 
 
