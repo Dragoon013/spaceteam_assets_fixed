@@ -23,26 +23,62 @@
 }
 .star-view {
   width: 700px;
-  height: auto;
+  height: 230px;
   overflow: hidden;
   position: absolute;
   z-index: -1000;
 }
 
+.schematics {
+  width: 850px;
+  height: auto;
+  margin-left: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 50px;
+  position: absolute;
+  z-index: 5000;
+}
+
+.schematics2 {
+  width: 700px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  position: absolute;
+  z-index: 1000;
+}
+
+#red{
+}
+
+#green {
+}
+
+.search-list{
+  margin-left: 2em;
+  margin-top: .8em;
+  line-height: 2em;
+  font-size: 30px;
+}
+
 #source-div {
   float: right;
-  margin-right: 30%;
-  background: #CCCCCC;
+  margin-left: 10px;
   padding: 10px;
-  width:100px;
+  width:350px;
+  position: absolute;
+  z-index: -1000;
 }
 
 #dest-div {
   float: right;
-  background: #0099FF;
   padding: 10px;
-  width:100px;
-  margin-right: 70%;
+  width:350px;
+  margin-left: 30%;
+  position: absolute;
+  z-index: -1000;
 }
 button {
   margin: 10px;

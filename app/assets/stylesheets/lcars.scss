@@ -1,3 +1,92 @@
+/* Back Pulse */
+
+@-webkit-keyframes hvr-back-pulse-tan {
+  50% {
+    background-color: rgba(255, 222, 178, 1);
+  }
+}
+
+@keyframes hvr-back-pulse-tan {
+  50% {
+    background-color: rgba(255, 222, 178, 1);
+  }
+}
+
+.hvr-back-pulse-tan {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse-tan:hover, .hvr-back-pulse-tan:focus, .hvr-back-pulse-tan:active {
+  -webkit-animation-name: hvr-back-pulse-tan;
+  animation-name: hvr-back-pulse-tan;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #2098d1;
+  background-color: #2098d1;
+  color: white;
+}
+
+@-webkit-keyframes hvr-back-pulse-blue {
+  50% {
+    background-color: rgba(173, 173, 255, 1);
+  }
+}
+
+@keyframes hvr-back-pulse-blue {
+  50% {
+    background-color: rgba(173, 173, 255, 1);
+  }
+}
+
+.hvr-back-pulse-blue {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse-blue:hover, .hvr-back-pulse-blue:focus, .hvr-back-pulse-blue:active {
+  -webkit-animation-name: hvr-back-pulse-blue;
+  animation-name: hvr-back-pulse-blue;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #2098d1;
+  background-color: #2098d1;
+  color: white;
+}
+
+
 .lcars-container {
   color: white;
 
@@ -237,6 +326,7 @@
     height: 25px;
     padding: 5px;
     margin-bottom: 5px;
+    cursor: pointer;
   }
   .lcars-menu li.large-gap,
   ol.lcars-menu li.large-gap,

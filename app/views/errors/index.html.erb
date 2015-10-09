@@ -1,58 +1,76 @@
 <%= stylesheet_link_tag "lcars", :media => "all" %>
 
 <div class="lcars-container">
-<h1>THE SPACE ERRORS GAME</h1>
-<hr class="tallhr4">
-<div class="lcars-row spaced">
-	<div class="lcars-column u-2-8 lcars-elbow left bottom lcars-tan-bg">
-	</div>
-	<div class="lcars-column u-6-8 lcars-divider lcars-tan-blue-divide">
-	  <div class="lcars-row">
-	  	<hr class="tallhr4">
-	  	<h2>Class III Probe Schematics</h2>
-	  </div>
-	 </div>
-</div>
-<hr class="tallhr4">
-<div class="lcars-row spaced">
-	<div class="lcars-column u-1-8">
-		<!-- <hr class="tallhr2"> -->
-		<ul class="lcars-menu">
-		  <li class="lcars-tan-bg">SCAN 4</li>
-		  <li class="lcars-tan-bg">SCAN 2</li>
-		  <li class="lcars-blue-bg tall">SCAN 3</li>
-		</ul>
-	</div>
-	<div class="lcars-column u-1-8">
-		<!-- <hr class="tallhr2"> -->
-		<ul class="lcars-menu">
-			<li class="lcars-blue-bg tall">SCAN 3</li>
-		  <li class="lcars-tan-bg">SCAN 4</li>
-		  <li class="lcars-tan-bg">SCAN 2</li>
-		</ul>
-	</div>
-	<div class="lcars-column u-1-8">
-		<ul class="lcars-menu" onclick="bp()">
-		  <li class="lcars-tan-bg" onclick="bp()">GRID ALPHA</li>
-		  <li class="lcars-tan-bg large-gap" onclick="bp()">SEARCH A33</li>
-		  <li class="lcars-blue-bg tall" onclick="bp()">PATTERN 4432</li>
-		</ul>
-	</div>
-	<div class="lcars-column u-5-8">
-		<div >
-		<img id="green" class="star-view" src="/assets/stars2.jpg">
-		</div>
-		<!-- <div id="green" style="background-color: #c0ffc0; width: auto; height: 5em; border: thin solid gray; margin-top: .5em; margin-left: 16px;">
-		</div> -->
-		<div id="red" class="star-view" style="background-color: #ffc0c0; width: 700px; height: 200px; border: thin solid gray; margin-top: .05em; margin-left: 5px;">
-		</div>
-	</div>
-</div>
-
+	<h1>THE SPACE ERRORS GAME</h1>
+	<hr class="tallhr4">
 	<div class="lcars-row spaced">
-		<div class="lcars-column u-2-8">
+		<div class="lcars-column u-2-8 lcars-elbow left bottom lcars-grayBlue-bg">
+		</div>
+		<div class="lcars-column u-6-8 lcars-divider lcars-grayBlue-blue-divide">
+		  <div class="lcars-row">
+		  	<hr class="tallhr4">
+		  	<h2>Comm Station IV</h2>
+		  </div>
+		  <div class="lcars-row">
+		  	<div id="green">
+		  		<img class="schematics" src="/assets/Intrepid-class-schematics.jpg"></img>
+		  	</div>
+		  </div>
+		 </div>
+	</div>
+	<hr class="tallhr4">
+	<div class="lcars-row spaced">
+		<div class="lcars-column u-1-8">
+			<!-- <hr class="tallhr2"> -->
 			<ul class="lcars-menu">
-			  <li class="lcars-blue-bg tall">Testing Large 9</li>
+			  <li class="lcars-tan-bg">ALPHA 534 49</li>
+			  <li class="lcars-tan-bg">BETA 342</li>
+			  <li class="lcars-blue-bg tall hvr-back-pulse-tan" onclick="systemWarning()">SYSTEM WARNING</li>
+			</ul>
+		</div>
+		<div class="lcars-column u-1-8">
+			<!-- <hr class="tallhr2"> -->
+			<ul class="lcars-menu">
+				<li class="lcars-pink-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
+			  <li class="lcars-tan-bg">BUSSARD 00 3</li>
+			  <li class="lcars-tan-bg">QUADRANT 9 675</li>
+			</ul>
+		</div>
+		<div class="lcars-column u-1-8">
+			<ul id="search" class="lcars-menu">
+			  <li class="lcars-tan-bg hvr-back-pulse-tan" onclick="toggle()">GRID ALPHA</li>
+			  <li class="lcars-tan-bg large-gap hvr-back-pulse-tan" onclick="toggle()">GRID BETA</li>
+			  <li class="lcars-blue-bg tall hvr-back-pulse-blue" onclick="toggle()">SEARCH PATTERN DELTA004</li>
+			</ul>
+		</div>
+		<div class="lcars-column u-5-8">
+			<div id="red">
+				<img class="schematics2" src="/assets/steamrunner_systems.png"></img>
+			</div>
+		</div>
+		<div class="lcars-column u-5-8">
+			<img class="star-view" src="/assets/search-grid1.png">
+			<div id="source-div">
+				<span id="content-div">
+				  <img src="/assets/search-grid2.png" />
+				</span>
+				<!-- <img id="green" class="star-view" src="/assets/search-grid1.png"> -->
+			</div>
+			<div id="dest-div">
+
+			</div>
+			<div style="clear:both"></div>
+		</div>
+	</div>
+	<div class="lcars-row spaced">
+		<div class="lcars-column u-1-8">
+			<ul class="lcars-menu">
+			  <li class="lcars-peach-bg tall hvr-back-pulse-tan" onclick="bp()">DISPLAY SCHEMATICS</li>
+			</ul>
+		</div>
+		<div class="lcars-column u-1-8">
+			<ul class="lcars-menu">
+			  <li  class="lcars-peach-bg tall tall hvr-back-pulse-tan" onclick="bp()">PRIMARY BACKUP SYSTEMS</li>
 			</ul>
 		</div>
 		<div class="lcars-column u-1-8 lcars-elbow left top lcars-blue-bg">
@@ -63,108 +81,124 @@
 	</div>
 
 	<div class="lcars-row spaced">
-		<div class="lcars-column u-2-8">
+		<div class="lcars-column u-1-8">
 			<ul class="lcars-menu">
-			  <li class="lcars-blue-bg tall">Testing 3</li>
+			  <li  class="lcars-salmon-bg tall tall hvr-back-pulse-tan" onclick="bp()">SECONDARY BACKUP SYSTEMS</li>
+			</ul>
+		</div>
+		<div class="lcars-column u-1-8">
+			<ul class="lcars-menu">
+			  <li  class="lcars-red-bg tall tall hvr-back-pulse-tan" onclick="systemWarning()">SYSTEM WARNINGS</li>
 			</ul>
 		</div>
 		<div class="lcars-column u-1-8 lcars-elbow left bottom lcars-blue-bg">
 		  <!-- <a href="#">Side Button 3</a> -->
 		</div>
-		<div class="lcars-column u-1-8">
-
-		</div>
 		<div class="lcars-column u-5-8 lcars-divider lcars-blue-tan-divide">
 		  <div class="lcars-row">
 		  	<hr class="tallhr4">
 		    <div class="lcars-column u-2-8" style="margin-left: 4em;">
-          <a href="#" class="lcars-button radius" onclick="randomNumber1()">
-            ALPHA
-            <span class="lcars-button-addition" id="number1"></span>
-          </a>
-        </div>
-        <div class="lcars-column u-2-8">
-          <a href="#" class="lcars-button radius" onclick="randomNumber2()">
-            GAMMA
-            <span class="lcars-button-addition"id="number2"></span>
-          </a>
-        </div>
-        <div class="lcars-column u-2-8">
-          <a href="#" class="lcars-button radius" onclick="randomNumber3()">
-            DELTA
-            <span class="lcars-button-addition"id="number3"></span>
-          </a>
-        </div>
+	        <a href="#" class="lcars-button radius" onclick="randomNumber1()" >
+	          ALPHA
+	          <span class="lcars-button-addition" id="number1"></span>
+	        </a>
+	      </div>
+	      <div class="lcars-column u-2-8">
+	        <a href="#" class="lcars-button radius" onclick="randomNumber2()">
+	          GAMMA
+	          <span class="lcars-button-addition"id="number2"></span>
+	        </a>
+	      </div>
+	      <div class="lcars-column u-2-8">
+	        <a href="#" class="lcars-button radius" onclick="randomNumber3()">
+	          DELTA
+	          <span class="lcars-button-addition"id="number3"></span>
+	        </a>
+	      </div>
 		  </div>
 		</div>
 	</div>
 	<div class="lcars-row spaced">
-		<div class="lcars-column u-2-8">
+		<div class="lcars-column u-1-8">
 			<ul class="lcars-menu">
-			  <li class="lcars-tan-bg">Testing 2</li>
+			  <li class="lcars-tan-bg tall" onclick="openChannel()">OPEN CHANNEL</li>
+			</ul>
+			<ul class="lcars-menu">
+			  <li  class="lcars-peach-bg tall" onclick="hailingFrequency()">SET HAILING FREQUENCY</li>
+			</ul>
+			<ul class="lcars-menu">
+			  <li  class="lcars-pink-bg tall" >ENTER</li>
 			</ul>
 		</div>
 		<div class="lcars-column u-1-8">
 			<ul class="lcars-menu">
-			  <li class="lcars-tan-bg">Launch Probe</li>
+			  <li  class="lcars-blue-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
 			</ul>
-		</div>
-		<div class="lcars-row">
-			<div class="lcars-column u-1-8" style="margin-left: 5em; margin-top: .8em;">
-				<h6>Hey</h6>
-			</div>
-			<div class="lcars-column u-1-8" style="margin-left: 5em; margin-top: .8em;">
-				<h6>Hey</h6>
-			</div>
-			<div class="lcars-column u-1-8" style="margin-left: 5em; margin-top: .8em;">
-				<h6>Hey</h6>
-			</div>
-		</div>
-	</div>
-	<div class="lcars-row spaced">
-		<div class="lcars-column u-2-8">
 			<ul class="lcars-menu">
-			  <li class="lcars-blue-bg tall">Testing 2</li>
+			  <li  class="lcars-tan-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
+			</ul>
+			<ul class="lcars-menu">
+			  <li  class="lcars-blue-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
 			</ul>
 		</div>
 		<div class="lcars-column u-1-8">
 			<ul class="lcars-menu">
-			  <li class="lcars-tan-bg large-gap">Launch Probe</li>
-			  <li class="lcars-tan-bg">Testing Large 2</li>
+			  <li onclick="systemsCheck()" class="lcars-purple-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL I</li>
+			</ul>
+			<ul class="lcars-menu">
+			  <li onclick="systemsCheck()" class="lcars-tan-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL II</li>
+			</ul>
+			<ul class="lcars-menu">
+			  <li onclick="systemsCheck()" class="lcars-purple-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL III</li>
 			</ul>
 		</div>
-		<div class="lcars-row">
-			<div class="lcars-column u-1-8" style="margin-left: 5em; margin-top: .5em;">
-				<h6>Hey</h6>
-			</div>
-			<div class="lcars-column u-1-8" style="margin-left: 5em; margin-top: .5em;">
-				<h6>Hey</h6>
-			</div>
-			<div class="lcars-column u-1-8" style="margin-left: 5em; margin-top: .5em;">
-				<h6>Hey</h6>
-			</div>
-			<div class="lcars-column u-1-8" style="margin-left: 5em; margin-top: .5em;">
-				<h6>Hey</h6>
-			</div>
-			<div class="lcars-column u-1-8" style="margin-left: 5em; margin-top: .5em;">
-				<h6>Hey</h6>
-			</div>
-			<div class="lcars-column u-1-8" style="margin-left: 5em; margin-top: .5em;">
-				<h6>Hey</h6>
-			</div>
+		<div id="search1" class="lcars-column u-5-8">
+				<ol class=SYSTEMS CHECK LEVEL I">
+				  <li>
+				    <span><strong>USS Yamato</strong></span> - NCC-71807 - Crew discovered Iconian artifacts but is infected by a computer virus that causes antimatter containment loss. The virus causes the ship to explode with all hands lost.
+				  </li>
+				  <li>
+				    <span><strong>USS Yangtzee Kiang</strong></span> - NCC-72453 - Hijacked by Bajoran terrorist Tahna Los. Became the first DS9 runabout to be destroyed when it crashed on a moon in the Gamma Quadrant.
+				  </li>
+				  <li>
+				    <span><strong>USS Potemkin</strong></span> - NCC-18253 - William Riker's assignment before his transfer to the USS Enterprise-D. Part of the tachyon blockade during the Klingon Civil War. Participates in the Battle for Deep Space 9 and First Battle of Chin'toka.
+				  </li>
+				</ol>
 		</div>
+		<div id="search2" class="lcars-column u-5-8" style="display: none;">
+				<ol>
+				  <li>
+				    Shuttlecraft Cochrane - USS Voyager Test bed for Warp 10 flight piloted by Tom Paris. Very closely resembles the later hull design for Delta Flyer. Destroyed attempting to retrieve Warp Core.
+				  </li>
+				  <li>
+				    USS Vengeance - Developed by Khan Noonien Singh and Starfleet Admiral Alexander Marcus to combat the Klingon Empire. The starship fights the USS Enterprise and crash lands on Starfleet Headquarters in San Francisco in Star Trek Into Darkness.
+				  </li>
+				  <li>
+				    USS Sarajevo - NCC-38529 - Lost in the Gamma Quadrant in 2371. Later recovered and served in the Dominion War.
+				  </li>
+				  <li>
+				    USS Bradbury - NX-72307 - Scheduled to transport Wesley Crusher to Starfleet Academy and undergoes warp drive performance tests.
+				  </li>
+				</ol>
+		</div>
+
 	</div>
+
+
+
+
+
 	<div class="lcars-row spaced">
-		<div class="lcars-column u-2-8 lcars-elbow left top lcars-tan-bg">
+		<div class="lcars-column u-2-8 lcars-elbow left top lcars-grayBlue-bg">
 		</div>
-		<div class="lcars-column u-6-8 lcars-divider bottom lcars-tan-blue-divide">
+		<div class="lcars-column u-6-8 lcars-divider bottom lcars-grayBlue-blue-divide">
 		  <div class="lcars-row">
-		  	<h4 style="margin-top: .2em;">Class III Probe Launch Protocol</h4>
+		  	<h4 style="margin-top: .2em;">Station Ops Security Access Level III</h4>
 		  </div>
 		 </div>
 	</div>
 
-<script type="text/javascript">
+	<script type="text/javascript">
 
 	  function randomNumber1() {
 	        var x = Math.floor((Math.random() * 1000) + 1);
@@ -200,22 +234,77 @@
 	      jQuery('#red').hide();
 	    });
 
-	    $(document).ready( function(){
-	      randomNumber1();
-	      randomNumber2();
-	      randomNumber3();
-	      console.log("Red Alert");
-	      bp();
-	      toggle();
-	      spaceProbe();
-	    });
-</script>
-<!-- 	<div class="lcars-row spaced">
-		<div class="lcars-column u-1-8 lcars-elbow left bottom lcars-blue-bg">
-		  <a href="#">Side Button 1</a>
-		</div>
+	    function gridSearch() {
+	      jQuery('#green').hide();
+	      jQuery('#red').hide();
+	    }
 
-	</div> -->
+		function toggle() {
+		  $("#search").click(function() {
+		      var sourceElement = $('#source-div'); //Source Div Element
+		      var destinationElement = $('#dest-div'); //Destination Div element
+		      var contentToMove = $('#content-div'); //Content Div Element to move
+		      var SourceDivEmpty = sourceElement.is(":empty"); //returns true if element is empty
+
+		      if(SourceDivEmpty) //return true if source element is empty
+		      {
+		          contentToMove.appendTo(sourceElement);
+		          destinationElement.empty();
+		      }else{
+		          contentToMove.appendTo(destinationElement);
+		          sourceElement.empty();
+		      }
+		  });
+		}
+		$(document).ready(function() {
+		    toggle()
+		});
+
+
+		function openChannel() {
+		    alert("Channel open, set hailing frequency");
+		};
+		function hailingFrequency() {
+		    alert("Hailing frequency set");
+		};
+
+
+		$(document).ready( function(){
+		  randomNumber1();
+		  randomNumber2();
+		  randomNumber3();
+		  console.log("Red Alert");
+		  bp();
+		  toggle();
+		  gridSearch();
+		  systemWarning();
+		  probeLaunchSequence('Begin Launch Sequence for Class IV Probe');
+		});
+	</script>
+
+<script type="text/javascript">
+	function systemsCheck() {
+	  var #search1 = $("#search1").click(function() {
+	      onclick.("#search1").hide();
+	      onclick.("#search2").show();
+
+
+	      if("#search2") //return true if source element is empty
+	      {
+
+	      }else{
+	          onclick.("#search1").show();
+	          onclick.("#search2").hide();
+	      }
+	  });
+	}
+
+	$(document).ready( function(){
+	  systemsCheck();
+	});
+</script>
+
+</div>
 
 
   <!-- TOP ROW
