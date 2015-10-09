@@ -1,8 +1,9 @@
 class TweetsController < ApplicationController
-  
+
   def index
-    response = HTTParty.get('http://twitter.com/newrelic')
-    
+    response = HTTParty.get('https://twitter.com/Space_Station')
+    response = HTTParty.get('https://twitter.com/ISS_Research')
+
     parsed_data = Nokogiri::HTML.parse response.body
     tweetNodes = parsed_data.css(".js-tweet-text")
     @nodes = tweetNodes.collect do |node|

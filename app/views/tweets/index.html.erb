@@ -1,13 +1,28 @@
-<h1>The Tweets</h1>
+<h1>Space Tweets</h1>
 <div class="jumbotron">
-  <p>Kata: One of the most popular things to do these days is call
-	an external service and pull down some sort of social flair to make the app more "hip."</p>
-	<p>Hint: Use the New Relic Real User Monitoring (RUM) to find out if the problem is
-		on the client stream or in the controller code</p>
+  <p>
+    NASA's page for updates from the International Space Station, the world-class lab orbiting Earth 250 miles above. For the latest research, follow <a href="https://twitter.com/ISS_Research">@ISS_Research</a>.
+  </p>
 </div>
 
 <%
 @nodes.each do |node|
-	%><p><%= node.html_safe %></p><%
+	%>
+  <div class="row">
+    <div class="col-md-4">
+      <p class="lead">
+        <%= node.html_safe %>
+      </p>
+    </div>
+    <div class="col-md-8">
+      <p class="lead">
+        <%= node.html_safe %>
+      </p>
+    </div>
+  </div>
+  <hr>
+  <%
 end
 %>
+
+<img src="">
