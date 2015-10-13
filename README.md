@@ -1,7 +1,7 @@
 # NRU_Space_Team
 This is the NRU Team's Space App for Browser
 
-URL: http://198.199.108.49/
+URL: http://52.88.223.59/
 
 # Normal
 cap production deploy
