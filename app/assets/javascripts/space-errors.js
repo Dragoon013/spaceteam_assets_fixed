@@ -76,5 +76,4 @@ $(document).ready( function(){
   toggle();
   gridSearch();
   systemWarning();
-  probeLaunchSequence('Begin Launch Sequence for Class IV Probe');
 });
