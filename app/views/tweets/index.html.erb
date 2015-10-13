@@ -7,14 +7,13 @@
 
 <%
 @nodes.each do |node|
-	%>
+  %>
   <div class="row">
-    <div class="col-md-4">
-      <p class="lead">
-        <%= node.html_safe %>
-      </p>
+    <div class="col-md-2">
+      <% #= node.html_safe %>
+      <img src="http://loremflickr.com/220/140/space">
     </div>
-    <div class="col-md-8">
+    <div class="col-md-9 col-md-offset-1">
       <p class="lead">
         <%= node.html_safe %>
       </p>
@@ -24,5 +23,3 @@
   <%
 end
 %>
-
-<img src="">
