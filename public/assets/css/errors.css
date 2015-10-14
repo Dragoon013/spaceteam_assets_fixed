@@ -23,16 +23,29 @@
 }
 .star-view {
   width: 700px;
-  height: 230px;
-  overflow: hidden;
-  position: absolute;
-  z-index: -1000;
+  height: 225px;
+  background-image: url('/assets/img/search-grid1.png');
+  background-repeat: no-repeat;
+}
+.right-quadrant {
+  position: relative;
+  left: 200px;
+  transform: rotate(180deg);
+}
+.left-quadrant {
+  position: relative;
+  left: 0px;
+}
+
+.searchgrid {
+  width: 700px;
+  height: 225px;
 }
 
 .schematics {
-  width: 850px;
+  width: 800px;
   height: auto;
-  margin-left: 50%;
+  margin-left: 10%;
   border-style: solid;
   border-color: #000000;
   border-width: 50px;

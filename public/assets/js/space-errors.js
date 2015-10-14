@@ -37,25 +37,35 @@ function randomNumber1() {
     jQuery('#red').hide();
   }
 
-function toggle() {
-  $("#search").click(function() {
-      var sourceElement = $('#source-div'); //Source Div Element
-      var destinationElement = $('#dest-div'); //Destination Div element
-      var contentToMove = $('#content-div'); //Content Div Element to move
-      var SourceDivEmpty = sourceElement.is(":empty"); //returns true if element is empty
+function enableButtons() {
+  var maxIntruders = 100;
+  var intruders = 0;
 
-      if(SourceDivEmpty) //return true if source element is empty
-      {
-          contentToMove.appendTo(sourceElement);
-          destinationElement.empty();
-      }else{
-          contentToMove.appendTo(destinationElement);
-          sourceElement.empty();
-      }
+  $("#search li").on('click', function () {
+    $("#search1").toggleClass('hidden');
+    $("#search2").toggleClass('hidden');
+
+    // Generate a RangeError by calling ourselves over and over again. This happens because there's a `trigger` inside the `on('click')` (aka clickhandler).
+    if(intruders >= maxIntruders) {
+      console.log('INTRUDER ALERT!');
+      intruders = intruders + 1;
+    } else {
+      $("#search li").trigger('click');
+    }
+
+    // $('#search1').on('click', function () {
+    //   // $this = $(this);
+
+    //   // if($this.attr('src') == '/assets/img/search-grid2.png') {
+    //   //   $this.attr('src', '/assets/img/search-grid3.png')
+    //   // } else {
+    //   //   $this.attr('src', '/assets/img/search-grid2.png')
+    //   // }
+    // });
   });
 }
 $(document).ready(function() {
-    toggle()
+    enableButtons();
 });
 
 
@@ -73,7 +83,6 @@ $(document).ready( function(){
   randomNumber3();
   console.log("Red Alert");
   bp();
-  toggle();
   gridSearch();
   systemWarning();
 });

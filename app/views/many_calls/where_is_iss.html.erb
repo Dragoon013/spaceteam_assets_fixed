@@ -27,7 +27,7 @@
 
           <div class="location">
             <div class="map"></div>
-            <img class="map-image" src="/assets/icon-iss.png"></img>
+            <img class="map-image" src="/assets/img/icon-iss.png"></img>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@
           <p>
              At the scheduled time to pass over your head, it will appear suddenly and just as suddenly disappear.  If you aren't sure where in the sky to look, you can get more info at <a href="Look for a bright, quickly-moving light in the sky.">Mission Control at Houston's Johnson Space Center</a>.
           </p>
-          <img style="margin-right: 5%;" src="/assets/ISS-in-the-sky.jpg"></im>
+          <img style="margin-right: 5%;" src="/assets/img/ISS-in-the-sky.jpg"></im>
         </div>
         <div class="well iss-overhead">
           <div class="overhead">
@@ -60,70 +60,20 @@
 </div>
 
 <% content_for :footer do %>
-  <script>
-    var map;
-
-    function overheadPasses(latitude, longitude) {
-      $.getJSON("/api/overhead?latitude=" + latitude + "&longitude=" + longitude, function(data) {
-        data['response'].forEach(function (d) {
-          var date = new Date(d["risetime"]*1000);
-          $(".overhead .passes").append("<li>" + date.toLocaleString() + "</li>");
-        });
-      });
-    }
-
-    function drawISSLocation() {
-      $.getJSON("/api/location", function(data) {
-        var latitude = data["iss_position"]["latitude"];
-        var longitude = data["iss_position"]["longitude"];
-
-        // Create a map object and specify the DOM element for display.
-        window.map = new google.maps.Map($('.location .map')[0], {
-          center: {lat: latitude, lng: longitude},
-          mapTypeId: google.maps.MapTypeId.SATELLITE,
-          scrollwheel: false,
-          zoom: 4
-        });
-      });
-    }
-
-    function centerISS() {
-      $.getJSON("/api/location", function(data) {
-        var latitude = data["iss_position"]["latitude"];
-        var longitude = data["iss_position"]["longitude"];
-        window.map.panTo({lat: latitude, lng: longitude});
-      });
-    }
-
-    function drawOverheadPasses() {
-      if ("geolocation" in navigator) {
-        navigator.geolocation.getCurrentPosition(function(position) {
-          var latitude  = position.coords.latitude;
-          var longitude = position.coords.longitude;
-
-          overheadPasses(latitude, longitude);
-        }, function () {
-          console.log("geolocating failed", args);
-        });
-      } else {
-        console.log("geolocation not available")
-      }
-    }
-
+  <script type="text/javascript">
     $(document).ready(function() {
       drawOverheadPasses();
 
       $(".updateLocation").on("click", centerISS);
     });
   </script>
+
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACLKUzrOI-8UQgbMLxGKEKYf9ikznOxNg&callback=drawISSLocation">
   </script>
-
 <% end %>
 
 <!--
-
 
 EvalError: Raised when the eval() functions is used in an incorrect manner.
 
