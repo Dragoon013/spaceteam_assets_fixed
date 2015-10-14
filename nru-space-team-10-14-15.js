@@ -89,97 +89,126 @@ $browser.getCapabilities().then(function () { })
 
 // Step 2
 .then(function() {
-  log(2, 'clickElement "Where is the ISS?"');
-  return $browser.waitForAndFindElement(By.linkText("Where is the ISS?"), DefaultTimeout); })
+  log(2, 'clickElement "NRU Space Team"');
+  return $browser.waitForAndFindElement(By.linkText("NRU Space Team"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 3
 .then(function() {
-  log(3, 'clickElement "updateISSlocation"');
-  return $browser.waitForAndFindElement(By.id("updateISSlocation"), DefaultTimeout); })
-.then(function (el) { el.click(); })
+  log(3, '$browser.switchTo().frame('')');
+  return $browser.switchTo().frame(''); })
 
 // Step 4
 .then(function() {
-  log(4, 'clickElement "When will the ISS pass over my head next?"');
-  return $browser.waitForAndFindElement(By.linkText("When will the ISS pass over my head next?"), DefaultTimeout); })
+  log(4, 'clickElement "//div[1]/div/div[3]/button"');
+  return $browser.waitForAndFindElement(By.xpath("//div[1]/div/div[3]/button"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 5
 .then(function() {
-  log(5, 'clickElement "Who\'s in Space?"');
-  return $browser.waitForAndFindElement(By.linkText("Who\'s in Space?"), DefaultTimeout); })
-.then(function (el) { el.click(); })
+  log(5, '$browser.switchTo().defaultContent()');
+  return $browser.switchTo().defaultContent(); })
 
 // Step 6
 .then(function() {
-  log(6, 'clickElement "New Horizons Photo Gallery"');
-  return $browser.waitForAndFindElement(By.linkText("New Horizons Photo Gallery"), DefaultTimeout); })
+  log(6, 'clickElement "Where is the ISS?"');
+  return $browser.waitForAndFindElement(By.linkText("Where is the ISS?"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 7
 .then(function() {
-  log(7, 'clickElement "Space Errors Game"');
-  return $browser.waitForAndFindElement(By.linkText("Space Errors Game"), DefaultTimeout); })
+  log(7, 'clickElement "When will the ISS pass over my head next?"');
+  return $browser.waitForAndFindElement(By.linkText("When will the ISS pass over my head next?"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 8
 .then(function() {
-  log(8, 'clickElement "displaySchematics"');
-  return $browser.waitForAndFindElement(By.id("displaySchematics"), DefaultTimeout); })
+  log(8, 'clickElement "Where is the ISS right now?"');
+  return $browser.waitForAndFindElement(By.linkText("Where is the ISS right now?"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 9
 .then(function() {
-  log(9, 'clickElement "gridSearch4"');
-  return $browser.waitForAndFindElement(By.id("gridSearch4"), DefaultTimeout); })
+  log(9, 'clickElement "updateISSlocation"');
+  return $browser.waitForAndFindElement(By.id("updateISSlocation"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 10
 .then(function() {
-  log(10, 'clickElement "gridSearch4"');
-  return $browser.waitForAndFindElement(By.id("gridSearch4"), DefaultTimeout); })
+  log(10, 'clickElement "Who\'s in Space?"');
+  return $browser.waitForAndFindElement(By.linkText("Who\'s in Space?"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 11
 .then(function() {
-  log(11, 'clickElement "Delta004"');
-  return $browser.waitForAndFindElement(By.id("Delta004"), DefaultTimeout); })
+  log(11, 'clickElement "New Horizons Photo Gallery"');
+  return $browser.waitForAndFindElement(By.linkText("New Horizons Photo Gallery"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 12
 .then(function() {
-  log(12, 'clickElement "//ul[@id=\'search\']//li[.=\'SEARCH PATTERN Alpha\']"');
-  return $browser.waitForAndFindElement(By.xpath("//ul[@id=\'search\']//li[.=\'SEARCH PATTERN Alpha\']"), DefaultTimeout); })
+  log(12, 'clickElement "ISS Tweets"');
+  return $browser.waitForAndFindElement(By.linkText("ISS Tweets"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 13
 .then(function() {
-  log(13, 'clickElement "a.lcars-button.radius"');
-  return $browser.waitForAndFindElement(By.css("a.lcars-button.radius"), DefaultTimeout); })
+  log(13, 'clickElement "Space Errors Game"');
+  return $browser.waitForAndFindElement(By.linkText("Space Errors Game"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 14
 .then(function() {
-  log(14, 'clickElement "ISS Tweets"');
-  return $browser.waitForAndFindElement(By.linkText("ISS Tweets"), DefaultTimeout); })
+  log(14, 'clickElement "displaySchematics"');
+  return $browser.waitForAndFindElement(By.id("displaySchematics"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 15
 .then(function() {
-  log(15, 'clickElement "NRU Space Team"');
-  return $browser.waitForAndFindElement(By.linkText("NRU Space Team"), DefaultTimeout); })
+  log(15, 'clickElement "//div[@class=\'lcars-container\']//li[.=\'GRID SEARCH PROTOCOL\']"');
+  return $browser.waitForAndFindElement(By.xpath("//div[@class=\'lcars-container\']//li[.=\'GRID SEARCH PROTOCOL\']"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 // Step 16
 .then(function() {
-  log(16, '$browser.switchTo().frame('')');
-  return $browser.switchTo().frame(''); })
+  log(16, 'clickElement "gridSearch4"');
+  return $browser.waitForAndFindElement(By.id("gridSearch4"), DefaultTimeout); })
+.then(function (el) { el.click(); })
 
 // Step 17
 .then(function() {
-  log(17, 'clickElement "//div[1]/div/div[3]/button"');
-  return $browser.waitForAndFindElement(By.xpath("//div[1]/div/div[3]/button"), DefaultTimeout); })
+  log(17, 'clickElement "Delta004"');
+  return $browser.waitForAndFindElement(By.id("Delta004"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 18
+.then(function() {
+  log(18, 'clickElement "Alpha003"');
+  return $browser.waitForAndFindElement(By.id("Alpha003"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 19
+.then(function() {
+  log(19, 'clickElement "Alpha003"');
+  return $browser.waitForAndFindElement(By.id("Alpha003"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 20
+.then(function() {
+  log(20, 'clickElement "Alpha003"');
+  return $browser.waitForAndFindElement(By.id("Alpha003"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 21
+.then(function() {
+  log(21, 'clickElement "a.lcars-button.radius"');
+  return $browser.waitForAndFindElement(By.css("a.lcars-button.radius"), DefaultTimeout); })
+.then(function (el) { el.click(); })
+
+// Step 22
+.then(function() {
+  log(22, 'clickElement "NRU Space Team"');
+  return $browser.waitForAndFindElement(By.linkText("NRU Space Team"), DefaultTimeout); })
 .then(function (el) { el.click(); })
 
 .then(function() {
