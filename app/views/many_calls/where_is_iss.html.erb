@@ -1,0 +1,91 @@
+             <script src="/assets/js/where_is_iss.js"></script>
+<div class="stars">
+  <div>
+    <h1>You can see the International Space Station in the sky</h1>
+    <p class="lead">
+      The ISS orbits at approximately 220 miles above the Earth, traveling at an average speed of 27,724 kilometers (17,227 miles) per hour and makes multiple orbits around the Earth every day.
+    </p>
+    <p>
+      This data is from the <a href="http://open-notify.org/Open-Notify-API/">ISS API</a>.<br><br>
+    </p>
+  </div>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#issnow" aria-controls="home" role="tab" data-toggle="tab"><h4>Where is the ISS right now?</h4></a>
+    </li>
+    <li role="presentation">
+      <a href="#issoverhead" aria-controls="profile" role="tab" data-toggle="tab"><h4>When will the ISS pass over my head next?</h4></a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="issnow">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Where is the ISS right now? <button id="updateISSlocation" class="updateLocation btn btn-success">Click to Update ISS location</button></h2>
+
+          <div class="location">
+            <div class="map"></div>
+            <img class="map-image" src="/assets/img/icon-iss.png"></img>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="issoverhead">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>The ISS could be over your head right now!</h2>
+          <p>
+            Did you know you can see the ISS pass overhead with the naked eye? It is easily spotted on clear nights even in areas with fairly high levels of light pollution. Just look for a bright, quickly-moving light in the sky.
+          </p>
+          <p>
+             At the scheduled time to pass over your head, it will appear suddenly and just as suddenly disappear.  If you aren't sure where in the sky to look, you can get more info at <a href="Look for a bright, quickly-moving light in the sky.">Mission Control at Houston's Johnson Space Center</a>.
+          </p>
+          <img style="margin-right: 5%;" src="/assets/img/ISS-in-the-sky.jpg"></im>
+        </div>
+        <div class="well iss-overhead">
+          <div class="overhead">
+            <h3>Next five passed over your head:</h3>
+            <em><p>These times are based on your browser IP Address</p></em>
+            <ol style="margin-left: 3em;" class="passes lead"></ol>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+</div>
+
+<% content_for :footer do %>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      drawOverheadPasses();
+
+      $(".updateLocation").on("click", centerISS);
+    });
+  </script>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACLKUzrOI-8UQgbMLxGKEKYf9ikznOxNg&callback=drawISSLocation">
+  </script>
+<% end %>
+
+<!--
+
+EvalError: Raised when the eval() functions is used in an incorrect manner.
+
+RangeError: Raised when a numeric variable exceeds its allowed range.
+
+ReferenceError: Raised when an invalid reference is used.
+
+SyntaxError: Raised when a syntax error occurs while parsing JavaScript code.
+
+TypeError: Raised when the type of a variable is not as expected.
+
+URIError: Raised when the encodeURI() or decodeURI() functions are used in an incorrect manner.
+
+-->

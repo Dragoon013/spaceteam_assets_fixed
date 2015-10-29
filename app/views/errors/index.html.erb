@@ -1,0 +1,217 @@
+<link rel="stylesheet" media="all" href="/assets/css/lcars.css" />
+
+
+<script src="/assets/js/space-errors.js"></script>
+
+<div class="lcars-container">
+	<h1>THE SPACE ERRORS GAME</h1>
+	<hr class="tallhr4">
+
+	<div class="lcars-row spaced">
+		<div class="lcars-column u-2-8 lcars-elbow left bottom lcars-grayBlue-bg">
+		</div>
+		<div class="lcars-column u-6-8 lcars-divider lcars-grayBlue-blue-divide">
+		  <div class="lcars-row">
+		  	<hr class="tallhr4">
+		  	<h2>Comm Station IV</h2>
+		  </div>
+		  <div class="lcars-row">
+		  	<div id="green">
+		  		<img class="schematics" src="/assets/img/Intrepid-class-schematics.jpg"></img>
+		  	</div>
+		  </div>
+		 </div>
+	</div>
+
+	<hr class="tallhr4">
+
+	<div class="lcars-row spaced">
+		<div class="lcars-column u-1-8">
+			<!-- <hr class="tallhr2"> -->
+			<ul class="lcars-menu">
+			  <li class="lcars-tan-bg">ALPHA 534 49</li>
+			  <li class="lcars-tan-bg">BETA 342</li>
+			  <li id="systemWarning2" class="lcars-blue-bg tall hvr-back-pulse-tan" onclick="console.log('Conducting Level IV System-wide Analysis')">LEVEL IV ANALYSIS</li>
+			  <li  id="systemWarning1" class="lcars-red-bg tall tall hvr-back-pulse-tan" onclick="console.log('Conducting Level III System-wide Analysis')">LEVEL III ANALYSIS</li>
+			</ul>
+		</div>
+		<div class="lcars-column u-1-8">
+			<!-- <hr class="tallhr2"> -->
+			<ul class="lcars-menu">
+				<li id="gridSearchEngage" class="lcars-pink-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
+			  <li id="gridSearch4" class="lcars-tan-bg tall hvr-back-pulse-tan" onclick="gridSearch()">GRID SEARCH PROTOCOL</li>
+			  <li class="lcars-blue-bg" onclick="gridSearch()">QUADRANT</li>
+			  <li class="lcars-blue-bg" onclick="gridSearch()">MARK IV</li>
+			</ul>
+		</div>
+		<div class="lcars-column u-1-8">
+			<ul id="search" class="lcars-menu">
+			  <li id="gridAlpha" class="lcars-tan-bg hvr-back-pulse-tan">GRID ALPHA</li>
+			  <li id="gridBeta" class="lcars-tan-bg large-gap hvr-back-pulse-tan">GRID BETA</li>
+			  <li id="Delta004" class="lcars-blue-bg tall hvr-back-pulse-blue">SEARCH PATTERN DELTA004</li>
+			  <li id="Alpha003" class="lcars-blue-bg tall hvr-back-pulse-blue">SEARCH PATTERN ALPHA003</li>
+			</ul>
+		</div>
+		<div class="lcars-column u-5-8">
+			<div id="red">
+				<img class="schematics2" src="/assets/img/steamrunner_systems.png"></img>
+			</div>
+		</div>
+		<div class="lcars-column u-5-8">
+			<div class="star-view">
+			  <img id="search1" class="right-quadrant hidden" src="/assets/img/search-grid2.png"></img>
+			  <img id="search2" class="left-quadrant" src="/assets/img/search-grid2.png"></img>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="lcars-row spaced">
+		<div class="lcars-column u-1-8">
+			<ul class="lcars-menu">
+			  <li id="displaySchematics" class="lcars-peach-bg tall hvr-back-pulse-tan" onclick="bp()">DISPLAY SCHEMATICS</li>
+			</ul>
+		</div>
+		<div class="lcars-column u-1-8">
+			<ul class="lcars-menu">
+			  <li  id="primaryBackupSystems" class="lcars-peach-bg tall tall hvr-back-pulse-tan" onclick="bp()">PRIMARY BACKUP SYSTEMS</li>
+			</ul>
+		</div>
+		<div class="lcars-column u-1-8 lcars-elbow left top lcars-blue-bg">
+		  <!-- <a href="#">Side Button 3</a> -->
+		</div>
+		<div class="lcars-column u-5-8 lcars-divider bottom lcars-blue-tan-divide">
+			<h3>Search Protocols Engaged</h3>
+		</div>
+	</div>
+
+
+
+<div class="lcars-row spaced">
+	<div class="lcars-column u-1-8">
+		<ul class="lcars-menu">
+		  <li  id="secondaryBackupSystems" class="lcars-salmon-bg tall tall hvr-back-pulse-tan" onclick="bp()">SECONDARY BACKUP SYSTEMS</li>
+		</ul>
+	</div>
+	<div class="lcars-column u-1-8">
+		<ul class="lcars-menu">
+		  <li  id="systemWarning1" class="lcars-red-bg tall tall hvr-back-pulse-tan" onclick="systemWarning()">SYSTEM WARNINGS</li>
+		</ul>
+	</div>
+	<div class="lcars-column u-1-8 lcars-elbow left bottom lcars-blue-bg">
+	  <!-- <a href="#">Side Button 3</a> -->
+	</div>
+	<div class="lcars-column u-5-8 lcars-divider lcars-blue-tan-divide">
+	  <div class="lcars-row">
+	  	<hr class="tallhr4">
+	    <div class="lcars-column u-2-8" style="margin-left: 4em;">
+        <a href="#" class="lcars-button radius" onclick="randomNumber1()" >
+          ALPHA
+          <span class="lcars-button-addition" id="number1"></span>
+        </a>
+      </div>
+      <div class="lcars-column u-2-8">
+        <a href="#" class="lcars-button radius" onclick="randomNumber2()">
+          GAMMA
+          <span class="lcars-button-addition"id="number2"></span>
+        </a>
+      </div>
+      <div class="lcars-column u-2-8">
+        <a href="#" class="lcars-button radius" onclick="randomNumber3()">
+          DELTA
+          <span class="lcars-button-addition"id="number3"></span>
+        </a>
+      </div>
+	  </div>
+	</div>
+</div>
+
+
+<div class="lcars-row spaced">
+	<div class="lcars-column u-1-8">
+		<ul class="lcars-menu">
+		  <li id="openChannel" class="lcars-tan-bg tall" onclick="openChannel()">OPEN CHANNEL</li>
+		</ul>
+		<ul class="lcars-menu">
+		  <li id="setHailingFrequency" class="lcars-peach-bg tall" onclick="hailingFrequency()">SET HAILING FREQUENCY</li>
+		</ul>
+
+	</div>
+	<div class="lcars-column u-1-8">
+		<ul class="lcars-menu">
+		  <li  id="gridSearch2" class="lcars-tan-bg tall hvr-back-pulse-tan" onclick="gridSearch()">ENGAGE SEARCH PROTOCOL</li>
+		</ul>
+		<ul class="lcars-menu">
+		  <li class="lcars-tan-bg tall">BUSSARD COLLECTOR</li>
+		</ul>
+	</div>
+	<div class="lcars-column u-1-8">
+		<ul class="lcars-menu">
+		  <li id="systemCheck1" class="lcars-purple-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL I</li>
+		</ul>
+		<ul class="lcars-menu">
+		  <li id="systemCheck2" class="lcars-tan-bg tall hvr-back-pulse-tan" style="padding-left: 15px;">SYSTEM CHECK <br> LEVEL II</li>
+		</ul>
+	</div>
+	<div id="search1" class="lcars-column u-5-8">
+			<ol class="SYSTEMS CHECK LEVEL I ">
+			  <li>
+			    <span><strong>USS Yamato</strong></span> - NCC-71807 - Crew discovered Iconian artifacts but is infected by a computer virus that causes antimatter containment loss. The virus causes the ship to explode with all hands lost.
+			  </li>
+			  <li>
+			    <span><strong>USS Yangtzee Kiang</strong></span> - NCC-72453 - Hijacked by Bajoran terrorist Tahna Los. Became the first DS9 runabout to be destroyed when it crashed on a moon in the Gamma Quadrant.
+			  </li>
+			  <li>
+			    <span><strong>USS Potemkin</strong></span> - NCC-18253 - William Riker's assignment before his transfer to the USS Enterprise-D. Part of the tachyon blockade during the Klingon Civil War. Participates in the Battle for Deep Space 9 and First Battle of Chin'toka.
+			  </li>
+			</ol>
+	</div>
+	<div id="search2" class="lcars-column u-5-8" style="display: none;">
+			<ol>
+			  <li>
+			    Shuttlecraft Cochrane - USS Voyager Test bed for Warp 10 flight piloted by Tom Paris. Very closely resembles the later hull design for Delta Flyer. Destroyed attempting to retrieve Warp Core.
+			  </li>
+			  <li>
+			    USS Vengeance - Developed by Khan Noonien Singh and Starfleet Admiral Alexander Marcus to combat the Klingon Empire. The starship fights the USS Enterprise and crash lands on Starfleet Headquarters in San Francisco in Star Trek Into Darkness.
+			  </li>
+			  <li>
+			    USS Sarajevo - NCC-38529 - Lost in the Gamma Quadrant in 2371. Later recovered and served in the Dominion War.
+			  </li>
+			  <li>
+			    USS Bradbury - NX-72307 - Scheduled to transport Wesley Crusher to Starfleet Academy and undergoes warp drive performance tests.
+			  </li>
+			</ol>
+	</div>
+</div>
+
+<div class="lcars-row spaced">
+	<div class="lcars-column u-2-8 lcars-elbow left top lcars-grayBlue-bg">
+	</div>
+	<div class="lcars-column u-6-8 lcars-divider bottom lcars-grayBlue-blue-divide">
+	  <div class="lcars-row">
+	  	<h4 style="margin-top: .2em;">Station Ops Security Access Level III</h4>
+	  </div>
+	 </div>
+</div>
+
+
+
+</div>
+<!--<script src="/assets/js/space-errors2.js?body=1"></script>  -->
+
+<!--
+
+
+EvalError: Raised when the eval() functions is used in an incorrect manner.
+
+RangeError: Raised when a numeric variable exceeds its allowed range.
+
+ReferenceError: Raised when an invalid reference is used.
+
+SyntaxError: Raised when a syntax error occurs while parsing JavaScript code.
+
+TypeError: Raised when the type of a variable is not as expected.
+
+URIError: Raised when the encodeURI() or decodeURI() functions are used in an incorrect manner.
+
+-->

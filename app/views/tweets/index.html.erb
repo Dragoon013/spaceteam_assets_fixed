@@ -1,0 +1,25 @@
+<h1>Space Tweets</h1>
+<div class="jumbotron">
+  <p>
+    NASA's page for updates from the International Space Station, the world-class lab orbiting Earth 250 miles above. For the latest research, follow <a href="https://twitter.com/ISS_Research">@ISS_Research</a>.
+  </p>
+</div>
+
+<%
+@nodes.each do |node|
+  %>
+  <div class="row">
+    <div class="col-md-2">
+      <% #= node.html_safe %>
+      <img src="http://loremflickr.com/220/140/space">
+    </div>
+    <div class="col-md-9 col-md-offset-1">
+      <p class="lead">
+        <%= node.html_safe %>
+      </p>
+    </div>
+  </div>
+  <hr>
+  <%
+end
+%>

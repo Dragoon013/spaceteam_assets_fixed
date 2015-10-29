@@ -1,0 +1,842 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "9kcy-zwvn",
+      "name" : "Extra-vehicular Activity (EVA) - US and Russia",
+      "attribution" : "NASA",
+      "averageRating" : 0,
+      "category" : "Raw Data",
+      "createdAt" : 1406814228,
+      "description" : "Activities done by an astronaut or cosmonaut outside a spacecraft beyond the Earth's appreciable atmosphere.",
+      "displayType" : "table",
+      "downloadCount" : 74,
+      "indexUpdatedAt" : 1406864776,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 8549223,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1406814301,
+      "publicationGroup" : 1667109,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1406814237,
+      "rowsUpdatedBy" : "77q4-4tn9",
+      "tableId" : 1667109,
+      "totalTimesRated" : 0,
+      "viewCount" : 605,
+      "viewLastModified" : 1428419684,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 159913611,
+        "name" : "EVA #",
+        "dataTypeName" : "number",
+        "fieldName" : "eva",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21110582,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 371,
+          "smallest" : "1",
+          "sum" : "69006",
+          "null" : 4,
+          "average" : "186",
+          "largest" : "371",
+          "top" : [ {
+            "count" : 20,
+            "item" : "370"
+          }, {
+            "count" : 19,
+            "item" : "371"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 159913612,
+        "name" : "Country",
+        "dataTypeName" : "text",
+        "fieldName" : "country",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21110583,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 375,
+          "smallest" : "Russia",
+          "null" : 0,
+          "largest" : "USA",
+          "top" : [ {
+            "count" : 20,
+            "item" : "USA"
+          }, {
+            "count" : 19,
+            "item" : "Russia"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 159913613,
+        "name" : "Crew    ",
+        "dataTypeName" : "text",
+        "fieldName" : "crew",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21110584,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 375,
+          "smallest" : "Aleksei Yeliseyov        Yevgeni Khrunov",
+          "null" : 0,
+          "largest" : "Yuri Usachev                  Jim Voss",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Leonid Kizim          Vladimir Solovyov"
+          }, {
+            "count" : 19,
+            "item" : "Alexandr Viktorenko   Alexandr Serebrov"
+          }, {
+            "count" : 18,
+            "item" : "Victor Afanasyev     Musa Manarov"
+          }, {
+            "count" : 17,
+            "item" : "Sergei Krikalev         Anatoli Artsebarsky"
+          }, {
+            "count" : 16,
+            "item" : "Anatoli Solovyov      Sergei Avdeyev"
+          }, {
+            "count" : 15,
+            "item" : "Valeri Tsibliyev      Alexandr Serebrov"
+          }, {
+            "count" : 14,
+            "item" : "Vladimir Dezhurov      Gennady Strekalov"
+          }, {
+            "count" : 13,
+            "item" : "Anatoly Solovyev     Nikola Budarin"
+          }, {
+            "count" : 12,
+            "item" : "Yuri Onufrenko           Yuri Usachev"
+          }, {
+            "count" : 11,
+            "item" : "Anatoly Solovyev     Pavel Vinogradov"
+          }, {
+            "count" : 10,
+            "item" : "Talgat Musabeyev     Nikola Budarin"
+          }, {
+            "count" : 9,
+            "item" : "Vladimir Dezhurov     Mikhail Tyurin"
+          }, {
+            "count" : 8,
+            "item" : "Gennady Padalka      Mike Fincke"
+          }, {
+            "count" : 7,
+            "item" : "Leroy Chiao            Salizhan Sharipov"
+          }, {
+            "count" : 6,
+            "item" : "Mikhail Tyurin    Michael Lopez-Alegria"
+          }, {
+            "count" : 5,
+            "item" : "Fyodor Yurchikhin              Oleg Kotov "
+          }, {
+            "count" : 4,
+            "item" : "Sergei Volkov              Oleg Kononenko"
+          }, {
+            "count" : 3,
+            "item" : "Yuri Lonchakov         Mike Fincke"
+          }, {
+            "count" : 2,
+            "item" : "Gennady Padalka      Mike Barratt"
+          }, {
+            "count" : 1,
+            "item" : "Dmitry Kondratiev         Oleg Skripochka"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 159913614,
+        "name" : "Vehicle",
+        "dataTypeName" : "text",
+        "fieldName" : "vehicle",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21110585,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 374,
+          "smallest" : "Apollo 11",
+          "null" : 1,
+          "largest" : "Voskhod 2",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Soyuz T-10     Salyut 7"
+          }, {
+            "count" : 19,
+            "item" : "Soyuz TM-8     Mir "
+          }, {
+            "count" : 18,
+            "item" : "Soyuz TM-11       Mir "
+          }, {
+            "count" : 17,
+            "item" : "Soyuz TM-12      Mir "
+          }, {
+            "count" : 16,
+            "item" : "Soyuz TM-15   Mir "
+          }, {
+            "count" : 15,
+            "item" : "Soyuz TM-17    Mir 16"
+          }, {
+            "count" : 14,
+            "item" : "Soyuz TM-19      Mir 18"
+          }, {
+            "count" : 13,
+            "item" : "Soyuz TM-20      Mir 19"
+          }, {
+            "count" : 12,
+            "item" : "Soyuz TM-X     Mir 20"
+          }, {
+            "count" : 11,
+            "item" : "Soyuz TM-23     Mir 21"
+          }, {
+            "count" : 10,
+            "item" : "Soyuz TM-26      Mir 24"
+          }, {
+            "count" : 9,
+            "item" : "Soyuz TM-27     Mir 25"
+          }, {
+            "count" : 8,
+            "item" : "Soyuz TM-29           Mir 27"
+          }, {
+            "count" : 7,
+            "item" : "ISS Incr-3"
+          }, {
+            "count" : 6,
+            "item" : "ISS Incr-9"
+          }, {
+            "count" : 5,
+            "item" : "ISS Incr-14"
+          }, {
+            "count" : 4,
+            "item" : "ISS Incr-15"
+          }, {
+            "count" : 3,
+            "item" : "ISS Incr-17"
+          }, {
+            "count" : 2,
+            "item" : "ISS Incr-18"
+          }, {
+            "count" : 1,
+            "item" : "ISS Incr-19"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 159913615,
+        "name" : "Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "date",
+        "position" : 6,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 21110586,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 331,
+          "smallest" : "1965-06-03T00:00:00",
+          "null" : 44,
+          "largest" : "2013-08-22T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2013-06-24T00:00:00"
+          }, {
+            "count" : 19,
+            "item" : "2013-08-16T00:00:00"
+          }, {
+            "count" : 18,
+            "item" : "2013-08-22T00:00:00"
+          } ]
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 159913616,
+        "name" : "Duration",
+        "dataTypeName" : "text",
+        "fieldName" : "duration",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21110587,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 374,
+          "smallest" : "0:00",
+          "null" : 1,
+          "largest" : "8:56",
+          "top" : [ {
+            "count" : 20,
+            "item" : "6:05"
+          }, {
+            "count" : 19,
+            "item" : "3:06"
+          }, {
+            "count" : 18,
+            "item" : "6:19"
+          }, {
+            "count" : 17,
+            "item" : "5:30"
+          }, {
+            "count" : 16,
+            "item" : "0:19"
+          }, {
+            "count" : 15,
+            "item" : "4:58"
+          }, {
+            "count" : 14,
+            "item" : "5:52"
+          }, {
+            "count" : 13,
+            "item" : "5:04"
+          }, {
+            "count" : 12,
+            "item" : "2:46"
+          }, {
+            "count" : 11,
+            "item" : "6:03"
+          }, {
+            "count" : 10,
+            "item" : "5:59"
+          }, {
+            "count" : 9,
+            "item" : "4:25"
+          }, {
+            "count" : 8,
+            "item" : "5:21"
+          }, {
+            "count" : 7,
+            "item" : "3:55"
+          }, {
+            "count" : 6,
+            "item" : "0:14"
+          }, {
+            "count" : 5,
+            "item" : "5:39"
+          }, {
+            "count" : 4,
+            "item" : "4:30"
+          }, {
+            "count" : 3,
+            "item" : "5:28"
+          }, {
+            "count" : 2,
+            "item" : "5:44"
+          }, {
+            "count" : 1,
+            "item" : "6:31"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 159913617,
+        "name" : "Purpose ",
+        "dataTypeName" : "text",
+        "fieldName" : "purpose",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21110588,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 371,
+          "smallest" : "\"Flyswatter\" attached to end of RMS to attempt to activate LEASAT/SYNCOM IV sequence start lever.  Lever tripped but satellite was actually failed elsewhere.  Griggs inadvertently went out over wing",
+          "null" : 4,
+          "largest" : "Z1 SASA antenna deployed.  DDCU thermal shrouds removed/stowed. One tool box relocated from PLB to Z1.  Z1-Node1 cables mated.  SGANT antenna dish and boom deployed.",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Â Installed VINOSLIVOST experiment on MRM2, 2 MLMÂUSOS power cables, FGB Â MRM2 gap spanners, MLM-USOS ETHERNET cable\nÂ Installation of gap spanners SM Â MRM2 (if time allows)\nÂ Retracted & stowed Strela-1 on DC1"
+          }, {
+            "count" : 19,
+            "item" : "Â Retrieved laser downlink comm experiment from SM and replaced it with a biaxial camera pointing system.  \nÂ Inspected all 6 ATV WAL PCE antennas and tightened loose screws that lost an antenna cover overboard. \nÂ collected surface ÂTestÂ samples on MRM2 EV Hatch 2\nÂ Installed 2 gap spanners on SM\n Displayed Russian flag for national holiday"
+          } ]
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "isxt-qkkm",
+        "displayName" : "nasa-data",
+        "profileImageUrlLarge" : "/api/users/isxt-qkkm/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/isxt-qkkm/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/isxt-qkkm/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "nasa-data",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "isxt-qkkm",
+        "displayName" : "nasa-data",
+        "profileImageUrlLarge" : "/api/users/isxt-qkkm/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/isxt-qkkm/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/isxt-qkkm/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "nasa-data",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "59094E1C-3E0C-4497-8DF5-FD983EE66102", 1, 1406814231, "879596", 1406814231, "879596", "{\n}", "1", "USA", "Ed White", "Gemini IV", "1965-06-03T00:00:00", "0:36", "First U.S. EVA. Used HHMU and took  photos.  Gas flow cooling of 25ft umbilical overwhelmed by vehicle ingress work and helmet fogged.  Lost overglove.  Jettisoned thermal gloves and helmet sun visor" ]
+, [ 2, "C68658E7-B03B-4307-9B25-93D0093CD176", 2, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"March 16-17, 1966\"\n  }\n}", "2", "USA", "David Scott", "Gemini VIII", null, "0:00", "HHMU EVA cancelled before starting by stuck on vehicle thruster that ended mission early" ]
+, [ 3, "CB941329-147A-46B5-BE6A-47DE71FC363B", 3, 1406814231, "879596", 1406814231, "879596", "{\n}", "3", "USA", "Eugene Cernan", "Gemini IX-A", "1966-06-05T00:00:00", "2:07", "Inadequate restraints, stiff 25ft umbilical and high workloads exceeded suit vent loop cooling capacity and caused fogging.  Demo called off of tethered astronaut maneuvering unit" ]
+, [ 4, "242E8A9A-AACF-4DB1-A7E9-AE6FC77F7DD0", 4, 1406814231, "879596", 1406814231, "879596", "{\n}", "4", "USA", "Mike Collins", "Gemini X", "1966-07-19T00:00:00", "0:50", "Standup EVA.  UV photos of stars.  Ended by eye irritation that impaired vision " ]
+, [ 5, "B3DF6CA2-E0B6-4971-ACC7-E6E42E144ADF", 5, 1406814231, "879596", 1406814231, "879596", "{\n}", "5", "USA", "Mike Collins", "Gemini X", "1966-07-20T00:00:00", "0:39", "Retrieved MMOD experiment from docked Agena.  Used HHMU. Lost camera and retrieved experiment. EVA ended early by unrelated spacecraft problem" ]
+, [ 6, "EA1C5D4B-2FB6-4ADF-92B6-2970C0099C8A", 6, 1406814231, "879596", 1406814231, "879596", "{\n}", "6", "USA", "Richard Gordon", "Gemini XI", "1966-09-13T00:00:00", "0:44", "Attached tether between Agena and Gemini.  EVA ended early due to fatigue, overheating & eye sweat" ]
+, [ 7, "4D6619D7-56C7-4791-AD71-0596BCA30005", 7, 1406814231, "879596", 1406814231, "879596", "{\n}", "7", "USA", "Richard Gordon", "Gemini XI", "1966-09-14T00:00:00", "2:10", "Standup EVA.  Took star photos. Agena tether ops" ]
+, [ 8, "9F7D98D8-000C-4C94-AEE3-071246BC4126", 8, 1406814231, "879596", 1406814231, "879596", "{\n}", "8", "USA", "Buzz Aldrin", "Gemini XII", "1966-11-12T00:00:00", "2:29", "Standup EVA.  Science tasks.  Took star photos" ]
+, [ 9, "5BDF98F2-F3EC-40C2-A098-02BE31813950", 9, 1406814231, "879596", 1406814231, "879596", "{\n}", "9", "USA", "Buzz Aldrin", "Gemini XII", "1966-11-13T00:00:00", "2:06", "Attached tether between Agena and Gemini.  UV photos of stars.  Waist tether and Dutch shoe eval" ]
+, [ 10, "A9BE7C39-7F3E-4204-9675-68928CC7182E", 10, 1406814231, "879596", 1406814231, "879596", "{\n}", "10", "USA", "Buzz Aldrin", "Gemini XII", "1966-11-14T00:00:00", "0:55", "Standup EVA.  Jettisoned equipment.  Took photos" ]
+, [ 11, "D2B32AE8-5877-4736-88C8-E9FF803D0612", 11, 1406814231, "879596", 1406814231, "879596", "{\n}", "11", "USA", "David Scott", "Apollo 9", "1969-03-06T00:00:00", "0:47", "Standup EVA from crew module.  Retrieved thermal experiment samples" ]
+, [ 12, "3C9A884D-BFE0-48C1-A803-5E2530209DA7", 12, 1406814231, "879596", 1406814231, "879596", "{\n}", "12", "USA", "Russ Schweickart", "Apollo 9", "1969-03-06T00:00:00", "0:51", "Lunar module based.  Took photos.  Evaluated foot restraint and handrails.  Retrieved thermal experiment samples.  First use of PLSS followed by recharge demo after EVA" ]
+, [ 13, "182C2514-43DF-42F5-AF7D-0D52EE230611", 13, 1406814231, "879596", 1406814231, "879596", "{\n}", "13", "USA", "Neil Armstrong       Buzz Aldrin", "Apollo 11", "1969-07-20T00:00:00", "2:32", "First to walk on the moon.  Some trouble getting out small hatch.  46.3 lb of geologic material collected.  EASEP seismograph and laser reflector exp deployed.  Solar wind exp deployed & retrieved.  400 ft (120m) circuit on foot.  Dust issue post EVA" ]
+, [ 14, "7F0F3CED-4B13-4633-A59B-E063246F92D4", 14, 1406814231, "879596", 1406814231, "879596", "{\n}", "14", "USA", "Neil Armstrong       Buzz Aldrin", "Apollo 11", "1969-07-20T00:00:00", "0:05", "Jettison suit backpacks and equip to lighten ascent" ]
+, [ 15, "7C07B4A4-EB6D-48DE-B565-F71720B7BAEC", 15, 1406814231, "879596", 1406814231, "879596", "{\n}", "15", "USA", "Allen Bean               Pete Conrad", "Apollo 12", "1969-11-19T00:00:00", "3:39", "Collected 75.6 lb of geologic material.  ALSEP exp deployed.  6000 ft (1800m) circuit on foot" ]
+, [ 16, "8110FA61-9758-4FB9-8E9E-742A64DD9B7C", 16, 1406814231, "879596", 1406814231, "879596", "{\n}", "16", "USA", "Allen Bean               Pete Conrad", "Apollo 12", "1969-11-20T00:00:00", "3:48", "Retrieved parts of Surveyor 3 spacecraft.   " ]
+, [ 17, "C8ABD013-8164-4A02-9C64-24C90D3CAD16", 17, 1406814231, "879596", 1406814231, "879596", "{\n}", "17", "USA", "Allen Bean               Pete Conrad", "Apollo 12", "1969-11-20T00:00:00", "0:05", "Jettison suit backpacks and equip to lighten ascent" ]
+, [ 18, "A55D9DC6-9FD3-4B92-9DAA-691356E3994A", 18, 1406814231, "879596", 1406814231, "879596", "{\n}", "18", "USA", "Ed Mitchell           Alan Shepard", "Apollo 14", "1971-02-05T00:00:00", "4:48", "Collected 94.4 lb of geologic material.  ALSEP and laser reflector exp deployed.  Hiked up to 0.9 miles (1.5km) from lunar module.  Used MET rickshaw" ]
+, [ 19, "C68A5C6F-173E-4156-A19D-8759E58773DF", 19, 1406814231, "879596", 1406814231, "879596", "{\n}", "19", "USA", "Ed Mitchell           Alan Shepard", "Apollo 14", "1971-02-06T00:00:00", "4:34", "Sought but did not quite reach crater.  Golf demo" ]
+, [ 20, "BCD0DB7A-0A84-47DF-B465-7F269EB60501", 20, 1406814231, "879596", 1406814231, "879596", "{\n}", "20", "USA", "Ed Mitchell           Alan Shepard", "Apollo 14", "1971-02-06T00:00:00", "0:05", "Jettison suit backpacks and equip to lighten ascent" ]
+, [ 21, "858796FC-E4B8-4696-A4A0-E1EBCF1D314D", 21, 1406814231, "879596", 1406814231, "879596", "{\n}", "21", "USA", "David Scott", "Apollo 15", "1971-07-30T00:00:00", "0:33", "Standup EVA to scout and photograph lunar surface before traverse" ]
+, [ 22, "EB84D909-9D3B-4C18-A79B-81F50F462794", 22, 1406814231, "879596", 1406814231, "879596", "{\n}", "22", "USA", "David Scott                   James Irwin", "Apollo 15", "1971-07-31T00:00:00", "6:34", "Collected 169 lb of geologic material.  ALSEP exp deployed.  First use of the lunar rover.  Covered 6.2 mile (10.3 km) circuit" ]
+, [ 23, "E13E542D-716C-4F30-A9E6-40FB586562F0", 23, 1406814231, "879596", 1406814231, "879596", "{\n}", "23", "USA", "David Scott                   James Irwin", "Apollo 15", "1971-08-01T00:00:00", "7:12", null ]
+, [ 24, "CB51E53D-12FA-492E-9BD6-D378C9E289EA", 24, 1406814231, "879596", 1406814231, "879596", "{\n}", "24", "USA", "David Scott                   James Irwin", "Apollo 15", "1971-08-02T00:00:00", "4:49", null ]
+, [ 25, "3BD5B2B9-B9D7-4EB2-8D47-ADD4001BFC6C", 25, 1406814231, "879596", 1406814231, "879596", "{\n}", "25", "USA", "David Scott                   James Irwin", "Apollo 15", "1971-08-02T00:00:00", "0:05", "Jettison suit backpacks and equip to lighten ascent" ]
+, [ 26, "EF427B2D-DB4D-410D-88D1-29F4D8185EA7", 26, 1406814231, "879596", 1406814231, "879596", "{\n}", "26", "USA", "Al Worden", "Apollo 15", "1971-08-05T00:00:00", "0:39", "First transearth EVA.  Retrieved 2 camera film cassettes" ]
+, [ 27, "E0F565C4-E0CC-4507-80E7-31A31B62AB32", 27, 1406814231, "879596", 1406814231, "879596", "{\n}", "27", "USA", "John Young        Charles Duke", "Apollo 16", "1972-04-21T00:00:00", "7:11", "Collected 208 lb of rock/dust (41lb this day). ALSEP & solar wind experiments deployed. Assembled and used lunar rover (4.2 km).  " ]
+, [ 28, "1B76AD64-B93E-4145-8A1B-E452B4CAEA4A", 28, 1406814231, "879596", 1406814231, "879596", "{\n}", "28", "USA", "John Young        Charles Duke", "Apollo 16", "1972-04-22T00:00:00", "7:23", "Collected 82 lb of rock/dust. Drove rover 11.5 km" ]
+, [ 29, "B789C57A-4624-450C-9644-B491F40359BC", 29, 1406814231, "879596", 1406814231, "879596", "{\n}", "29", "USA", "John Young        Charles Duke", "Apollo 16", "1972-04-23T00:00:00", "5:40", "Collected 90 lb of rock/dust.  Drove rover 27.1 km" ]
+, [ 30, "82FC1653-DA70-409A-A371-20384F98360D", 30, 1406814231, "879596", 1406814231, "879596", "{\n}", "30", "USA", "John Young        Charles Duke", "Apollo 16", "1972-04-23T00:00:00", "0:04", "Jettison suit backpacks and equip to lighten ascent" ]
+, [ 31, "9A768248-B798-4983-A55D-C7839596D015", 31, 1406814231, "879596", 1406814231, "879596", "{\n}", "31", "USA", "Tom Mattingly", "Apollo 16", "1972-04-25T00:00:00", "1:23", "Transearth EVA to retrieve camera film and expose microbial response experiment" ]
+, [ 32, "C1768BB3-2B4F-48CF-88BC-B0F46B7198D8", 32, 1406814231, "879596", 1406814231, "879596", "{\n}", "32", "USA", "Harrison Schmidt   Eugene Cernan   ", "Apollo 17", "1972-12-11T00:00:00", "7:12", "Collected 243 lb of geologic material.  ALSEP exp deployed.   8 seismic explosive charges placed for later use.  Used lunar rover to travel 11.4 miles (19 km) circuit with max range of 4.9 miles from lunar module." ]
+, [ 33, "9E062E40-F690-4C17-90EA-288909DDEE6A", 33, 1406814231, "879596", 1406814231, "879596", "{\n}", "33", "USA", "Harrison Schmidt   Eugene Cernan   ", "Apollo 17", "1972-12-12T00:00:00", "7:37", null ]
+, [ 34, "89E2508C-D84A-4FC2-92A9-FFF5AE4CD803", 34, 1406814231, "879596", 1406814231, "879596", "{\n}", "34", "USA", "Harrison Schmidt   Eugene Cernan   ", "Apollo 17", "1972-12-13T00:00:00", "7:16", null ]
+, [ 35, "5D07B7D5-C88B-4196-9264-3403371FB637", 35, 1406814231, "879596", 1406814231, "879596", "{\n}", "35", "USA", "Harrison Schmidt   Eugene Cernan   ", "Apollo 17", "1972-12-13T00:00:00", "0:08", "Jettison suit backpacks and equip to lighten ascent" ]
+, [ 36, "57C3BAD0-F2A6-4E3C-A581-A30BBD5A2AD9", 36, 1406814231, "879596", 1406814231, "879596", "{\n}", "36", "USA", "Ron Evans", "Apollo 17", "1972-12-17T00:00:00", "1:07", "Transearth EVA to retrieve camera film" ]
+, [ 37, "BB2B13C3-0A76-4D63-BB9D-6A8DF08864C1", 37, 1406814231, "879596", 1406814231, "879596", "{\n}", "37", "USA", "Paul Weitz           Joe Kerwin", "Skylab 2", "1973-05-25T00:00:00", "0:40", "Standup EVA.  While based in hatch of just arrived hovering spacecraft, failed to pull/pry free solar panel held by cm wide scrap of MMOD shield" ]
+, [ 38, "E67B9AE3-4151-4D28-ABBE-694DD34609A0", 38, 1406814231, "879596", 1406814231, "879596", "{\n}", null, "USA", "Paul Weitz           Joe Kerwin      Pete Conrad", "Skylab 2", "1973-05-25T00:00:00", null, "After normal docking failed, all donned suits, depressurized spacecraft, opened forward tunnel hatch and removed the docking probe's back plate to bypass some electrical connections" ]
+, [ 39, "3E32F9D3-5190-4ED6-A33A-35C9E655517B", 39, 1406814231, "879596", 1406814231, "879596", "{\n}", "38", "USA", "Pete Conrad           Joe Kerwin", "Skylab 2", "1973-06-07T00:00:00", "3:25", "Without body restraint, initially unable to attach 25ft pole/cutter jaws to aluminum scrap holding jammed solar panel.  Improvised body restraint with suit tether to unexpected vehicle U bolt for 3 pt stance to enable pole positioning and cut.  After debris cut, attached pole as translation path to solar array.  Rope hooked between airlock solar array cover structure as means to overcome frozen hydraulic damper of solar array hinge.  Both crew stood under rope and pushed until array freed suddenly which caused both crew to drift free until hauled themselves back in via umbilicals.  Hardest task was restowing umbilicals into stow sphere at end of day" ]
+, [ 40, "CA54A21B-1FC8-416F-BF6E-A9C03FC50938", 40, 1406814231, "879596", 1406814231, "879596", "{\n}", "39", "USA", "Pete Conrad            Paul Weitz", "Skylab 2", "1973-06-19T00:00:00", "1:36", "Retrieved Apollo Telescope Mount film and repaired power module relay with hammer blow.  Cleaned camera lens" ]
+, [ 41, "1B563455-18CC-46EF-8BEB-0B94485489B5", 41, 1406814231, "879596", 1406814231, "879596", "{\n}", "40", "USA", "Owen Garriott          Jack Lousma", "Skylab 3", "1973-08-06T00:00:00", "6:31", "Constructed/deployed twin-pole thermal shield to reduce internal spacecraft temperatures.  Loaded telescope camera with film.  Inspected previously leaking thrusters.  Restored telescope door motion and deployed meteroid sampling exp" ]
+, [ 42, "B30174AF-91FE-421D-9263-83C7BC18E593", 42, 1406814231, "879596", 1406814231, "879596", "{\n}", "41", "USA", "Owen Garriott          Jack Lousma", "Skylab 3", "1973-08-24T00:00:00", "4:31", "Installed cable for backup gyro package.  Exchanged telescope camera film.  Deployed parasol samples" ]
+, [ 43, "74B1C534-D5CB-4E4C-885A-047BB7809125", 43, 1406814231, "879596", 1406814231, "879596", "{\n}", "42", "USA", "Owen Garriott         Allen Bean", "Skylab 3", "1973-09-22T00:00:00", "2:41", "Recovered telescope camera film, material samples and meteroid exp.  Cleaned camera lens" ]
+, [ 44, "F789D49E-319B-462D-9F83-922302F88D02", 44, 1406814231, "879596", 1406814231, "879596", "{\n}", "43", "USA", "Ed Gibson                   Bill Pogue", "Skylab 4", "1973-11-22T00:00:00", "6:33", "Photographed earth atmosphere.  Deployed spacecraft contamination measurement exp.  Reloaded telescope camera film.  Repaired microwave sensor antenna.  Pinned open telescope door.  Retrieved meteroid sample collector" ]
+, [ 45, "9CE3F160-7091-4473-8A38-560BE9B82EB5", 45, 1406814231, "879596", 1406814231, "879596", "{\n}", "44", "USA", "Gerald Carr                Bill Pogue", "Skylab 4", "1973-12-25T00:00:00", "7:01", "Photographed comet Kohoutek, reloaded telescope camera film, pinned open failed solar UV exp door.  Installed solar UV/X-Ray camera.  Repositioned jammed filter wheel in x-ray telescope" ]
+, [ 46, "742C1DDA-24B2-4446-8814-DCA241F9175E", 46, 1406814231, "879596", 1406814231, "879596", "{\n}", "45", "USA", "Gerald Carr                 Ed Gibson ", "Skylab 4", "1973-12-29T00:00:00", "3:29", "Photographed comet Kohoutek.  Retrieved sample of meteroid protection cover" ]
+, [ 47, "0AA00D6C-99D2-4A32-8612-0248D9D2D754", 47, 1406814231, "879596", 1406814231, "879596", "{\n}", "46", "USA", "Gerald Carr                 Ed Gibson ", "Skylab 4", "1974-02-03T00:00:00", "5:19", "Retrieved telescope camera film and installed meteroid collection experiment. Gibson reported coolant leakage from EVA life support system" ]
+, [ 48, "992CA777-DF0D-412D-9D19-4350DB123364", 48, 1406814231, "879596", 1406814231, "879596", "{\n}", null, "USA", "Bill Lenoir                 Joe Allen", "STS-5", "1982-11-14T00:00:00", "0:00", "Suit fan and O2 regulator failures prevented first Shuttle EVA.  No spare suit onboard" ]
+, [ 49, "E9FAFCC4-F863-4BE0-B719-0060251CBED5", 49, 1406814231, "879596", 1406814231, "879596", "{\n}", "47", "USA", "Story Musgrave       Don Peterson", "STS-6", "1983-04-07T00:00:00", "4:17", "First shuttle EVA.  New suits tested.  Basic orbiter/payload contingency tasks practiced.  Winch failed to retract" ]
+, [ 50, "5D782CA9-8276-4706-8F6A-FDE4D5AC4F8B", 50, 1406814231, "879596", 1406814231, "879596", "{\n}", "48", "USA", "Bob Stewart        Bruce McCandless", "STS-41B", "1984-02-07T00:00:00", "5:56", "Practiced Solar Max repair. Used MMU and MFR for first time.  PLB camera D changed out.  Slidewire bracket pip-pin pulled free by crew tether inadvertantly.  SPAS switch adjusted" ]
+, [ 51, "32E7B629-55B4-4DC5-AA5B-B17BF4383238", 51, 1406814231, "879596", 1406814231, "879596", "{\n}", "49", "USA", "Bob Stewart        Bruce McCandless", "STS-41B", "1984-02-09T00:00:00", "6:09", "Practiced MMU docking with fixed target.  Simple satellite refueling demo (freon).  Foot restraint lost overboard and recovered.  " ]
+, [ 52, "7965410E-4EDB-45F4-A549-B40AA8417F80", 52, 1406814231, "879596", 1406814231, "879596", "{\n}", "50", "USA", "James Van Hoften      George Nelson", "STS-41C", "1984-04-08T00:00:00", "2:53", "Failed to dock MMU to Solar Max satellite due to thermal grommet interference.  Manual grasp of solar array increased satellite instability " ]
+, [ 53, "219BF0E6-A5EB-4D09-9F0B-0094E5EC3F68", 53, 1406814231, "879596", 1406814231, "879596", "{\n}", "51", "USA", "James Van Hoften      George Nelson", "STS-41C", "1984-04-11T00:00:00", "7:05", "After ground cmd stabilization and RMS grapple, Solar Max repaired (attitude control and main elec boxes replaced, MEB not designed for replacement).  Small trash bag lost due to inadvertment release of MWS lock.  MMU engineering test performed" ]
+, [ 54, "2B575240-EDED-46A3-9D42-2517C5CF4213", 54, 1406814231, "879596", 1406814231, "879596", "{\n}", "52", "USA", "Dave Leestma          Kathy Sullivan", "STS-41G", "1984-10-11T00:00:00", "3:29", "First U.S. female EVA.  Demonstrated hydrazine refueling.  Aligned gimbals of Ku antenna  for IV commanded locking.  SIRB latching assisted.  Recovered lost airlock valve cap.  " ]
+, [ 55, "F9115AC5-DD88-41C5-B11C-8CBD14425BCF", 55, 1406814231, "879596", 1406814231, "879596", "{\n}", "53", "USA", "Joe Allen                    Dale Gardner", "STS-51A", "1984-11-12T00:00:00", "6:02", "PALAPA retrieval.  MMU used.  Had to use manual satellite restraint when structure with RMS grapple fixture failed to attach due to unexpected structure on satellite." ]
+, [ 56, "49F82881-0186-4904-BF92-8EDB5A7D5EB8", 56, 1406814231, "879596", 1406814231, "879596", "{\n}", "54", "USA", "Joe Allen                    Dale Gardner", "STS-51A", "1984-11-14T00:00:00", "5:48", "WESTAR retrieval.  MMU used.  Recovered untethered torque wrench (twice) and draeger tube (once).  Lost power tool" ]
+, [ 57, "261AA040-96DC-4619-B85C-F3DBC3FD6467", 57, 1406814231, "879596", 1406814231, "879596", "{\n}", "55", "USA", "Dave Griggs           Jeff Hoffman", "STS-51D", "1985-04-16T00:00:00", "3:10", "\"Flyswatter\" attached to end of RMS to attempt to activate LEASAT/SYNCOM IV sequence start lever.  Lever tripped but satellite was actually failed elsewhere.  Griggs inadvertently went out over wing" ]
+, [ 58, "965ACDF5-C83A-4625-8FB5-37A6CD998719", 58, 1406814231, "879596", 1406814231, "879596", "{\n}", "56", "USA", "James Van Hoften   Bill Fisher", "STS-51I", "1985-08-31T00:00:00", "7:09", "LEASAT/SYNCOM IV repairs started.  RMS failure to single joint mode forced second EVA.  Lost power tool overboard." ]
+, [ 59, "6B1EC73B-5C27-4AAD-8186-F76A0E4AC3DE", 59, 1406814231, "879596", 1406814231, "879596", "{\n}", "57", "USA", "James Van Hoften   Bill Fisher", "STS-51I", "1985-09-01T00:00:00", "4:29", "LEASAT/SYNCOM IV repairs completed.  Accidently reused depleted LiOH cans from 1st EVA." ]
+, [ 60, "08653977-CF87-44B4-8ACE-30A64654094F", 60, 1406814231, "879596", 1406814231, "879596", "{\n}", "58", "USA", "Jerry Ross             Woody Spring", "STS-61B", "1985-11-29T00:00:00", "5:38", "EASE/ACCESS truss assembly and stowage demos.  Deployed radar target" ]
+, [ 61, "702887CE-CCED-448A-84C6-DFC0E6EDC302", 61, 1406814231, "879596", 1406814231, "879596", "{\n}", "59", "USA", "Jerry Ross             Woody Spring", "STS-61B", "1985-12-01T00:00:00", "6:48", "EASE/ACCESS truss assembly, stowage and handling demos.  Simulated cable routing with rope reel and heat pipe handling with free EASE beams." ]
+, [ 62, "950327A8-8F21-4D09-871A-1F6674DC5C45", 62, 1406814231, "879596", 1406814231, "879596", "{\n}", null, "USA", "Bruce McCandless   Kathy Sullivan", "STS-31", "1990-04-24T00:00:00", "0:00", "In suits in airlock at 5psi awaiting GO to manually deploy stuck solar array.  Waived off when auto sys worked" ]
+, [ 63, "14C3291A-EF51-49E1-84D3-0FCE50E2E5E9", 63, 1406814231, "879596", 1406814231, "879596", "{\n}", "60", "USA", "Jerry Ross                  Jay Apt", "STS-37", "1991-04-07T00:00:00", "4:26", "Freed stuck GRO high gain antenna. Started Space Station demos (recorded crew loads, variable tension rope translation, dogbone handrails)." ]
+, [ 64, "166A8F7E-64EB-4F33-A7AF-5F75D1B81C83", 64, 1406814231, "879596", 1406814231, "879596", "{\n}", "61", "USA", "Jerry Ross                  Jay Apt", "STS-37", "1991-04-08T00:00:00", "6:00", "More Space Station demos (evals of 3 different carts and a tether shuttle, RMS translation rates and loads).  Time short for all RMS/EVA tests" ]
+, [ 65, "19D3FDBF-8B03-4613-BF50-D94788813967", 65, 1406814231, "879596", 1406814231, "879596", "{\n}", "62", "USA", "Pierre Thuot          Rick Hieb", "STS-49", "1992-05-10T00:00:00", "3:43", "Capture bar/grapple fixture attach failed 3 times" ]
+, [ 66, "16FCC7D0-D44E-4B52-9A5A-D32D177A7DC2", 66, 1406814231, "879596", 1406814231, "879596", "{\n}", "63", "USA", "Pierre Thuot          Rick Hieb", "STS-49", "1992-05-11T00:00:00", "5:30", "Though more careful to induce less loads, capture bar/grapple fixture attach failed 5 times" ]
+, [ 67, "94645AE7-9984-404E-8B0A-D5F8EBDE03DB", 67, 1406814231, "879596", 1406814231, "879596", "{\n}", "64", "USA", "Thuot/Hieb/Akers", "STS-49", "1992-05-13T00:00:00", "8:29", "3 man EVA.  Manually capture/repair INTELSAT" ]
+, [ 68, "1CE92226-DB01-4883-8E4E-D8CD9E2FBCD3", 68, 1406814231, "879596", 1406814231, "879596", "{\n}", "65", "USA", "Tom Akers          Kathy Thornton", "STS-49", "1992-05-14T00:00:00", "7:44", "ASEM Space Station assembly demos (module to truss mating, updated HHMU self rescue device).  Aligned gimbals of Ku antenna for IV commanded locking " ]
+, [ 69, "34A194DC-0B06-43A8-837D-9CEEC2F1C82D", 69, 1406814231, "879596", 1406814231, "879596", "{\n}", "66", "USA", "Greg Harbaugh      Mario Runco", "STS-54", "1993-01-17T00:00:00", "4:28", "Evaluate training vs. flight differences (DTO 1210).   Encumbered translations.  Foot restraint ingress.  Inspected/avoided misfired IUS tilt table superzip.  Almost lost untethered IUS tilt table equipment." ]
+, [ 70, "7E13B443-DA80-45EC-8F6B-08AB2B85B5F3", 70, 1406814231, "879596", 1406814231, "879596", "{\n}", "67", "USA", "David Low                Jeff Wisoff", "STS-57", "1993-06-25T00:00:00", "5:50", "First egress/ingress involving tunnel adapter.  Pushed on 2 EURECA antennas to aid stowage.  Evaluated training vs. flight differences (DTO 1210, large mass handling from RMS, high torque bolts, ORU fine align from RMS with active orbiter jets)  " ]
+, [ 71, "8A0E1F55-B0EB-40B5-BA45-778407C0CECE", 71, 1406814231, "879596", 1406814231, "879596", "{\n}", "68", "USA", "Carl Walz                 Jim Newman ", "STS-51 ", "1993-09-16T00:00:00", "7:05", "Evaluate training vs. flight differences (DTO 1210).  Evaluated HST servicing mission tools.  Tool box door jammed temporarily preventing closure" ]
+, [ 72, "F89B90A9-EF93-4329-BCBE-707E366F770B", 72, 1406814231, "879596", 1406814231, "879596", "{\n}", "69", "USA", "Story Musgrave      Jeff Hoffman ", "STS-61 /    HST-1", "1993-12-04T00:00:00", "7:54", "HST servicing (RSU, ECU, solar array prep).  RSU bay doors difficult to close." ]
+, [ 73, "76ED6096-721A-444E-95FB-BFA1551A826A", 73, 1406814231, "879596", 1406814231, "879596", "{\n}", "70", "USA", "Tom Akers          Kathy Thornton", "STS-61 /    HST-1", "1993-12-05T00:00:00", "6:36", "HST servicing (2 solar arrays).   One jettisoned due to pre-EVA damage" ]
+, [ 74, "BF2BE724-092E-4AA3-9E35-C63ADA51435E", 74, 1406814231, "879596", 1406814231, "879596", "{\n}", "71", "USA", "Story Musgrave      Jeff Hoffman ", "STS-61 /    HST-1", "1993-12-06T00:00:00", "6:47", "HST servicing (WFPC 1/2)" ]
+, [ 75, "F703EAEC-6967-4D71-B931-F7AF3C7204D0", 75, 1406814231, "879596", 1406814231, "879596", "{\n}", "72", "USA", "Tom Akers          Kathy Thornton", "STS-61 /    HST-1", "1993-12-07T00:00:00", "6:50", "HST servicing (HSP/COSTAR)" ]
+, [ 76, "03030F9B-B6D1-4E04-A372-C1E2BCE644D3", 76, 1406814231, "879596", 1406814231, "879596", "{\n}", "73", "USA", "Story Musgrave      Jeff Hoffman ", "STS-61 /    HST-1", "1993-12-08T00:00:00", "7:21", "HST servicing (SADE, magnetometers, GHRS)" ]
+, [ 77, "812365F5-F19C-46B5-9D08-2C6255041B42", 77, 1406814231, "879596", 1406814231, "879596", "{\n}", "74", "USA", "Mark Lee                Carl Meade ", "STS-64 ", "1994-09-16T00:00:00", "6:51", "SAFER self rescue demo, test new tools" ]
+, [ 78, "A3AF4168-0A4B-433F-A1E6-E269CA1AB7C2", 78, 1406814231, "879596", 1406814231, "879596", "{\n}", "75", "USA", "Mike Foale        Bernard Harris", "STS-63", "1995-02-09T00:00:00", "4:39", "Cold environment eval, large object handling eval using SPARTAN (EDFT-01)" ]
+, [ 79, "1E654E4B-E842-484A-9A82-4C7C1B37D8DF", 79, 1406814231, "879596", 1406814231, "879596", "{\n}", "76", "USA", "Jim Voss                  Mike Gernhardt", "STS-69", "1995-09-16T00:00:00", "6:46", "ISS task board with worksite interface samples.  Elec cuff checklist demo.  Thermal cube experiment" ]
+, [ 80, "69FE2DF4-B792-443B-A831-CEE7CC0733E3", 80, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Jan. 15, 1996\"\n  }\n}", "77", "USA", "Leroy Chiao               Dan Barry", "STS-72", null, "6:09", "ISS umbilical tests with robotically transported portable work platform.  Elec cuff checklist demo.  " ]
+, [ 81, "A2384AA7-5E60-4F65-83EB-EDCE1C753D50", 81, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Jan. 17, 1996\"\n  }\n}", "78", "USA", "Leroy Chiao          Winston Scott", null, null, "6:53", "ISS thermal comfort test, cable tray test, APFR load test.  Thermal cube experiment" ]
+, [ 82, "36912DD5-4FC1-41B3-B108-002B56387AB2", 82, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Mar. 27, 1996\"\n  }\n}", "79", "USA", "Linda Godwin           Rich Clifford", "STS-76", null, "6:03", "Deploy 4 MEEP materials experiments on Mir docking module.  Test US/Russian tether and PFR.  Retrieve camera from docking module exterior" ]
+, [ 83, "39C93C49-C7F5-407C-8171-127010B6B583", 83, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Nov. 29, 1996\"\n  }\n}", null, "USA", "Tom Jones       Tammy Jernigan", "STS-80", null, "0:00", "Loose screw jammed in hatch latch actuator prevented airlock egress" ]
+, [ 84, "268FC418-6070-4E88-8AAB-89FBDA0366B3", 84, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb. 13, 1997\"\n  }\n}", "80", "USA", "Mark Lee               Steve Smith", "STS-82 /      HST-2", null, "6:42", "HST servicing (first STS external airlock sortie, depress gas flow disturbed HST solar arrays, remove/install GHRS/STIS, FOS/NICMOS )" ]
+, [ 85, "A0B90C6F-D3BF-42B7-B943-F3F7641B6CAA", 85, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb. 14, 1997\"\n  }\n}", "81", "USA", "Greg Harbaugh      Joe Tanner", "STS-82 /      HST-2", null, "7:27", "HST servicing (remove/install FGS-1/FGS-1R, replace ESTR-2, install OCE enhancement kit)" ]
+, [ 86, "44CC9AD9-B55B-46E1-A8EA-A352D4C4DE54", 86, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb. 15, 1997\"\n  }\n}", "82", "USA", "Mark Lee               Steve Smith", "STS-82 /      HST-2", null, "7:11", "HST servicing (remove/install DUI-2/DIU-2R, ESTR-1/SSR, replace RWA)" ]
+, [ 87, "918CDDE3-1F00-4AAD-ACC1-5B5D3DFB5A61", 87, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb. 16, 1997\"\n  }\n}", "83", "USA", "Greg Harbaugh      Joe Tanner", "STS-82 /      HST-2", null, "6:34", "HST servicing (replace SADE, install MSS cover, retrieve degraded MLI sample, install MLI patches)" ]
+, [ 88, "26E70797-C5D1-4232-9E62-6F9B1AD82875", 88, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb. 17, 1997\"\n  }\n}", "84", "USA", "Mark Lee               Steve Smith", "STS-82 /      HST-2", null, "5:17", "HST servicing (unscheduled EVA to add protective covers over degrading aluminized insulation)" ]
+, [ 89, "E8936C58-3330-4CB4-80DF-16A4B34F1688", 89, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Oct. 1, 1997\"\n  }\n}", "85", "USA", "Scott Parazynski       Vladimir Titov", "STS-86", null, "5:01", "Retrieve 4 MEEP materials experiments on Mir docking module.  Test US/Russian tethers and PFR.  US safety tether would not retract.  Deploy Spektr solar array base sealing cap on docking module. " ]
+, [ 90, "664FB22D-265F-41E9-9420-CAF783CFD0F4", 90, 1406814231, "879596", 1406814231, "879596", "{\n}", "86", "USA", "Winston Scott      Takao Doi", "STS-87", "1997-11-24T00:00:00", "7:43", "Manual capture and berthing (with RMS aid) of Spartan.  Test of ISS crane with large battery/carrier.  Test of ISS power tool and torque multiplier" ]
+, [ 91, "67E0504B-DFB7-4F3C-884B-DAC5A23E3F70", 91, 1406814231, "879596", 1406814231, "879596", "{\n}", "87", "USA", "Winston Scott      Takao Doi", "STS-87", "1997-12-03T00:00:00", "4:59", "Test of ISS crane with small ORUÂs.  Deploy and capture of SPRINT/AERCAM robotic freeflyer" ]
+, [ 92, "8413CF57-C1BA-4B85-9AC7-ACBE66E703E9", 92, 1406814231, "879596", 1406814231, "879596", "{\n}", "88", "USA", "Jerry Ross              Jim Newman", "STS-88/2A", "1998-12-07T00:00:00", "7:21", "Connect PMA1-FGB power cables and PMA1/2-Node1 APAS cables" ]
+, [ 93, "FAF293BA-86D5-40A9-8412-2599742A43D9", 93, 1406814231, "879596", 1406814231, "879596", "{\n}", "89", "USA", "Jerry Ross              Jim Newman", "STS-88/2A", "1998-12-09T00:00:00", "7:02", "Install 2 early comm antennas and cables" ]
+, [ 94, "755FE6AB-2B05-4149-BCEF-7777706E1B11", 94, 1406814231, "879596", 1406814231, "879596", "{\n}", "90", "USA", "Jerry Ross              Jim Newman", "STS-88/2A", "1998-12-12T00:00:00", "6:59", "Deploy 2 US foot restraints and a tool stanchion.  Aid release of 2 FGB Toru antennas, install FGB aft handrail and reinstall FGB Komplast panel.  SAFER self rescue demo (DTO 689)" ]
+, [ 95, "AF1BFC3E-2FA1-4893-BFDA-1F7B7BBC0D31", 95, 1406814231, "879596", 1406814231, "879596", "{\n}", "91", "USA", "Tammy Jernigan     Dan Barry", "STS-96/2A.1", "1999-05-29T00:00:00", "7:55", "Transfer and externally install US and Russian cargo cranes, 2 common foot restraints, 3 EVA tool bags.  Lost retractable equip tether" ]
+, [ 96, "CC7E91F8-B1B3-40AC-BFFB-846F72DCCA9E", 96, 1406814231, "879596", 1406814231, "879596", "{\n}", "92", "USA", "Steve Smith           John Grunsfeld", "STS-103/       HST-3A", "1999-12-22T00:00:00", "8:15", "HST servicing (RSU gyros and volt/temp improvement kits for batteries)" ]
+, [ 97, "410B58C0-3C27-43B9-9A6B-0AF93C8BA069", 97, 1406814231, "879596", 1406814231, "879596", "{\n}", "93", "USA", "Mike Foale         Claude Nicollier", "STS-103/       HST-3A", "1999-12-23T00:00:00", "8:10", "HST servicing (486 computer and fine guidance sensor)" ]
+, [ 98, "56A40B1D-CC3B-41E3-A5FA-8C1FF3CD7C1F", 98, 1406814231, "879596", 1406814231, "879596", "{\n}", "94", "USA", "Steve Smith           John Grunsfeld", "STS-103/       HST-3A", "1999-12-24T00:00:00", "8:08", "HST servicing (transmitter and solid state recorder)" ]
+, [ 99, "0EFA29DD-AE31-4AFE-BA0C-D319CED37123", 99, 1406814231, "879596", 1406814231, "879596", "{\n}", "95", "USA", "Jeff Williams            Jim Voss", "STS-101/2A.2a", "2000-05-21T00:00:00", "6:44", "Resecure and reorient U.S. crane.  Assemble complete Russian crane and transfer from PMA 2 to PMA 1.  Replace stbd ECOM antenna.  Install 8 handrails on Node 1 (APAS cable blocked one nominal site).  Cables cleared from Node 1 SVS targets. Lost PAD" ]
+, [ 100, "2FBF9EE6-4CFE-4D07-A9F6-1B54682592AF", 100, 1406814231, "879596", 1406814231, "879596", "{\n}", "96", "USA", "Edward Lu              Yuri Malenchecko", "STS-106/2A.2b", "2000-09-11T00:00:00", "6:14", "SM docking target deployment completed manually.  Attitude control magnetometer and nearby translation aid gap spanner installed.  SM-FGB cables routed, secured and connected (EPS, TV-C&DH and Orlan comm).   Photos captured of partially deployed SM solar array section to aid future resolution.  " ]
+, [ 101, "368EFCBE-A063-4914-866C-55ABCEEECBB6", 101, 1406814231, "879596", 1406814231, "879596", "{\n}", "97", "USA", "Leroy Chiao               Bill McArthur", "STS-92/3A", "2000-10-15T00:00:00", "6:28", "Z1 SASA antenna deployed.  DDCU thermal shrouds removed/stowed. One tool box relocated from PLB to Z1.  Z1-Node1 cables mated.  SGANT antenna dish and boom deployed." ]
+, [ 102, "BC0BA507-A201-4F25-A05A-AF620C6497BC", 102, 1406814231, "879596", 1406814231, "879596", "{\n}", "98", "USA", "Jeff Wisoff                Mike Lopez-Alegria", "STS-92/3A", "2000-10-16T00:00:00", "7:07", "PMA3 released from PLB.  PMA3-Node1 cables mated.  " ]
+, [ 103, "F1A7BCC4-0230-465A-ACE0-C3B89EF5518F", 103, 1406814231, "879596", 1406814231, "879596", "{\n}", "99", "USA", "Leroy Chiao               Bill McArthur", "STS-92/3A", "2000-10-17T00:00:00", "6:48", "Z1 DDCU-HP (2) transferred from PLB to Z1.  Z1 keel relocated.  Z1-P6 launch locks released.  PMA2-Z1 cables reconfigured.  2nd tool box relocated from PLB to Z1.  Airlock depress valve cover lost" ]
+, [ 104, "6CC49A8E-DB32-4F4D-96FF-4BCA7B6A220B", 104, 1406814231, "879596", 1406814231, "879596", "{\n}", "100", "USA", "Jeff Wisoff              Mike Lopez-Alegria", "STS-92/3A", "2000-10-18T00:00:00", "6:56", "Z1 FRGF stowed and utility tray deployed.  Tethered demo of self rescue SAFER hardware (DTO 689)." ]
+, [ 105, "FCC39984-E0B7-457F-8D1C-CE8E05903C73", 105, 1406814231, "879596", 1406814231, "879596", "{\n}", "101", "USA", "Joe Tanner         Carlos Noriega", "STS-97/4A", "2000-12-03T00:00:00", "7:33", "Assisted P6-Z1 mechanical mating.  Mated 9 Z1-P6 electrical power cables. Released 2 sets of solar array blanket boxes and gimbal linkages.  Used tensioning devices to secure 3 of 4 gimbal linkage bolts.  Released PV radiator launch restraints and thermal sensors." ]
+, [ 106, "A17D60AD-2F2C-42F0-8A1A-C74EDD50D89C", 106, 1406814231, "879596", 1406814231, "879596", "{\n}", "102", "USA", "Joe Tanner         Carlos Noriega", "STS-97/4A", "2000-12-05T00:00:00", "6:37", "Removed/stowed Z1's ACBSP and DDCU-HP thermal shrouds.  Relocated SASA antenna from Z1 to IEA.  Inspected tensioning mechanism of incompletely deployed solar array.  Rerouted Z1 patch panel cables.  Mated 4 Z1-P6 ammonia lines.  Disconnected PMA2 cables from Node1.  Stowed EPS cable bag on P6.  Released P6 aft radiator launch restraints and thermal sensors.  Installed FGB-PMA1 jumper cables.  Stowed Z1 WIS antenna #1." ]
+, [ 107, "86B81228-100C-42E9-9F03-F41BCA154A30", 107, 1406814231, "879596", 1406814231, "879596", "{\n}", "103", "USA", "Joe Tanner         Carlos Noriega", "STS-97/4A", "2000-12-07T00:00:00", "5:10", "Reseated solar array tensioning cable to allow full deployment.  Installed FPP antennas on IEA and Node1. Installed Node1 centerline camera cable.  Released P6 stbd radiator launch restraints and thermal sensors.  Stowed P6 and Z1 WIS antennas." ]
+, [ 108, "5F50DA5A-F370-42A0-A9E3-B00E803F9709", 108, 1406814231, "879596", 1406814231, "879596", "{\n}", "104", "USA", "Tom Jones             Bob Curbeam", "STS-98/5A", "2001-02-10T00:00:00", "7:34", "Disconnect lab-Shuttle LTA heater cable.  Remove and stow lab module CBM cover.  Connect 4 ammonia lines and elec cables btw lab and Z1.   M3 QD leaked NH3 on crew to force bakeout cleanup" ]
+, [ 109, "E26F205B-BCB2-40DE-A47D-C6F0E403D021", 109, 1406814231, "879596", 1406814231, "879596", "{\n}", "105", "USA", "Tom Jones             Bob Curbeam", "STS-98/5A", "2001-02-12T00:00:00", "6:50", "Connect lab-PMA2 APAS cables.  Install lab vent valve, trunnion pin covers, handrails, PDGF, VSC and window cover.  Wrong bolt heads on vent cover" ]
+, [ 110, "37996232-CBB3-4726-959B-B6CFD4C5767D", 110, 1406814231, "879596", 1406814231, "879596", "{\n}", "106", "USA", "Tom Jones             Bob Curbeam", "STS-98/5A", "2001-02-14T00:00:00", "5:25", "Spare SASA antenna installed on Z1.  Demo of incapacitated crew rescue." ]
+, [ 111, "89454A67-0B80-4F50-A67E-5B5EA18517B1", 111, 1406814231, "879596", 1406814231, "879596", "{\n}", "107", "USA", "Jim Voss                 Susan Helms", "STS-102/5A.1", "2001-03-10T00:00:00", "8:56", "Disconnected PMA3 from Node1 electrical cables.  Installed cradle on lab in prep for SSRMS and S0 truss.  Installed rigid umbilical.  Last 2 hours spent in airlock waiting on RMS install of MPLM.  PAD lost" ]
+, [ 112, "61FDF31D-CAC8-4C9F-9F10-F63EFC1EFC2C", 112, 1406814231, "879596", 1406814231, "879596", "{\n}", "108", "USA", "Paul Richards       Andy Thomas", "STS-102/5A.1", "2001-03-12T00:00:00", "6:21", "Removed and stowed port early comm antenna.  Installed the external stowage platform on a lab trunnion.  Transfered a pump flow control system ORU ready for future replacement.  Inspected P6 solar array 4 bar linkage, FPP, NPV and connector J612" ]
+, [ 113, "21D1FA32-33B6-4768-895E-C8D7B976638A", 113, 1406814231, "879596", 1406814231, "879596", "{\n}", "109", "USA", "Scott Parazynski       Chris Hadfield", "STS-100/6A", "2001-04-22T00:00:00", "7:10", "Transfered and installed UHF antenna on lab.  Released SSRMS launch restraints, unfold booms and secure joints.  Connected cables from lab to SSRMS pallet for initial robot arm ops" ]
+, [ 114, "4578FC8F-AEDC-4440-9182-2EC68C7A569E", 114, 1406814231, "879596", 1406814231, "879596", "{\n}", "110", "USA", "Scott Parazynski       Chris Hadfield", "STS-100/6A", "2001-04-24T00:00:00", "7:40", "Connected 8 cables for lab based SSRMS ops.  Demated cables btw lab and SSRMS pallet.  Removed and stowed stbd early comm antenna.  1.5 hours spent in fruitless search for early comm conn parts under CBM cover.  Transfered spare DCSU to lab stowage pallet" ]
+, [ 115, "11BB2A39-74F2-418B-9074-B4505A11E2F2", 115, 1406814231, "879596", 1406814231, "879596", "{\n}", "111", "USA", "Mike Gernhardt          Jim Reilly", "STS-104/7A", "2001-07-14T00:00:00", "5:59", "Shuttle based EVA.  Airlock-Node1 CBM cover removed.  LTA heater cable demated.  Waited on umbilicals for airlock transfer and install by SSRMS. Connected airlock heater cable. " ]
+, [ 116, "02679A71-E4E8-44A9-8440-3176F34015F6", 116, 1406814231, "879596", 1406814231, "879596", "{\n}", "112", "USA", "Mike Gernhardt          Jim Reilly", "STS-104/7A", "2001-07-17T00:00:00", "6:29", "Shuttle based EVA.  3 of 4 high pressure gas tanks installed on airlock" ]
+, [ 117, "AAC59983-EEED-49D7-822D-9A38913C2776", 117, 1406814231, "879596", 1406814231, "879596", "{\n}", "113", "USA", "Mike Gernhardt          Jim Reilly", "STS-104/7A", "2001-07-20T00:00:00", "4:02", "First EVA based from ISS joint airlock.  4th high pressure gas tank installed.  Installed thermal cover over airlock FRGF and several airlock handrails.  Mated FGB-airlock cable for Russian suit comm.  Inspected BMRRM and FPP on top of P6." ]
+, [ 118, "57A937E2-FE06-4F46-98B6-9F27D45EADD2", 118, 1406814231, "879596", 1406814231, "879596", "{\n}", "114", "USA", "Dan Barry             Patrick Forrester", "STS-105/7A.1", "2001-08-16T00:00:00", "6:16", "Shuttle based EVA.  Installed early ammonia servicer on P6 truss and mated its cables.  Attached 2 MISSE materials experiments to airlock exterior. " ]
+, [ 119, "D887188F-7270-499C-9DDD-F0EA05EA791E", 119, 1406814231, "879596", 1406814231, "879596", "{\n}", "115", "USA", "Dan Barry             Patrick Forrester", "STS-105/7A.1", "2001-08-18T00:00:00", "5:29", "Shuttle based EVA.  Installed 10 handrails on Lab.  Attached LTA heater cables on lab for later use with S0." ]
+, [ 120, "52BE862D-C757-4CD9-863E-08303610AC90", 120, 1406814231, "879596", 1406814231, "879596", "{\n}", "116", "USA", "Linda Godwin         Dan Tani", "STS-108/UF1", "2001-12-10T00:00:00", "4:12", "Shuttle based EVA.  Installed 2 beta gimbal assy (BGA) thermal blankets.  Retrieved SASA shroud.  Inspected DCSU.  Failed attempt to lock 4th leg of BGA four bar assembly." ]
+, [ 121, "FB4ECFBB-7B94-4722-8D7B-8051692FBB3B", 121, 1406814231, "879596", 1406814231, "879596", "{\n}", "117", "USA", "Carl Walz                 Dan Bursch", "Incr-4", "2002-02-20T00:00:00", "5:49", "First use of the Quest airlock without Shuttle docked.  8A preps included tool retrieval/relocation, DDCU checkout, Z1 Shroud removal, Grapple Fixture Adapter removal, securing HPGT latches, photos of MISSE & MMOD hits.  " ]
+, [ 122, "F438E456-254F-4712-919C-1F737D06E05D", 122, 1406814231, "879596", 1406814231, "879596", "{\n}", "118", "USA", "John Grunsfeld      Rick Linnehan", "STS-109/          HST-3B", "2002-03-04T00:00:00", "7:01", "HST servicing.  Replaced 1 of 2 solar arrays and its diode box. " ]
+, [ 123, "D6F3C534-7A9D-493A-8658-1D97F44EF109", 123, 1406814231, "879596", 1406814231, "879596", "{\n}", "119", "USA", "Jim Newman             Mike Massimino", "STS-109/          HST-3B", "2002-03-05T00:00:00", "7:16", "HST servicing.  Replaced 2nd solar array and its diode box.   Replaced gyro reaction wheel assy #1." ]
+, [ 124, "495E08C6-4F0A-451A-88E0-97EA64978DA8", 124, 1406814231, "879596", 1406814231, "879596", "{\n}", "120", "USA", "John Grunsfeld      Rick Linnehan", "STS-109/          HST-3B", "2002-03-06T00:00:00", "6:48", "HST servicing.  Replaced power control unit (PCU).  HST handrails inspected." ]
+, [ 125, "27E71759-A307-4C84-B651-E4C44D777E87", 125, 1406814231, "879596", 1406814231, "879596", "{\n}", "121", "USA", "Jim Newman             Mike Massimino", "STS-109/          HST-3B", "2002-03-07T00:00:00", "7:30", "HST servicing.  Replaced faint object camera (FOC) with advanced camera.  Installed electronics support module in aft shroud.  Completed PCU cleanup." ]
+, [ 126, "D4A1ED0F-6C84-483E-B749-9EA01658C131", 126, 1406814231, "879596", 1406814231, "879596", "{\n}", "122", "USA", "John Grunsfeld      Rick Linnehan", "STS-109/          HST-3B", "2002-03-08T00:00:00", "7:20", "HST servicing.  Installed NICMOS cryo cooler and radiator.   Installed new outer thermal blankets.  " ]
+, [ 127, "1776E95A-D874-4075-B0A5-402C0E4F2F25", 127, 1406814231, "879596", 1406814231, "879596", "{\n}", "123", "USA", "Steve Smith            Rex Walheim", "STS-110/8A", "2002-04-11T00:00:00", "7:48", "ISS based EVA.  Lab-SO cables connected.  Aft tray req'd 2 crew to deploy.   Lab-S0 fwd struts installed.  " ]
+, [ 128, "93056C5D-1A78-4E6E-98F7-2D4C9113DC01", 128, 1406814231, "879596", 1406814231, "879596", "{\n}", "124", "USA", "Jerry Ross               Lee Morin ", "STS-110/8A", "2002-04-13T00:00:00", "7:30", "ISS based EVA.  Lab-SO cables connected.  Lab-S0 aft struts installed.  " ]
+, [ 129, "B3E969B9-861F-4AE5-8852-E8A8FF064215", 129, 1406814231, "879596", 1406814231, "879596", "{\n}", "125", "USA", "Steve Smith            Rex Walheim", "STS-110/8A", "2002-04-14T00:00:00", "6:27", "ISS based EVA.  Released Lab-S0 adapter latch.  Connected MT cables.  Released MT launch restraints.  Removed MT radiator cover.  TUS 2 safing bolt problem.          " ]
+, [ 130, "755385D0-7A3C-4323-B8D7-EEF833868188", 130, 1406814231, "879596", 1406814231, "879596", "{\n}", "126", "USA", "Jerry Ross               Lee Morin ", "STS-110/8A", "2002-04-16T00:00:00", "6:37", "ISS based EVA.  Installed S0-airlock handrail spur.  Installed handrails and 2 CETA lights on S0.  Deployed CETA energy absorbers.  Removed/stowed S0 keel and drag link.  J400 reconfigured.  CID 7/8 installed.  Failed Trace Gas Analyzer DTO.  " ]
+, [ 131, "139AF5C4-1054-49DC-BA35-A48002BD0B64", 131, 1406814231, "879596", 1406814231, "879596", "{\n}", "127", "USA", "F. Chang-Diaz       Philippe Perrin ", "STS-111/UF2", "2002-06-09T00:00:00", "7:14", "ISS based EVA.  PDGF installed on P6.  SM MMOD panels stowed on PMA1.  MBS blankets removed as prep for MBS install onto MT.  " ]
+, [ 132, "98D1AAE1-4692-47D2-8A63-25AF6964D1D6", 132, 1406814231, "879596", 1406814231, "879596", "{\n}", "128", "USA", "F. Chang-Diaz       Philippe Perrin ", "STS-111/UF2", "2002-06-11T00:00:00", "5:00", "ISS based EVA.  MT-MBS cables connected and MT-MBS bolts mated.  POA deployed.  Zenith TUS safing bolt.  MBS camera relocated.  " ]
+, [ 133, "33048DC2-68B4-471C-8C84-91805CDB272B", 133, 1406814231, "879596", 1406814231, "879596", "{\n}", "129", "USA", "F. Chang-Diaz       Philippe Perrin ", "STS-111/UF2", "2002-06-13T00:00:00", "7:16", "ISS based EVA.  SSRMS wrist joint replaced.  Failed joint stowed on Shuttle. " ]
+, [ 134, "8FF11D99-0C9F-4991-A40F-9CE1B4A347D1", 134, 1406814231, "879596", 1406814231, "879596", "{\n}", "130", "USA", "Dave Wolf            Piers Sellers", "STS-112/9A", "2002-10-10T00:00:00", "7:01", "ISS based EVA.  S1-S0 cables and fluid lines connected.  S-band antenna deployed.  S1 radiator restraints released.  CETA cart launch locks released.  S1 camera installed." ]
+, [ 135, "2BDF340F-4C41-4CD5-80D7-86D01CC42BF2", 135, 1406814231, "879596", 1406814231, "879596", "{\n}", "131", "USA", "Dave Wolf            Piers Sellers", "STS-112/9A", "2002-10-12T00:00:00", "6:04", "ISS based EVA.  Lab camera installed.  S1 radiator restraints released.  S1-S0 cables and fluid lines connected.   SPD installed at Z1-P6.  CETA cart launch locks released.  NH3 tank cables attached.  " ]
+, [ 136, "5B76D71D-4179-4499-89AD-C0617718B70B", 136, 1406814231, "879596", 1406814231, "879596", "{\n}", "132", "USA", "Dave Wolf            Piers Sellers", "STS-112/9A", "2002-10-14T00:00:00", "6:36", "ISS based EVA.  MT IUA replaced.  S0-S1 NH3 jumpers connected.  S1-S0 cables and fluid lines connected.   S1 drag link stowed.  SPD's installed on NH3 lines. " ]
+, [ 137, "8CA09406-79A1-4B05-8695-C806DA79EC8D", 137, 1406814231, "879596", 1406814231, "879596", "{\n}", "133", "USA", "Mike Lopez-Alegria    John Herrington", "STS-113/11A", "2002-11-26T00:00:00", "6:45", "ISS based EVA.  P1-S0 cables connected.  CETA cart launch locks released.  P1 drag link stowed.   Spool positioning devices (SPD) installed.  Wireless external transceiver assy (WETA) installed on Node 1 for EVA helmet video. " ]
+, [ 138, "C820215F-D36F-4F0B-8C99-A299E3E73F59", 138, 1406814231, "879596", 1406814231, "879596", "{\n}", "134", "USA", "Mike Lopez-Alegria    John Herrington", "STS-113/11A", "2002-11-28T00:00:00", "6:10", "ISS based EVA.  P1-S0 fluid lines connected.  P1 keels stowed.  Wireless external transceiver assy (WETA) installed on P1.  CETA cart relocated from P1 to S1. " ]
+, [ 139, "700C6193-EB98-419F-91EC-E4C7B15DBCF6", 139, 1406814231, "879596", 1406814231, "879596", "{\n}", "135", "USA", "Mike Lopez-Alegria    John Herrington", "STS-113/11A", "2002-11-30T00:00:00", "7:00", "ISS based EVA.  SPD's installed.  MBSU cables reconfigured.  NH3 tank lines attached.  UHF antenna deployed (MT ran into stowed UHF antenna resulting in early deploy).  SO DDCU cover installed." ]
+, [ 140, "D9D5BE1E-601C-413F-B415-05DDF8099E7E", 140, 1406814231, "879596", 1406814231, "879596", "{\n}", "136", "USA", "Ken Bowersox       Don Pettit", "Incr-6", "2003-01-15T00:00:00", "6:51", "ISS based EVA.  Removed debris from Node nadir CBM.  Released P1 truss radiator launch locks (10) to allow deploy.  Failed to install CETA light on S1 (jammed in launch bracket).  Measured the Early Ammonia Servicer (EAS) reservoir.  Retrieved tools from Z1 and airlock tool boxes for future.  Cut away thermal cover strap that delayed EVA by interferring with airlock hatch." ]
+, [ 141, "5A6EFDEC-F243-454C-BD43-0AA954BFC10F", 141, 1406814231, "879596", 1406814231, "879596", "{\n}", "137", "USA", "Ken Bowersox       Don Pettit", "Incr-6", "2003-04-08T00:00:00", "6:26", "ISS based EVA.  Reconfigured SO, S1 and P1 cables for future trusses.  Inspected P1 NTA.  Released S1 CETA light stanchion w/Russian hammer and installed one light.  Installed Lab HX spool positioning devices (SPDÂs).  Rerouted cables for redundant power to CMG #2.  Reinstalled S1 radiator beam valve module (RBVM) thermal cover.   Replaced MT RPCM 3A.  Retrieved NH3 tank cap.  Removed tools from Node bag.  Stowed APFR ingress aid on CETA 2 WIF 4." ]
+, [ 142, "D2692BCA-9202-43F7-BC30-12222A706DE0", 142, 1406814231, "879596", 1406814231, "879596", "{\n}", "138", "USA", "Soichi Noguchi       Steve Robinson", "STS-114/LF1", "2005-07-30T00:00:00", "6:50", "Shuttle based EVA.  Demonstrated repairs of Shuttle thermal protection (tile emittance wash and NOAX on RCC cracks).  Installed External Stowage Platform Attachment Device (ESPAD) outside ISS airlock.  Replaced GPS antenna and retrieved 2 MISSE experiments.  Photographed damaged thermal blanket under Orbiter window" ]
+, [ 143, "97E8D848-289B-4076-906A-BF02ACF51ADF", 143, 1406814231, "879596", 1406814231, "879596", "{\n}", "139", "USA", "Soichi Noguchi       Steve Robinson", "STS-114/LF1", "2005-08-01T00:00:00", "7:14", "Shuttle based EVA.  Replaced ISS CMG#1.  Stowed old CMG in PLB .  Retrieved/relocated tools for next EVA (handle for ISS thermal radiator rotary joint motor controller, forceps for tile gap filler removal, a foot restraint from ISS robotic arm)" ]
+, [ 144, "41CC78CE-01C2-40E1-98DA-7183A2156683", 144, 1406814231, "879596", 1406814231, "879596", "{\n}", "140", "USA", "Soichi Noguchi       Steve Robinson", "STS-114/LF1", "2005-08-03T00:00:00", "6:01", "Shuttle based EVA.  Attached External Stowage Platform (ESP2) to ISS, removed/returned ESP2's grapple fixture, installed ISS solar cell exposure experiment MISSE 5, opened/closed sample lid to enable robotic survey of thermal protection samples and removed two Shuttle tile gap fillers.  Inspected/photographed solar beta gimbal assembly restraint bolts and floating potential probe.  " ]
+, [ 145, "19DF955C-AF9A-4B97-8878-BE205BBB18F4", 145, 1406814231, "879596", 1406814231, "879596", "{\n}", "141", "USA", "Bill McArthur        Valeri Tokarev", "Incr-12", "2005-11-07T00:00:00", "5:22", "ISS based EVA.  Egress delayed by 1 hr due to overlooked valve.  Installed P1 TV camera, removed S1 thermal rotary joint motor controller, jettisoned P6 floating potential probe and replaced RPCM of mobile transporter.  Relocated safety tethers and foot restraint as prep for future work.  Camera lens bumper lost overboard.  One of two helmets TVs inoperable. " ]
+, [ 146, "B446C1F6-4919-4F08-812F-9CD93E8278AC", 146, 1406814231, "879596", 1406814231, "879596", "{\n}", "142", "USA", "Piers Sellers    Mike Fossum", "STS-121 / ULF1.1", "2006-07-08T00:00:00", "7:31", "ISS based EVA.  Installed cable cutter blade blocker on mobile transporter zenith interface umbilical assembly (IUA).  Demonstrated use of RMS and boom as EV crew work platform for Shuttle thermal protection repairs" ]
+, [ 147, "D5CFD449-3489-44F0-AA04-60CC29121832", 147, 1406814231, "879596", 1406814231, "879596", "{\n}", "143", "USA", "Piers Sellers    Mike Fossum", "STS-121 / ULF1.1", "2006-07-10T00:00:00", "6:47", "ISS based EVA.  Replaced the mobile transporter's nadir IUA and trailing umbilical cable reel.  Stowed thermal system spare pump on ISS airlock pallet.  SAFER latches found unsecured" ]
+, [ 148, "717CA10A-D698-45BB-824F-CD4F119CEAA6", 148, 1406814231, "879596", 1406814231, "879596", "{\n}", "144", "USA", "Piers Sellers    Mike Fossum", "STS-121 / ULF1.1", "2006-07-12T00:00:00", "7:11", "ISS based EVA.  Tested NOAX repairs on samples of Shuttle RCC thermal protection.  Tested infrared camera on ISS radiators and Shuttle RCC.  Installed grapple fixture on S1 truss ammonia tank.  RCC repair spatula lost overboard." ]
+, [ 149, "D571331D-4411-4D1C-A3D4-75BFC87F5625", 149, 1406814231, "879596", 1406814231, "879596", "{\n}", "145", "USA", "Jeff Williams       Thomas Reiter", "Incr-13", "2006-08-03T00:00:00", "5:54", "ISS based EVA.  Installed floating point measurement unit on S1.  Installed MISSE 3 &4 on airlock.  Installed RJMC and replaced radiator MDM on S1.  Installed S0 radiator line shunt jumpers (2) and fluid disconnect spool positioning devices (3).  Tested infrared camera on RCC samples. Installed CETA light on S1 (connector cap lost) and nonpropulsive valve on Lab.  Removed GPS antenna #2.  Setup 3 foot restraints for 12A.  Retrieved ball stack restraint.  Photographed hatch scratch.  One of two helmets TVs inoperable. " ]
+, [ 150, "B319B9F1-45AA-4C2E-809F-8D6BC7D45DB5", 150, 1406814231, "879596", 1406814231, "879596", "{\n}", "146", "USA", "Joe Tanner      Heide Stefanyshyn-Piper", "STS-115/12A", "2006-09-12T00:00:00", "6:26", "ISS based EVA.  Connected the P1/P3 lower and upper tray umbilicals.  Released solar array launch restraints and positioned the stowed arrays for automated deployment.  Rotated P4 truss keel pin to stowed position.  Removed of 2 of 16 solar array joint launch locks, deployed all 4 solar array joint braces and removed 2 avionics thermal shrouds.  Lost a small bolt/spring and washer during launch lock cover work. " ]
+, [ 151, "52FD8514-841C-4DDE-930D-C5EFBC2E62F5", 151, 1406814231, "879596", 1406814231, "879596", "{\n}", "147", "USA", "Dan Burbank       Steve MacLean", "STS-115/12A", "2006-09-13T00:00:00", "7:11", "ISS based EVA.  Removed solar array alpha joint launch locks and restraints.  Lost a bolt from a launch lock cover.  Release of one launch restraint bolt required a wrench cheater bar and both crew for leverage.  Cleared items to permit P3 truss access by the ISS mobile transporter for future assembly work.  Secured the velcro of a partially loose thermal cover on P3 truss.  Removed 2 avionics thermal shrouds and relocated 2 foot restraints.   " ]
+, [ 152, "062CE89D-FE8B-44D7-B2B3-A9A6E834CD32", 152, 1406814231, "879596", 1406814231, "879596", "{\n}", "148", "USA", "Joe Tanner      Heide Stefanyshyn-Piper", "STS-115/12A", "2006-09-15T00:00:00", "6:42", "ISS based EVA.  Retrieved MISSE-5 experiment.  Installed bolt retainers on the P6 beta gimbal struts.  Unable to engage hinge lock on P6 beta gimbal strut.  Freed snagged tether from mobile transporter.  Release P4 radiator launch restraints.  Set up two foot restraints for 12A.1.  Released bolt torques of P4 MMOD cover.  Replaced S-band antenna and upgraded electronics.  Installed thermal shield on Ku-band antenna electronics.  IR camera imagery of Shuttle wing leading edge.  Due to time on Sband antenna, ran out of time for lab wireless antenna and and ISS radiator IR imagery" ]
+, [ 153, "22AE0CB1-CF56-4006-904D-82A0121A3EDA", 153, 1406814231, "879596", 1406814231, "879596", "{\n}", "149", "USA", "Robert Curbeam   Christer Fuglesang", "STS-116/12A.1", "2006-12-12T00:00:00", "6:36", "ISS based EVA.  Removed launch locks from the P5 truss.  Aided alignment and secured the P5 truss to the P4 truss.  Relocated a radiator grapple fixture.  Replaced a failed camera on the S1 truss (13A prep).  Performed 13A assembly get-ahead tasks (P5 electrical connections, latch opening, 2 of 4 outboard launch locks).  Lost removal socket tool overboard " ]
+, [ 154, "11B9F5A7-82D0-4A9E-9571-593E6F7BD66E", 154, 1406814231, "879596", 1406814231, "879596", "{\n}", "150", "USA", "Robert Curbeam   Christer Fuglesang", "STS-116/12A.1", "2006-12-14T00:00:00", "5:00", "ISS based EVA.  Reconfigured electrical cables of power channels 2 and 3 and Z1 patch panel.  Relocated both CETA carts (13A prep).  Installed insulation on the force moment sensors of ISS robotic arm.  Installed 4 bags containing fluid line and pump module servicing equipment." ]
+, [ 155, "7F933F69-6C00-4F52-B583-0F66B0D36440", 155, 1406814231, "879596", 1406814231, "879596", "{\n}", "151", "USA", "Robert Curbeam   Sunita Williams", "STS-116/12A.1", "2006-12-16T00:00:00", "7:31", "ISS based EVA.  Reconfigured electrical cables of power channels 1 and 4, Z1 patch panel and Russian power.  Transfered Service Module MMOD protection panels to PMA3.  Installed the grapple fixture on spare flex hose rotary coupler.  Manually aided retraction of the P6 port solar array-completion deferred to next EVA.  Lost still camera overboard " ]
+, [ 156, "67F4F546-7CDC-4F83-AA75-4848BEBE624B", 156, 1406814231, "879596", 1406814231, "879596", "{\n}", "152", "USA", "Robert Curbeam   Christer Fuglesang", "STS-116/12A.1", "2006-12-18T00:00:00", "6:38", "ISS based EVA.  Manually aided full retract of P6 port solar array.  Inspected P6 stbd solar array.  Adjusted new insulation of SSRMS force sensors" ]
+, [ 157, "5C231B26-BE5B-4B34-B868-21017FFDAC5A", 157, 1406814231, "879596", 1406814231, "879596", "{\n}", "153", "USA", "Mike Lopez-Alegria    Sunita Williams", "Incr-14", "2007-01-31T00:00:00", "7:55", "ISS based EVA.  Established permanent configuration of the electrical and fluid lines of the loop A thermal system.  Secured and covered the stowed P6 stbd radiator. Relocated 1 of 2 ammonia servicer jumpers.  NH3 leakage induced bakeout and contamination sensing.   Installed ISS to Shuttle power transfer cables between Lab and Z1.  Installed handrail gap spanners on P6." ]
+, [ 158, "9A76AA41-09FF-4AE1-98B0-0FAD18D9AE60", 158, 1406814231, "879596", 1406814231, "879596", "{\n}", "154", "USA", "Mike Lopez-Alegria    Sunita Williams", "Incr-14", "2007-02-04T00:00:00", "7:11", "ISS based EVA.  Established permanent configuration of the electrical and fluid lines of the loop B thermal system.  NH3 leakage induced bakeout and contamination sensing.  Relocated ammonia servicer jumper.  Secured the stowed P6 aft radiator.  Retrieved an MDM thermal shade.  Installed ISS to Shuttle power transfer cables between Lab and PMA2.  Retrieved a foot restraint for in-cabin thermal shield removal.  Photographed P6 solar array in prep for retraction." ]
+, [ 159, "70796DD9-AB35-4E00-8D92-B87BA00437AF", 159, 1406814231, "879596", 1406814231, "879596", "{\n}", "155", "USA", "Mike Lopez-Alegria    Sunita Williams", "Incr-14", "2007-02-08T00:00:00", "6:40", "ISS based EVA.  Removed and jettisoned 4 thermal shrouds. Deployed P3 cargo attachment site  Removed last 2 launch locks from the P5 truss. Finished installation of ISS to Shuttle power transfer cables and reinstalled an in-cabin reconfigured foot restraint.  Photoed PMA2 docked audio connector.  " ]
+, [ 160, "9235B174-A298-4256-8698-076F045004AF", 160, 1406814231, "879596", 1406814231, "879596", "{\n}", "156", "USA", "Jim Reilly        Danny Olivas", "STS-117/13A", "2007-06-11T00:00:00", "6:15", "ISS based EVA.  Connected electrical lines btw S1 and S3/S4 trusses.  Unstowed solar array blanket boxes and beta gimbals.  Stowed the S3/S4 keel.   Removed and jettisoned thermal shrouds from 5 avionics boxes.  Released restraints for S4 radiator deployment.  Engaged drive lock, removed 6 launch locks and rigidized struts of S4 solar array alpha joint.  Removed SVS target to clear MT path" ]
+, [ 161, "7D688D8D-1B5A-48B5-AB01-1DBB44102A0A", 161, 1406814231, "879596", 1406814231, "879596", "{\n}", "157", "USA", "Pat Forrester         Steve Swanson", "STS-117/13A", "2007-06-13T00:00:00", "7:16", "ISS based EVA.  Aided retraction of enough bays of P6 solar array to permit alpha joint rotation.  Removed 10 of 16 launch locks, deloyed braces and engaged drive lock of S3 solar array alpha joint" ]
+, [ 162, "1614A38D-8F11-408F-8DC5-CBDAB2CD8F39", 162, 1406814231, "879596", 1406814231, "879596", "{\n}", "158", "USA", "Danny Olivas         Jim Reilly", "STS-117/13A", "2007-06-15T00:00:00", "7:58", "ISS based EVA.  Replaced vent valve on Lab for US O2 generator.  Secured loose thermal blanket on Shuttle OMS pod.  Finished retracting P6 solar array" ]
+, [ 163, "A8E9F295-F2B2-4D5C-998B-D399BE4EF964", 163, 1406814231, "879596", 1406814231, "879596", "{\n}", "159", "USA", "Pat Forrester           Steve Swanson", "STS-117/13A", "2007-06-17T00:00:00", "6:29", "ISS based EVA.  Opened H2 vent for new US O2 generator.  Installed video camera stand.  Verified drive lock config and removed 6 launch restraints of the S3 solar array alpha joint.   Stowed S3 drag link and keel pin.  Released S4 MMOD shield bolts.  Cleared MT path.  Installed FGB-Node1 local area network cable, but had to subsitute tether hooks for several MMOD shield fasteners.  Relocated foot restraint and removed handrail near Node 1 nadir port" ]
+, [ 164, "CDF11F8A-C166-45F4-9523-10089BEFD251", 164, 1406814231, "879596", 1406814231, "879596", "{\n}", "160", "USA", "Clay Anderson      Fyodor Yurchikhin ", "Incr-15", "2007-07-23T00:00:00", "7:41", "ISS based EVA.  Installed a video camera stand and jettisoned its stowage restraints.  Replaced a failed RPCM to restore mobile transporter power redundancy.  Jettisoned the early ammonia servicer.  Cleaned the Node1 berthing mechanism seal.  Relocated the P6 aux bag to Z1, removed failed GPS antenna #4 and released Node 2 fluid tray bolts." ]
+, [ 165, "B648C485-31A9-4E30-8DAF-AF21A3E47321", 165, 1406814231, "879596", 1406814231, "879596", "{\n}", "161", "USA", "Rick Mastracchio        Dave Williams", "STS-118/13A.1", "2007-08-11T00:00:00", "6:17", "ISS based EVA.  Installed the S5 truss and connected S4-S5 electrical lines.  Relocated the radiator grapple fixture on S5.  Removed S5-S6 launch locks on S5 and opened the S5-S6 capture latch.  Secured the auto retracted P6 radiator." ]
+, [ 166, "863D1FAF-15BA-4B86-90B1-2434ED368B7D", 166, 1406814231, "879596", 1406814231, "879596", "{\n}", "162", "USA", "Rick Mastracchio      Dave Williams", "STS-118/13A.1", "2007-08-13T00:00:00", "6:28", "ISS based EVA.  Replaced failed CMG 3 and stowed failed unit on pallet outside ISS airlock for return on future Shuttle mission.  Photographed MISSE 3 & 4 experiments.  " ]
+, [ 167, "59340F71-5B24-458E-9CAC-31AEEA54364B", 167, 1406814231, "879596", 1406814231, "879596", "{\n}", "163", "USA", "Rick Mastracchio      Clay Anderson", "STS-118/13A.1", "2007-08-15T00:00:00", "5:28", "ISS based EVA.  Relocated the S-band antenna from P6 to P1 and installed new signal processor and transponder on P1.  Retrieved P6 transponder.  Relocated CETA carts.  Damaged glove terminated EVA early." ]
+, [ 168, "D96FD6E2-3370-4C41-9C46-4ADD21223615", 168, 1406814231, "879596", 1406814231, "879596", "{\n}", "164", "USA", "Dave Williams     Clay Anderson", "STS-118/13A.1", "2007-08-18T00:00:00", "5:02", "ISS based EVA.  Installed the Orbiter inspection boom restraints on S1.  Engaged S-band antenna gimbal locks on Z1.  Retrieved MISSE 3&4 experiments.  Installed antennas for external wireless sensors on Lab" ]
+, [ 169, "B5689214-5601-4A7F-9E30-E62EA52CBB78", 169, 1406814231, "879596", 1406814231, "879596", "{\n}", "165", "USA", "Scott Parazynski     Doug Wheelock", "STS-120/10A", "2007-10-26T00:00:00", "6:14", "ISS based EVA.  Stowed old S-band antenna in Shuttle for return.  Released launch power cable from Node 2 and temp secured grapple fixture on Node 2.  Resecured Node 2 window cover that opened during launch.  Demated Z1-P6 fluid lines and covered stowed radiator and avionics box on P6.  Did post EVA ammonia cleanup for minor leak during fluid line demating.  One gloved NO GO after EVA due to cut damage." ]
+, [ 170, "70FB91F5-3A03-4EC4-A566-61DC0E853AE3", 170, 1406814231, "879596", 1406814231, "879596", "{\n}", "166", "USA", "Scott Parazynski     Dan Tani", "STS-120/10A", "2007-10-28T00:00:00", "6:33", "ISS based EVA.  Demated Z1 to P6 umbilicals and attachment bolts.  Installed Node 2 EVA aids (handrails, foot restraint sockets, slidewire).  Removed all Node 2 berthing mechanism pins, but lost one pin within cover.  Confirmed handrail on CETA cart not source of glove damage.  Inspected starboard solar array alpha joint and collected sample of metallic debris on tape.  Both still cameras and one suit earphone failed.  Configure S1 radiator release cable for deployment and main bus switching unit for P6 startup.  Installed all 4 bolts for Node 2 grapple fixture." ]
+, [ 171, "11F57778-3F3E-4C98-8746-910B5218FC7A", 171, 1406814231, "879596", 1406814231, "879596", "{\n}", "167", "USA", "Scott Parazynski     Doug Wheelock", "STS-120/10A", "2007-10-30T00:00:00", "7:08", "ISS based EVA.  Connected 4 bolts and 4 cables to mate P6 to P5.  Inspected port solar array alpha joint and found no issues.  Removed solar array avionics thermal shroud.  Released P6 radiator restraints to permit deployment.  Reconfigured P1 radiator cabling for deploy.  Relocated spare MBSU to ISS.  Retrieved N2 vent tool, relocated vent tool bag and installed 1 of 4 S0 gap spanners.  Left a camera outside accidently.  One suit and one glove determined NO GO post EVA due to sublimator degraded and thermal garment damage" ]
+, [ 172, "D2BF0420-A338-44BE-8CA5-778577477240", 172, 1406814231, "879596", 1406814231, "879596", "{\n}", "168", "USA", "Scott Parazynski     Doug Wheelock", "STS-120/10A", "2007-11-03T00:00:00", "7:19", "ISS based EVA.  Inspected and repaired damaged P6 solar array and supported full deployment.  Installed 5 \"cuff links\" as reinforcements for separated panel hinges.  Cut frayed snagged hinge and guide wires.  Retrieved 2 foot restraints with suspect sharp edges for IVA inspect/correct.  Retrieved camera left out by prior EVA.  Pliers lost." ]
+, [ 173, "7F629E88-705A-4674-8464-34236C81993A", 173, 1406814231, "879596", 1406814231, "879596", "{\n}", "169", "USA", "Peggy Whitson       Yuri Malenchenko", "Incr-16", "2007-11-09T00:00:00", "6:55", "ISS based EVA.  Prepared PMA2 for relocation to Node 2.  Demated electrical cables, removed light on Lab and removed thermal cover from Node 2 fwd port.  Connected power/data cables for Node 2 grapple fixture.  Connected power cable for service module power.  Replaced failed RPCM.  Reconfigured FGB-PMA1 jumpers.  Retrieved S-band signal processor.  Relocated ammonia vent tool bag on airlock.  Unable to install Node 2 handrail.  Wore overgloves for sharp edge protection" ]
+, [ 174, "19D704EA-9221-4D0B-B29A-B3CE8B12CEAA", 174, 1406814231, "879596", 1406814231, "879596", "{\n}", "170", "USA", "Peggy Whitson       Dan Tani", "Incr-16", "2007-11-20T00:00:00", "7:16", "ISS based EVA.  Installed stbd thermal cooling lines on Node 2.  Connected elec cables to PMA2.  Lost wiretie overboard and EV2 biomed signal failed" ]
+, [ 175, "C07B0295-7C84-44BF-B296-42EA26A95BC9", 175, 1406814231, "879596", 1406814231, "879596", "{\n}", "171", "USA", "Peggy Whitson       Dan Tani", "Incr-16", "2007-11-24T00:00:00", "7:04", "ISS based EVA.  Installed port thermal cooling lines on Node 2.  Connected elec cables to PMA2.  Inspected and photoed stbd solar array joint" ]
+, [ 176, "72CDE486-30F3-4661-B2C1-8B5801F4B7C2", 176, 1406814231, "879596", 1406814231, "879596", "{\n}", "172", "USA", "Peggy Whitson       Dan Tani", "Incr-16", "2007-12-18T00:00:00", "6:56", "ISS based EVA.  Inspected stbd solar array alpha and beta joints.  No obvious causes found for rotation issues.  Retrieved 1 trundle bearing from alpha joint for in-cabin and ground assessments." ]
+, [ 177, "5BFF5607-7905-4DA3-B02A-3D23D7A1837B", 177, 1406814231, "879596", 1406814231, "879596", "{\n}", "173", "USA", "Peggy Whitson       Dan Tani", "Incr-16", "2008-01-30T00:00:00", "7:10", "ISS based EVA.  Replaced failed solar array beta gimbal unit and inspected alpha joint" ]
+, [ 178, "FF97A722-461C-48F3-8738-8C6F3773B2F1", 178, 1406814231, "879596", 1406814231, "879596", "{\n}", "174", "USA", "Rex Walheim        Stan Love", "STS-122/1E", "2008-02-11T00:00:00", "7:58", "ISS based EVA.  Enabled Columbus installation (demated STS heater cables, installed grapple fixture, removed window & berthing mech covers) and began prep of nitrogen tank transfer by loosening bolts.  Accidently found possible source of cut gloves on airlock handrail (MMOD impact)" ]
+, [ 179, "79A7DC63-E1FF-4E85-97A1-63C57B722AC6", 179, 1406814231, "879596", 1406814231, "879596", "{\n}", "175", "USA", "Rex Walheim             Hans Schlegel ", "STS-122/1E", "2008-02-13T00:00:00", "6:45", "ISS based EVA.  Replaced nitrogen tank on P1 truss and installed old tank on Shuttle for earth return.  Installed trunnion covers on Columbus" ]
+, [ 180, "B494660B-005E-48A3-8B19-50AFD4FB2251", 180, 1406814231, "879596", 1406814231, "879596", "{\n}", "176", "USA", "Rex Walheim        Stan Love", "STS-122/1E", "2008-02-15T00:00:00", "7:25", "ISS based EVA.  Installed 2 ESA science experiments, 9 handrails, 2 foot restraint sockets and keel pin cover on Columbus.  Transfered failed CMG for Shuttle return.  \nPhotographed sharp edge on airlock handrail" ]
+, [ 181, "DFE354DF-DA13-43ED-99E6-E9ABFEAA1373", 181, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"March 13-14, 2008\"\n  }\n}", "177", "USA", "Rick Linnehan            Garrett Reisman", "STS-123/1JA", null, "7:01", "ISS based EVA.  Enabled installation of Japanese logisics module by demating heater cables and removed berthing mechanism covers.  Installed tool devices on Canadian SPDM robot arms.  Marked sharp edge on airlock handrail with wiretie and found 2nd sharp edge on portable handle" ]
+, [ 182, "56828AB8-6CAF-45EF-8687-1AD2F40728FE", 182, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"March 15-16, 2008\"\n  }\n}", "178", "USA", "Rick Linnehan           Mike Foreman", "STS-123/1JA", null, "7:08", "ISS based EVA.  Installed both arms on Canadian SPDM robot.  Had to use prybar to release 2 expandable dia fasteners" ]
+, [ 183, "98A9B4DF-4658-4956-B224-AE8756E8C483", 183, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"March 17-18, 2008\"\n  }\n}", "179", "USA", "Rick Linnehan              Robert Behnken", "STS-123/1JA", null, "6:53", "ISS based EVA. Installed cameras, lights and tool and spares holders on SPDM.  Removed all but a few blankets from SPDM.  Readied SPDM's spacelab pallet for return via Shuttle.  Transferred spares from Shuttle to ISS (robotic yaw joint, 2 DCSU).  Installed experiment pallet on Columbus.  Unable to install MISSE experiments on pallet due to blocked pip pin hole." ]
+, [ 184, "28D2E29C-635C-4D23-8D74-2F33C4342CF3", 184, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"March 20-21, 2008\"\n  }\n}", "180", "USA", "Robert Behnken           Mike Foreman", "STS-123/1JA", null, "6:24", "ISS based EVA.  Replaced failed RPCM to permit separate power to CMG2, but not able to demate elec connector of Z1 patch panel to enable power reconfig.  Tested Shuttle tile repair materials, tools and techniques.  Released launch locks of Node 2 nadir and port berth mech.  Removed last thermal cover from SPDM hand.  Did not find previously missing berth mech pip pin.  While restowing MMOD damaged portable handle outside Z1 truss, additional MMOD impacts were found on Z1 tool box" ]
+, [ 185, "2705AAB7-AD99-46F2-8537-000952459F0E", 185, 1406814231, "879596", 1406814231, "879596", "{\n}", "181", "USA", "Robert Behnken           Mike Foreman", "STS-123/1JA", "2008-03-22T00:00:00", "6:02", "ISS based EVA.  Stowed Shuttle inspection boom on ISS S1 truss with keep alive power.  Installed trundle bearing on stbd solar array alpha joint and completed inspections under joint covers.  Installed MISSE experiments on pallet outside Columbus (1 reqd light hammering of pip pins).  Trunnion covers installed on Japanese module. Cutters stowed in airlock tool box" ]
+, [ 186, "6255C63D-F815-4005-A535-9C6454977969", 186, 1406814231, "879596", 1406814231, "879596", "{\n}", "182", "USA", "Mike Fossum      Ron Garan", "STS-124/1J", "2008-06-03T00:00:00", "6:48", "ISS based EVA. Released special launch restraint of elbow camera of Shuttle robotic arm. Demated Shuttle inspection boom from ISS truss to permit return/use. Prepared Japanese module for install by demating cables from Shuttle, removing berthing mech covers and releasing window locks. Worked on damaged solar array joint by reinstalling trundle bearing, confirming divot and demonstrating cleaning and lubrication. Verified cargo latch ops on mobile transporter. Removed solar array joint launch restraint." ]
+, [ 187, "04145856-850A-4683-BE62-701CA42B0B5C", 187, 1406814231, "879596", 1406814231, "879596", "{\n}", "183", "USA", "Mike Fossum      Ron Garan", "STS-124/1J", "2008-06-05T00:00:00", "7:11", "ISS based EVA. Installed 2 cameras for JEM robot arm op.  Removed thermal covers from JEM arm.  Prepped JEM berthing mech for stowage module relocation (remove cover, release launch restraints, eliminate insulation interference).  Installed JEM trunnion and keep pin covers.  Prepped for N2 tank replacement.  Retrieved failed camera from truss. Inspected port solar array joint (wear and grease buildup as during past inspection but no metal shavings)." ]
+, [ 188, "78F3E841-05C0-4DED-AF4E-4E819FA7DB0D", 188, 1406814231, "879596", 1406814231, "879596", "{\n}", "184", "USA", "Mike Fossum      Ron Garan", "STS-124/1J", "2008-06-08T00:00:00", "6:33", "ISS based EVA. Replaced N2 tank on S1 truss.  Reinstalled repaired truss camera.  Finished JEM interfaces (window launch locks, berthing mech MMOD shields, robotic arm insulation/launch lock). Sampled port solar array joint contamination.  Removed stbd solar array joint launch restraint" ]
+, [ 189, "452170F2-9CE5-4DFB-857E-EA1CF2EED70B", 189, 1406814231, "879596", 1406814231, "879596", "{\n}", "185", "USA", "Heide Stefanyshyn-Piper                                       Steve Bowen", "STS-126/ULF2", "2008-11-18T00:00:00", "6:52", "ISS based EVA. Empty N2 tank transferred to Shuttle.  Spare flex hose rotary coupler relocated to ISS.  Thermal covers removed from JEM ext facility berthing mechanism.  Initiated cleaning and lube of stbd SARJ.  2 stbd SARJ trundle bearings replaced and 1 removed.  Lost bag of SARJ cleaning/lube tools overboard.  As bonus, removed SARJ launch restraint, closed Node 2 hatch cover and retrieved spare trash bag from tool box" ]
+, [ 190, "532B7BB4-BF91-4ED6-995F-684649F98B06", 190, 1406814231, "879596", 1406814231, "879596", "{\n}", "186", "USA", "Heide Stefanyshyn-Piper                  Shane Kimbrough", "STS-126/ULF2", "2008-11-20T00:00:00", "6:45", "ISS based EVA. Relocated both CETA carts from stbd to port truss to prep for S6 truss assy on next STS flt.  Continued replacement of cleaning/lube of stbd solar array joint and replacement of trundle bearings.  Overtightened one new trundle bearing and had to use spare.  Lubed end effector snares of ISS robotic arm.  Reconfigured connectors of port truss attach system bolt controller and photoed suspect area of mobile transporter umbilical. Tasks ended early due to higher than expected work rate for regenerable C02 canister" ]
+, [ 191, "D491BE14-99D1-4895-BF45-00A9FAD25A4C", 191, 1406814231, "879596", 1406814231, "879596", "{\n}", "187", "USA", "Heide Stefanyshyn-Piper                                       Steve Bowen", "STS-126/ULF2", "2008-11-22T00:00:00", "6:57", "ISS based EVA. Replaced all of the remaining stbd trundle bearings except one.  Cleaned and lubed stbd race ring." ]
+, [ 192, "E6E4FAB3-8953-4DF9-97C0-AC20C522A72D", 192, 1406814231, "879596", 1406814231, "879596", "{\n}", "188", "USA", "Steve Bowen                       Shane Kimbrough", "STS-126/ULF2", "2008-11-24T00:00:00", "6:07", "ISS based EVA. Lubricated port SARJ race ring.  Replaced last trundle bearing on stbd SARJ.  Retracted failed latch of JEM ext facility berth mech and installed covers.  For HTV, installed 1 of 2 GPS antennas on JEM logistics module for HTV and a camera on P1 truss.  Tasks ended early due to higher than expected work rate for regenerable C02 canister (same prior crewmember)" ]
+, [ 193, "FE0EF819-AFAD-4EBC-B823-DC352734C432", 193, 1406814231, "879596", 1406814231, "879596", "{\n}", "189", "USA", "Steve Swanson   Richard Arnold", "STS-119/15A", "2009-03-19T00:00:00", "6:07", "ISS based EVA. Bolted S6 to S5 truss and mated electrical cables.  Stowed X6 keel pin, deployed solar array linkages (1 of 4 latches did not engage), removed/jettisoned avionics thermal covers, released radiator restraints and removed blanket box restraints.  Deployed S6 avionics MMOD shield" ]
+, [ 194, "29EB109E-9E44-42FB-B651-6C2C90AA9D87", 194, 1406814231, "879596", 1406814231, "879596", "{\n}", "190", "USA", "Steve Swanson         Joseph Acaba", "STS-119/15A", "2009-03-21T00:00:00", "6:30", "ISS based EVA. Loosened restraints of P6 batteries for future replacement.  Unable to fully deploy P3 interface for future ORU spares (adj diameter pin suspect).  Due to time, deferred S3 payload attach sys deploy.  Due to elec conn demate failure, deferred Z1 patch panel reconfig for CMG pwr.  Installed JEM GPS antenna.  Took infrared images of P1 & S1 radiators" ]
+, [ 195, "BBC5CBC9-A867-4EFF-B9AB-671919F6BDCA", 195, 1406814231, "879596", 1406814231, "879596", "{\n}", "191", "USA", "Richard Arnold      Joseph Acaba", "STS-119/15A", "2009-03-23T00:00:00", "6:27", "ISS based EVA. Relocated one CETA cart from port to stbd side of mobile transporter.  Again unable to finish deploy of P3 spares attach sys.  Again deferred S3 payload attach deploy and Z1 patch panel reconfig.  Lubed robotic arm end effector snares, replaced CETA cart coupler, reconfigured elec conns of truss attach bolts and freed clamps of flex hose rotary coupler.  Suit CO2 sensor failed and SAFER handcontroller door accidently opened" ]
+, [ 196, "3CC678A7-B35C-402D-A9A1-2F448ABA6E03", 196, 1406814231, "879596", 1406814231, "879596", "{\n}", "192", "USA", "John Grunsfeld      Andrew Feustel", "STS-125/HST 4", "2009-05-14T00:00:00", "7:20", "HST servicing.  Replaced wide field camera (after high torque time consuming bolt release) and science computer.  Installed soft capture mechanism for future automated disposal mission.  Installed 2 of 3 bolt/latch mechanisms on large doors (after difficulties with alignments).  " ]
+, [ 197, "50D0954D-6334-4B8E-81F9-7215B0F1A4D9", 197, 1406814231, "879596", 1406814231, "879596", "{\n}", "193", "USA", "Mike Massimino                Mike Good ", "STS-125/HST 4", "2009-05-15T00:00:00", "7:56", "HST servicing.  Replaced 3 of 3 gyro packages and 1st group of 3 batteries.  Tolerance issue forced installation of 1 non-optimum but adequate spare gyro.  Difficulty closing doors to gyro bay." ]
+, [ 198, "836CCAB4-CF1D-4E45-A3E2-9163DD329637", 198, 1406814231, "879596", 1406814231, "879596", "{\n}", "194", "USA", "John Grunsfeld      Andrew Feustel", "STS-125/HST 4", "2009-05-16T00:00:00", "6:36", "HST servicing.  Replaced COSTAR with cosmic origins spectrograph (COS).  Repaired failed advanced camera for surveys (ACS) with removal of 4 detector circuit boards and installation of new power supply and new detector circuit boards" ]
+, [ 199, "DA27B040-3E27-4914-ADC7-FD044CD956D7", 199, 1406814231, "879596", 1406814231, "879596", "{\n}", "195", "USA", "Mike Massimino                Mike Good ", "STS-125/HST 4", "2009-05-17T00:00:00", "8:02", "HST servicing.  Repaired failed space telescope imaging spectrograph (STIS) with new power supply board.  Time lost to stuck handrail bolt and failed power tool battery.  Ran out of time to install new outer blanket (NOBL) #8.  " ]
+, [ 200, "417D9EF3-4D22-4E79-AB9B-3E94C657EE7D", 200, 1406814231, "879596", 1406814231, "879596", "{\n}", "196", "USA", "John Grunsfeld      Andrew Feustel", "STS-125/HST 4", "2009-05-18T00:00:00", "7:02", "HST servicing.  Installed 2nd/last group of batteries.  Replaced fine guidance sensor (FGS).  Installed NOBLs 8, 5 and 7 (lots of loose debris with 2nd).  Reinstalled low gain antenna cover to permanently protect exposed antenna parts after tip accidently broken off during equipment cleanup" ]
+, [ 201, "DFA9AF93-18F8-403E-8300-562B9089811F", 201, 1406814231, "879596", 1406814231, "879596", "{\n}", "197", "USA", "Dave Wolf              Tim Kopra", "STS-127/2JA", "2009-07-18T00:00:00", "5:32", "ISS based EVA. Aided JEM exposed facility install by jettisoning berthing mech covers and removing launch heater cable.  Aided spares pallet transfer by removing launch heater cable.  Removed JEM robot arm ground tab.  Opened Node 1 & 2 berthing camera blankets as prep for PMA3 relocate and HTV arrival.  Reconfig port CETA cart outfitting and rail stop to avoid interferences.  Deployed external pallet site on P3 using special detent tool (S3 pallet deploy deferred).  Removed cover from JEM MAXI experiment.  Released NH3 tank bolt as prep for replace.  Installed 2 of 6 ground connector sleeves for Shuttle to ISS power transfer sys" ]
+, [ 202, "710ED0B6-67A0-4154-AC42-064A710E1059", 202, 1406814231, "879596", 1406814231, "879596", "{\n}", "198", "USA", "Dave Wolf          Tom Marshburn", "STS-127/2JA", "2009-07-20T00:00:00", "6:52", "ISS based EVA.  Transfered 3 large spares to ISS.  Installed grapple bar on P1 ammonia tank as prep for future replace.  Installed 2 of 6 ground connector sleeves for Shuttle to ISS power transfer sys.  Comm cap perf poor due to sweat" ]
+, [ 203, "9B677FA1-7A02-4EC7-9D0C-43C50DA64917", 203, 1406814231, "879596", 1406814231, "879596", "{\n}", "199", "USA", "Dave Wolf         Chris Cassidy", "STS-127/2JA", "2009-07-22T00:00:00", "5:59", "ISS based EVA.  Relocated foot restraint socket for HTV arrival prep. Prepped 3 payloads for robotic install outside JEM. Installed 2 of 6 ground connector sleeves for Shuttle to ISS power transfer sys.  Replaced 2 batteries on P6 truss and stowed 2 old batts in Shuttle for return. Stopped early due to suit CO2 increase induced by high work rate" ]
+, [ 204, "6FA6699D-D44B-45F7-AF02-BDF37DE3760A", 204, 1406814231, "879596", 1406814231, "879596", "{\n}", "200", "USA", "Chris Cassidy       Tom Marshburn", "STS-127/2JA", "2009-07-24T00:00:00", "7:12", "ISS based EVA.  Replaced 4 batteries on P6 truss and stowed old batts in Shuttle for return.  " ]
+, [ 205, "4FEBC8EB-F172-4AF5-B19A-4030874FE25B", 205, 1406814231, "879596", 1406814231, "879596", "{\n}", "201", "USA", "Chris Cassidy       Tom Marshburn", "STS-127/2JA", "2009-07-27T00:00:00", "4:54", "ISS based EVA.  Adjusted SPDM thermal covers.  Reconfiged elec connectors of Z1 patch panel to restore CMG pwr redundancy.  Installed two JEM external facility video cameras.  Installed JEM handrail, foot restraint socket and gap spanner. Relocated a foot restraint.  Due to high use dry out of CO2 can, lacked time to deploy S3 pallet" ]
+, [ 206, "36AEFE73-0978-4D5F-839D-7434739E68AD", 206, 1406814231, "879596", 1406814231, "879596", "{\n}", "202", "USA", "Danny Olivas        Nicole Stott ", "STS-128/17A", "2009-09-01T00:00:00", "6:35", "ISS based EVA.  Removed NH3 tank from P1 and temp stowed.  Transferred MISSE 6a/b & EuTEF experiments to Shuttle" ]
+, [ 207, "7D808920-B464-4BEB-B26B-7C6F08B6F466", 207, 1406814231, "879596", 1406814231, "879596", "{\n}", "203", "USA", "Danny Olivas           Christer Fugelsang", "STS-128/17A", "2009-09-03T00:00:00", "6:39", "ISS based EVA.  Start delayed to redo prebreathe after comm cap readjust.  Installed new NH3 tank on P1 and stowed old tank on Shuttle.  Installed grapple bar on S1 NH3 tank.  Unable to connect PMA3 heater cables due to prior incorrect clocking of PMA3.  Installed camera lens covers on station arm as prep for HTV.  Relocated a tool stanchion" ]
+, [ 208, "5ED2ECD5-D430-4C7A-8FD3-DE26B877EDA0", 208, 1406814231, "879596", 1406814231, "879596", "{\n}", "204", "USA", "Danny Olivas           Christer Fugelsang", "STS-128/17A", "2009-09-05T00:00:00", "7:01", "ISS based EVA.  Deployed S3 zenith pallet.  Replaced failed rate gyro #2 and RPCM on S0.  Installed 2 GPS antennas.  Removed Node1 slidewire as prep for Node3.  Installed two S0-Node3 cables (one connector unable to mate).  Helmet TV camera/lights almost lost overboard due to bumped latches" ]
+, [ 209, "DA73379F-D8F2-4F80-8F96-977CB97C1449", 209, 1406814231, "879596", 1406814231, "879596", "{\n}", "205", "USA", "Mike Foreman      Robert Satcher", "STS-129/ULF3", "2009-11-19T00:00:00", "6:37", "ISS based EVA.  Installed spare Sband antenna and cables for spare Kuband antenna.  Prepped for Node3 install (replace handrail w/ NH3 line bracket).  Lubricated end effectors of mobile transporter payload base and JEM robot arm.  Installed FGB-Node1 network cable.  Deployed S3 payload attach structure" ]
+, [ 210, "E7E4A247-192E-427B-8E96-C6ABA76F7C30", 210, 1406814231, "879596", 1406814231, "879596", "{\n}", "206", "USA", "Mike Foreman      Randy Bresnick", "STS-129/ULF3", "2009-11-21T00:00:00", "6:08", "ISS based EVA.  Installed ham radio antennas on Columbus.  Relocated floating potential measure unit from S1 to P1. Deployed the last two payload attach structures and installed wireless video transcvr (all on S3).  Retrieved foot restraint for cabin reconfig and relocated tool stanchion.  Photographed suspect seals on Node 2 berth mechanism" ]
+, [ 211, "30369AC7-DFAC-4BA0-ADA1-CDA6EADED1AE", 211, 1406814231, "879596", 1406814231, "879596", "{\n}", "207", "USA", "Robert Satcher          Randy Bresnick", "STS-129/ULF3", "2009-11-23T00:00:00", "5:42", "ISS based EVA.  Start delayed by detached drink bag valve. Relocated some airlock MMOD shields and installed O2 tank outside US airlock. Installed MISSE experiments 7A & 7B on external logistics carrier. Released bolt on NH3 tank. Installed thermal covers on mobile base and two fluid jumpers. Relocated a foot restraint" ]
+, [ 212, "D3F997EB-E56C-4286-972E-A8AD7DD5F7C9", 212, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb 11-12, 2010\"\n  }\n}", "208", "USA", "Bob Behnken       Nick Patrick", "STS-130/20A", null, "6:32", "ISS based EVA.  Prepared Node 3 for ISS install by removing covers and heater cables.  Prepositioned ammonia lines and thermal covers.  Installed Node 3 avionics and heater cables.  Removed/stowed the SPDM ORU Temporary Platform (OTP).  Relocated NH3 jumper bag and released tape restraining Node 3 gap spanners.  One suit fan degraded slightly" ]
+, [ 213, "E7818698-45C7-4465-9707-5EBF6D0EFDED", 213, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb 13-14, 2010\"\n  }\n}", "209", "USA", "Bob Behnken       Nick Patrick", "STS-130/20A", null, "5:53", "ISS based EVA.  Outfitted Node 3 by installing 2 NH3 lines, heater cables, trunnion/keel thermal covers, negative pressure vent, handrail gap spanners and 8 handrails.  Opened loop A NH3 line and nadir berthing mechanism pedals and centerline camera thermal cover.  Visually verified berthing seals OK.  Small NH3 leak induced suit bakeout.  Comm degraded on one suit" ]
+, [ 214, "19EC4CE0-5701-4788-A665-C96BA205D0E6", 214, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb 16-17, 2010\"\n  }\n}", "210", "USA", "Bob Behnken       Nick Patrick", "STS-130/20A", null, "5:48", "ISS based EVA.  Connected PMA3 heater and data cables.  Opened loop B NH3 line.  Disconnected Node 3 temp heater cable.  Removed Cupola thermal covers and released launch locks of window shutters  Installed Node 3 handrails, foot restraint sockets and a handrail gap spanner.  Routed FGB grapple fixture video cable.  Closed Node 2 zenith centerline berthing camera flap" ]
+, [ 215, "A2761201-624D-4FD2-8AC9-1DF283E8C97C", 215, 1406814231, "879596", 1406814231, "879596", "{\n}", "211", "USA", "Rick Mastracchio          Clayton Anderson ", "STS-131/19A", "2010-04-09T00:00:00", "6:28", "ISS based EVA.  Temp stowed new NH3 tank on ISS robot arm.  Retrieved JAXAA's MPAC/SEED experiment for return.  Replaced rate gyro assembly #1. Relocated a foot restraint socket extender.  Removed P1 flex hose rotary coupler launch restraint bolts and released cable clamps.  Tightened grapple fixture attachment bolts of old NH3 tank as prep for return to Shuttle" ]
+, [ 216, "EF635D78-3107-429F-AE2B-6E1F7272CAD6", 216, 1406814231, "879596", 1406814231, "879596", "{\n}", "212", "USA", "Rick Mastracchio          Clayton Anderson ", "STS-131/19A", "2010-04-11T00:00:00", "7:26", "ISS based EVA.  Removed old NH3 tank and temp stowed on CETA cart.  Overcame a troublesome bolt and installed new NH3 tank/cables.  Installed 2 radiator grapple beams and relocated a foot restraint" ]
+, [ 217, "47796DEB-6717-49D4-AC36-4D038E5C262B", 217, 1406814231, "879596", 1406814231, "879596", "{\n}", "213", "USA", "Rick Mastracchio          Clayton Anderson ", "STS-131/19A", "2010-04-13T00:00:00", "6:24", "ISS based EVA.  Finished installing new NH3 tank (fluid lines).  Stowed old NH3 tank (despite a balky bolt) and airlock MMOD shields for Shuttle return.  Relocated grapple fixture from old tank to new tank.  As prep for next Shuttle flt, relocated foot restraint and prepped cables for spare Sband antenna" ]
+, [ 218, "20086ABE-DF58-4867-87BD-91E0B6207256", 218, 1406814231, "879596", 1406814231, "879596", "{\n}", "214", "USA", "Garrett Reisman       Steve Bowen", "STS-132/ULF4", "2010-05-17T00:00:00", "7:25", "ISS based EVA.  Installed an operational spare Ku antenna boom and dish on Z1.  Installed ORU holder on SPDM.  Loosened bolts on new batteries for P6" ]
+, [ 219, "9C9AF3EF-F36E-4F95-9C67-CCF84DEE6CD7", 219, 1406814231, "879596", 1406814231, "879596", "{\n}", "215", "USA", "Steve Bowen           Michael Good", "STS-132/ULF4", "2010-05-19T00:00:00", "7:09", "ISS based EVA.  Unsnagged cable of orbiter inspection boom sensor.  Replaced 4 batteries on P6.  Finished bolting Ku antenna dish to boom and releasing launch locks" ]
+, [ 220, "EB910157-D120-40A4-A7A3-CFD9AEFD8466", 220, 1406814231, "879596", 1406814231, "879596", "{\n}", "216", "USA", "Garrett Reisman       Michael Good", "STS-132/ULF4", "2010-05-21T00:00:00", "6:46", "ISS based EVA.  Installed NH3 jumper on port truss.  Replaced 2 batteries on P6.  Transferred grapple fixture to ISS for later install on FGB." ]
+, [ 221, "BC76A7C1-C4B9-4728-8B07-1149095D6A95", 221, 1406814231, "879596", 1406814231, "879596", "{\n}", "217", "USA", "Doug Wheellock Tracy Caldwell Dyson", "Incr-24", "2010-08-07T00:00:00", "8:03", "ISS based EVA.  Demated 3 of 4 NH3 connectors from failed coolant pump, but the 4th leaked and was left installed.  Ended work to do suit decontamination. EV2 CO2 sensor failed" ]
+, [ 222, "7B78C5CD-7F9A-48B1-8B5B-804D263ABF10", 222, 1406814231, "879596", 1406814231, "879596", "{\n}", "218", "USA", "Doug Wheellock Tracy Caldwell Dyson", "Incr-24", "2010-08-11T00:00:00", "7:26", "ISS based EVA.  After remote cmds reduced upstream pressure, demated 4th NH3 connector and then demated electrical connectors.  Installed grapple fixture, unbolted old pump, temp stowed it and then demated electrical connectors of new pump" ]
+, [ 223, "F486F892-9F32-4BF2-A1F1-6EA8F6AB17B9", 223, 1406814231, "879596", 1406814231, "879596", "{\n}", "219", "USA", "Doug Wheellock Tracy Caldwell Dyson", "Incr-24", "2010-08-16T00:00:00", "7:20", "ISS based EVA.  Installed new coolant pump and stowed support equipment.  Connected CETA carts to mobile transporter for unobstructed remote cmd translation." ]
+, [ 224, "71595645-C789-4AA3-95B0-3B7FF9297BBE", 224, 1406814231, "879596", 1406814231, "879596", "{\n}", "220", "USA", "Steve Bowen           Alvin Drew ", "STS-133/ULF5", "2011-02-28T00:00:00", "6:34", "ISS based EVA.  Installed backup power cable for new stowage module.  Relocated failed pump module and prepped it for NH3 venting to enable future return.  Repositioned Z1 truss RPCM thermal blanket and an EVA foot restraint socket extension.  Retrieved foot restraint for incabin maintenance.  Added wedge to S1 camera for clearance with nearby logistics carrier.  Enabled MT and CETA cart translation past stbd solar array joint by installing rail extensions and removing stops.  Collected vacuum in JAXA experiment bottle." ]
+, [ 225, "54D2BC82-ED42-463C-9C0B-41EF3B5DDF7E", 225, 1406814231, "879596", 1406814231, "879596", "{\n}", "221", "USA", "Steve Bowen           Alvin Drew ", "STS-133/ULF5", "2011-03-02T00:00:00", "6:14", "ISS based EVA.  Late start due to suit leak from damaged CO2 can O-ring.  Vented NH3 from failed pump module enabling future return. Retrieved tool stowage bags used in past pump replacement.  Installed light on port CETA cart, camera on SPDM robot and 3 camera lens covers.  Repositioned camera sunshade for clear view.  Resecured loose radiator grapple beam. Retrieved pallet with MISSE data for return.  Removed thermal insulation from several locations.  Reinstalled foot restraint and relocated another. Relocated Strela grapple fixture adapter to FGB.  Early end due to partly detached helmet lights." ]
+, [ 226, "24EFF07C-2FC1-4D82-BDFC-994FD5EB39F8", 226, 1406814231, "879596", 1406814231, "879596", "{\n}", "222", "USA", "Andrew Feustel   Greg Chamitoff", "STS-134/ULF6", "2011-05-20T00:00:00", "6:19", "ISS based EVA.  Retrieved MISSE 7.  Installed MISSE 8, light on S3, stbd SARJ cover and port truss NH3 jumper (for radiator leak topoff). Vented N2 from port NH3 servicer lines and disconnected line across SARJ for overnight motions.  Mechanically installed 2 payload wireless antennas on Lab, but did not finish connecting all cables under MMOD shields due to suit CO2 transducer failure that shortened task time.  Setup NH3 vent tool bag for next EVA. EV2 biomed data lost early and topped off suit O2 due to high metabolic use rate." ]
+, [ 227, "29DE8C2C-D859-4759-B1F2-C239A82535E9", 227, 1406814231, "879596", 1406814231, "879596", "{\n}", "223", "USA", "Andrew Feustel   Mike Fincke", "STS-134/ULF6", "2011-05-22T00:00:00", "8:07", "ISS based EVA.  Reconnected fill line, refilled P6 radiator NH3, vented refill lines and disconnected line across SARJ.  Did suit solar bakeout due to suspected NH2 leak from disconnect. Lubricated 1/3 of port SARJ (lost 1 bolt & 3 washers from joint covers, one cover returned to airlock due to too few remaining bolts) and SPDM end effector.  Installed SPDM camera cover and 2 stbd radiator grapple bar stowage beams" ]
+, [ 228, "217FA9E9-31E1-4D52-8478-0EB88B28FDBD", 228, 1406814231, "879596", 1406814231, "879596", "{\n}", "224", "USA", "Andrew Feustel   Mike Fincke", "STS-134/ULF6", "2011-05-25T00:00:00", "6:54", "ISS based EVA.  Installed FGB PDGF/stand, video signal conditioner and a portion of associated cables.  Installed cables for backup power from US to Russian segment.  Finished installing cables under MMOD shields for 2 payload wireless antennas.  Installed thermal blanket on airlock O2 tank grapple fixture.  Infrared video of AirForce aerogel thermal insulation experiment.  Std photos of FGB PDGF and nearby FGB thrusters.  Resecured velcro of loose thermal insulation on external spare.  Antifog temporarily irritated EV1 eye " ]
+, [ 229, "2EE205EC-ADD9-420C-A676-CA8E672D44A0", 229, 1406814231, "879596", 1406814231, "879596", "{\n}", "225", "USA", "Mike Fincke    Greg Chamitoff", "STS-134/ULF6", "2011-05-27T00:00:00", "7:24", "ISS based EVA.  Permanently stowed orbiter inspection boom on ISS to expand future EVA/robotic reach for maint.  Removed P6 PDGF and installed on orbiter boom in place of EFGF to enable SSRMS handling.  Released expandable diam fasteners of spare SPDM arm.  EV2 topped off suit O2.  Took photos of DOD experiments." ]
+, [ 230, "EF4A7B97-E021-445F-838E-B4B4BEECBD42", 230, 1406814231, "879596", 1406814231, "879596", "{\n}", "226", "USA", "Ron Garan           Mike Fossum", "ISS-Incr 28 during STS-135/ULF7", "2011-07-12T00:00:00", "6:31", "ISS based EVA.  Transfered failed 1400lb pump module from ISS to Shuttle for return.  Transfered GSFC's satellite robotic refueling demo unit from Shuttle to ISS.  Add MISSE 8's ORMATE optical mirror experiment to ISS. As getaheads, installed PMA3 thermal cover, repositioned FGB PDGF's obstructing ground wire under thermal insulation and retrieved cutter for next Russian EVA" ]
+, [ 231, "E1CA37E2-DC09-4CE5-B242-E5E495F00EC3", 231, 1406814231, "879596", 1406814231, "879596", "{\n}", "227", "USA", "Sunita Williams        Akihiko Hoshide ", "ISS-Incr 32", "2012-08-30T00:00:00", "8:17", "ISS based EVA.  Installed 1 of 2 power cables for future MLM use.  Removed and stowed failed MBSU.  Unable to install new MBSU and left it tied down. Contaminated sublimator plate reduced cooling at end of EVA and led to suit declared no-go for future" ]
+, [ 232, "D296A8FC-44F2-4690-95EB-9396D98DC6AD", 232, 1406814231, "879596", 1406814231, "879596", "{\n}", "228", "USA", "Sunita Williams        Akihiko Hoshide ", "ISS-Incr 32", "2012-09-05T00:00:00", "6:28", "ISS based EVA.  Removed MBSU after releasing alignment sensitive bolt.  Photographed, inspected, cleaned and lubricated mechanical bolts and receptacles.  Ran spare bolt in and out of receptacle to smooth threads.  Using basic manual wrench for alignment touch, MBSU was bolted down.  Failed SSRMS camera replaced." ]
+, [ 233, "9F9E6CDE-1756-4BA0-A401-9BCA8D661054", 233, 1406814231, "879596", 1406814231, "879596", "{\n}", "229", "USA", "Sunita Williams        Akihiko Hoshide ", "ISS-Incr 32", "2012-11-01T00:00:00", "6:38", "Bypassed coolant system ammonia leak with jumper connections and backup radiator deployment.  Inspected solar array joint for cause of recent increase in friction." ]
+, [ 234, "0313DC7E-58CA-4C8B-BDEA-3BB2DE1A1DF2", 234, 1406814231, "879596", 1406814231, "879596", "{\n}", "230", "USA", "Chris Cassidy        Tom Marshburn", "ISS Incr-35", "2013-05-11T00:00:00", "5:31", "Replaced P6 truss pump flow control system box due to leak in coolant system.  Stowed old unit.  Performed precautionary ammonia bakeout." ]
+, [ 235, "7A534BAD-5264-43F0-B563-0A9428DF6CFA", 235, 1406814231, "879596", 1406814231, "879596", "{\n}", "231", "USA", "Chris Cassidy        Luca Parmitano ", "ISS Incr-36", "2013-07-09T00:00:00", "6:07", "Replaced failed Ku antenna avionics.  Retrieved 2 materials exposure experiments.  Took photos of contaminated radiator of AMS.  Installed 2 radiator grapple bars.  Routed MLM power cable to FGB.  Removed failed camera of mobile transporter.  Installed PMA2 MMOD cover, Z1 bypass jumper power cables and MLM data cable.  Cleared ground wire obstructing FGB PDGF" ]
+, [ 236, "43292D35-F0B2-48DD-ABC3-B721FE639DA8", 236, 1406814231, "879596", 1406814231, "879596", "{\n}", "232", "USA", "Chris Cassidy        Luca Parmitano ", "ISS Incr-36", "2013-07-16T00:00:00", "1:32", "EVA terminated early due to free water in EV2's helmet.  Completed install of Z1 bypass jumper cable and FGB PDGF data cable.  Partially routed MLM data cable." ]
+, [ 237, "7590B6E7-5347-4DCE-95FB-F5D230898614", 237, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Mar. 18, 1965\"\n  }\n}", "233", "Russia", "Alexei Leonov", "Voskhod 2", null, "0:12", "WorldÂs first EVA, Berkut umbilical suit, Volga inflatable airlock.  Had to partially reduce suit pressure to turnaround in airlock and close hatch" ]
+, [ 238, "68357152-A791-4322-AEDE-DE3BF96924FE", 238, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Jan. 16, 1969\"\n  }\n}", "234", "Russia", "Aleksei Yeliseyov        Yevgeni Khrunov", "Soyuz 4&5", null, "0:37", "New airlock, Yastreb self-contained life support suit, vehicle-vehicle EVA crew transfer.  Lost camera" ]
+, [ 239, "78F2B68F-45FE-4782-A01E-E9B70A46B75C", 239, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Sept. 1973\"\n  }\n}", "235", "Russia", "Victor Lazerov            Oleg Makarov", "Soyuz 12", null, "0:00", "New Orlan D suits checked out inside cabin" ]
+, [ 240, "26A0176F-6F4B-46E7-B3FF-A8A2E9A18589", 240, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Dec. 20, 1977\"\n  }\n}", "236", "Russia", "Yuri Romanenko    Georgi Grechko", "Soyuz 26    Salyut 6", null, "1:28", "Docking unit inspection. Tested new Orlan D suits.  G. saves R. from untethered loss out of airlock.  Both always attached via umbilicals??" ]
+, [ 241, "E680AC42-2581-4AD3-A664-0D9AEA9C7E3A", 241, 1406814231, "879596", 1406814231, "879596", "{\n}", "237", "Russia", "Vladimir Kovalyonok     Alexandr Ivanchenkov ", "Soyuz 29      Salyut 6", "1978-07-29T00:00:00", "2:05", "Replace scientific samples, test new suits" ]
+, [ 242, "5E2FD149-07BF-4E7D-A97C-FD17B34F9996", 242, 1406814231, "879596", 1406814231, "879596", "{\n}", "238", "Russia", "Vladimir Lyakhov       Valeri Ryumin", "Soyuz 32       Salyut 6", "1979-08-15T00:00:00", "1:23", "Free damaged/jammed 10m diameter KRT-10 antenna with cable cutters, forked stick and boot" ]
+, [ 243, "68827B8B-F5F0-491E-B5DD-0350916F8B1A", 243, 1406814231, "879596", 1406814231, "879596", "{\n}", "239", "Russia", "Anatoli Berezovsky      Valentin Lebedev", "Soyuz T-5     Salyut 7", "1982-07-30T00:00:00", "2:33", "Replace scientific equipment, remove ISTOK-2 exposed materials/structure.  Improved Orlan D suit used." ]
+, [ 244, "3F42BA5F-10D7-4EAF-AA1E-B73272B9A59D", 244, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Nov. 1, 1983\"\n  }\n}", "240", "Russia", "Vladimir Lyakhov     Alexandr Alexandrov ", "Soyuz T-9       Salyut 7", null, "2:49", "After in-cabin improvised repair of damaged suit leg bladder using aluminum ring and rubber, installed one solar array addition" ]
+, [ 245, "1275EA00-9D7C-4F2A-99FE-B393B813419C", 245, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Nov. 3, 1983\"\n  }\n}", "241", "Russia", "Vladimir Lyakhov     Alexandr Alexandrov ", "Soyuz T-9       Salyut 7", null, "2:55", "Install second solar array addition" ]
+, [ 246, "8FBB73C5-7763-45AC-B4CA-D0AFC4903ACC", 246, 1406814231, "879596", 1406814231, "879596", "{\n}", "242", "Russia", "Leonid Kizim          Vladimir Solovyov", "Soyuz T-10     Salyut 7", "1984-04-23T00:00:00", "4:15", "Place tool boxes, equipment, portable ladder.  Use pnuematic punch & cutter to get thru station skin.   " ]
+, [ 247, "9858765F-A768-4CB9-9ACE-FB58B6266D1B", 247, 1406814231, "879596", 1406814231, "879596", "{\n}", "243", "Russia", "Leonid Kizim          Vladimir Solovyov", "Soyuz T-10     Salyut 7", "1984-04-26T00:00:00", "5:00", "Install pipe/valve, purge and leak check manfold" ]
+, [ 248, "58B28077-CB19-4DDA-A230-D88C4831420A", 248, 1406814231, "879596", 1406814231, "879596", "{\n}", "244", "Russia", "Leonid Kizim          Vladimir Solovyov", "Soyuz T-10     Salyut 7", "1984-04-29T00:00:00", "2:45", "Add pipe, leak check, cover with blanket" ]
+, [ 249, "B5A7F2BC-ABA0-41F2-8A17-9A82510DD546", 249, 1406814231, "879596", 1406814231, "879596", "{\n}", "245", "Russia", "Leonid Kizim          Vladimir Solovyov", "Soyuz T-10     Salyut 7", "1984-05-04T00:00:00", "2:45", "Continue leaky propellant line repair/replace" ]
+, [ 250, "AE981A86-907A-4FC5-8529-22F5D15AC4B0", 250, 1406814231, "879596", 1406814231, "879596", "{\n}", "246", "Russia", "Leonid Kizim          Vladimir Solovyov", "Soyuz T-10     Salyut 7", "1984-05-18T00:00:00", "3:03", "Install solar array additions (2).  Jettison boxes" ]
+, [ 251, "8373A45D-DB77-4A8B-A49D-5E9883722FB2", 251, 1406814231, "879596", 1406814231, "879596", "{\n}", "247", "Russia", "Leonid Kizim          Vladimir Solovyov", "Soyuz T-10     Salyut 7", "1984-08-08T00:00:00", "5:00", "Remove thermal cover w/ special tool.  Seal leaky propellant oxidizer pipe with pinching device.  Cut  free & bring in solar array section" ]
+, [ 252, "552F7B4C-8C31-4E08-85CE-16D8564F6331", 252, 1406814231, "879596", 1406814231, "879596", "{\n}", "248", "Russia", "Svetlana Savitskaya   Vladimir Dzhanibekov", "Soyuz T-12      Salyut 7", "1984-07-25T00:00:00", "3:34", "First female EVA.  Welding, cutting, soldering, metal spraying with Paton Institute tool" ]
+, [ 253, "AFCBCF20-D6EF-4E00-B886-F2C792917994", 253, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Aug. 2, 1985\"\n  }\n}", "249", "Russia", "Vladimir Dzhanibekov    Victor Savinykh", "Soyuz T-13      Salyut 7", null, "4:58", "Install solar array addition (2), install French ISTOK-EM micro-meteroid collectors, test new Orlan DM suit" ]
+, [ 254, "382DC32B-1F97-451A-99B0-AD5D4F04C87E", 254, 1406814231, "879596", 1406814231, "879596", "{\n}", "250", "Russia", "Leonid Kizim          Vladimir Solovyov", "Soyuz T-15       Salyut 7", "1986-05-28T00:00:00", "3:40", "Ferma-Postroite 15m truss deploy/stow.  Install Mayak optical instrument.  Retrieve ISTOK-EM material samples.  Test new Orlan DM suits" ]
+, [ 255, "DB907074-6711-4104-AD69-B733BEF65028", 255, 1406814231, "879596", 1406814231, "879596", "{\n}", "251", "Russia", "Leonid Kizim          Vladimir Solovyov", "Soyuz T-15       Salyut 7", "1986-05-31T00:00:00", "5:01", "Ferma-Postroite 15m truss deploy after installing vibration measurement unit. Complete Mayak deploy manually.  Weld truss joints.  " ]
+, [ 256, "2CA847F2-2074-42A9-B049-C36855865746", 256, 1406814231, "879596", 1406814231, "879596", "{\n}", "252", "Russia", "Yuri Romanenko      Alexandr Laveykin", "Soyuz TM-2     Mir", "1987-04-11T00:00:00", "3:39", "Debris removed to restore docking between Kvant and Mir modules.  Robot arm temporarily increased distance between Kvant & Mir for manual debris access.  L. tried low suit P reg position which did not immediately stabilize" ]
+, [ 257, "42134C27-5ECB-4CE6-9BC3-8A25160260C4", 257, 1406814231, "879596", 1406814231, "879596", "{\n}", "253", "Russia", "Yuri Romanenko      Alexandr Laveykin", "Soyuz TM-2     Mir", "1987-06-12T00:00:00", "1:53", "Assembly of modified solar arrays" ]
+, [ 258, "6B9FD804-6633-4984-8A46-49DB26EC9705", 258, 1406814231, "879596", 1406814231, "879596", "{\n}", "254", "Russia", "Yuri Romanenko      Alexandr Laveykin", "Soyuz TM-2     Mir", "1987-06-16T00:00:00", "3:15", "Assembly of modified solar arrays" ]
+, [ 259, "507A0367-D8BF-4DF5-8827-B7D6C4E6F3D6", 259, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb. 26,1988\"\n  }\n}", "255", "Russia", "Vladimir Titov          Musa Manarov", "Soyuz TM-4    Mir", null, "4:10", "Disassemble modified arrays, install test arrays" ]
+, [ 260, "32504671-CD64-4AEE-97E1-07F3E968425B", 260, 1406814231, "879596", 1406814231, "879596", "{\n}", "256", "Russia", "Vladimir Titov          Musa Manarov", "Soyuz TM-4    Mir", "1988-06-30T00:00:00", "5:10", "Replace Xray telescope detector module" ]
+, [ 261, "37C57B3B-4FB9-4222-896A-F7D7F713975E", 261, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Oct. 20, 1988\"\n  }\n}", "257", "Russia", "Vladimir Titov          Musa Manarov", "Soyuz TM-4    Mir", null, "4:12", "Complete replacement of telescope detector module, use new Orlan DMAÂs" ]
+, [ 262, "2E5327DB-038C-4817-8916-9F4A0E5102AA", 262, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Dec. 9, 1988\"\n  }\n}", "258", "Russia", "Alexandr Volkov          Jean-Louc Chretien", "Soyuz TM-7      Mir ", null, "5:57", "French ERA truss experiment deploy and jettison.  Deploy Enchantillon materials experiment" ]
+, [ 263, "F3578FFE-CF36-4DB3-BE09-48DBFBEDF510", 263, 1406814231, "879596", 1406814231, "879596", "{\n}", "259", "Russia", "Alexandr Viktorenko   Alexandr Serebrov", "Soyuz TM-8     Mir ", "1990-01-08T00:00:00", "2:57", "Install 2 star trackers on Kvant 1.  Remove MMK2 panel from base block" ]
+, [ 264, "7F37DBEA-B047-47E4-848A-6E28DBC66661", 264, 1406814231, "879596", 1406814231, "879596", "{\n}", "260", "Russia", "Alexandr Viktorenko   Alexandr Serebrov", "Soyuz TM-8     Mir ", "1990-01-11T00:00:00", "2:58", "Kvant 1 science installed (Arfa-9, SKK-1, SKK-3), ERA supports disassembled, docking system hatch relocation as prep for Kristall.  Retrieve Enchantillon experiment" ]
+, [ 265, "4A8681F4-474B-4422-881B-FA167FF48F0C", 265, 1406814231, "879596", 1406814231, "879596", "{\n}", "261", "Russia", "Alexandr Viktorenko   Alexandr Serebrov", "Soyuz TM-8     Mir ", "1990-01-26T00:00:00", "3:02", "MMU mooring post/winch installed, Atlas TV and Ferrer/Daneo science installed, solar array fasteners inspected, checkout of Kvant2 airlock and new Orlan DMA w/o umbilical" ]
+, [ 266, "19D6C24D-7EF7-498B-8112-C87C07E5DB8D", 266, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb. 1, 1990\"\n  }\n}", "262", "Russia", "Alexandr Viktorenko   Alexandr Serebrov", "Soyuz TM-8     Mir ", null, "4:59", "Checkout Kvant 2 airlock & new Orlan DMA.  MMU flown tethered for 40 min to 33m.  " ]
+, [ 267, "1D6DEAA4-C094-45CD-973E-DB83AE053CB8", 267, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb. 5, 1990\"\n  }\n}", "263", "Russia", "Alexandr Viktorenko   Alexandr Serebrov", "Soyuz TM-8     Mir ", null, "3:45", "Checkout Kvant 2 airlock & new Orlan DMA.  MMU flown tethered for 93 min to 45m.  SPIN-6000 rad sensor on MMU" ]
+, [ 268, "02210E8A-620E-49F6-8FA9-5F418502D02F", 268, 1406814231, "879596", 1406814231, "879596", "{\n}", "264", "Russia", "Anatoli Solovyov    Alexandr Balandin", "Soyuz TM-9       Mir ", "1990-07-17T00:00:00", "7:00", "Reattach Soyuz thermal insulation blanket, Kvant 2 airlock hatch damaged.  Ingress into backup airlock of Kvant2" ]
+, [ 269, "84E1DEA7-B38A-4830-9B9A-EFBBA794FE37", 269, 1406814231, "879596", 1406814231, "879596", "{\n}", "265", "Russia", "Anatoli Solovyov    Alexandr Balandin", "Soyuz TM-9       Mir ", "1990-07-26T00:00:00", "3:52", "Soyuz repair access ladder stowed.  Kvant 2 airlock hatch inspected and forced closed" ]
+, [ 270, "C60A516D-D121-4EB6-8997-5D05CFF758FC", 270, 1406814231, "879596", 1406814231, "879596", "{\n}", "266", "Russia", "Gennady Manakov    Gennady Strekalov", "Soyuz TM-10    Mir ", "1990-10-29T00:00:00", "3:05", "Kvant 2 airlock hatch repair (remove insulation, temp fix to hinge), dismount ATLAS TV camera" ]
+, [ 271, "509074D8-DE84-4347-A949-01B3023625E3", 271, 1406814231, "879596", 1406814231, "879596", "{\n}", "267", "Russia", "Victor Afanasyev     Musa Manarov", "Soyuz TM-11       Mir ", "1991-01-07T00:00:00", "5:19", "Kvant 2 airlock hatch hinge replacement" ]
+, [ 272, "D50F96CD-9D50-40BD-AEB4-999FF36BC604", 272, 1406814231, "879596", 1406814231, "879596", "{\n}", "268", "Russia", "Victor Afanasyev     Musa Manarov", "Soyuz TM-11       Mir ", "1991-01-23T00:00:00", "5:34", "Cargo transfer boom installed on core module (using bolt hole punch).  Ferrer science retrieved" ]
+, [ 273, "6B175BDA-D5EE-4B56-860F-F7DAC1EE995D", 273, 1406814231, "879596", 1406814231, "879596", "{\n}", "269", "Russia", "Victor Afanasyev     Musa Manarov", "Soyuz TM-11       Mir ", "1991-01-26T00:00:00", "6:19", "Truss installation for solar arrays on Kvant-1.  Install Kurs reflectors.  Accidental damage to Kurs" ]
+, [ 274, "34DE4B00-0066-4FA1-A5E3-9ECE0B50B41B", 274, 1406814231, "879596", 1406814231, "879596", "{\n}", "270", "Russia", "Victor Afanasyev     Musa Manarov", "Soyuz TM-11       Mir ", "1991-04-25T00:00:00", "3:34", "Inspect damaged Kurs antenna on Kvant-1.  Install repaired ATLAS TV camera.  Test thermo mechanical joints of Sofora truss" ]
+, [ 275, "DFCD8504-09AF-493D-8B9E-17D656E48A7C", 275, 1406814231, "879596", 1406814231, "879596", "{\n}", "271", "Russia", "Sergei Krikalev         Anatoli Artsebarsky", "Soyuz TM-12      Mir ", "1991-06-25T00:00:00", "4:58", "Repair Kvant1 Kurs antenna.  Connect ATLAS TV connectors.  Test thermo mechanical joints of Sofora truss" ]
+, [ 276, "75270490-613F-4564-8A7F-B52E3825834D", 276, 1406814231, "879596", 1406814231, "879596", "{\n}", "272", "Russia", "Sergei Krikalev         Anatoli Artsebarsky", "Soyuz TM-12      Mir ", "1991-06-28T00:00:00", "3:24", "Install TREK radiation exp.  Install scanning TV camera for EVA monitoring" ]
+, [ 277, "89CD363F-D12D-41D9-8E94-D6B843453D35", 277, 1406814231, "879596", 1406814231, "879596", "{\n}", "273", "Russia", "Sergei Krikalev         Anatoli Artsebarsky", "Soyuz TM-12      Mir ", "1991-07-15T00:00:00", "5:56", "Transfer Sofora 14.5m truss mounting platform to Kvant1" ]
+, [ 278, "39552FD9-A359-4E17-A5CC-A67E0D188012", 278, 1406814231, "879596", 1406814231, "879596", "{\n}", "274", "Russia", "Sergei Krikalev         Anatoli Artsebarsky", "Soyuz TM-12      Mir ", "1991-07-19T00:00:00", "5:28", "Assemble Sofora 14.5m truss (sections 1-3)" ]
+, [ 279, "1D1EA741-1592-4814-803D-291BDEB23F4D", 279, 1406814231, "879596", 1406814231, "879596", "{\n}", "275", "Russia", "Sergei Krikalev         Anatoli Artsebarsky", "Soyuz TM-12      Mir ", "1991-07-23T00:00:00", "5:42", "Assemble Sofora 14.5m truss (sections 4-14)" ]
+, [ 280, "D97F1434-5ED0-4A92-9E25-900EDA36E848", 280, 1406814231, "879596", 1406814231, "879596", "{\n}", "276", "Russia", "Sergei Krikalev         Anatoli Artsebarsky", "Soyuz TM-12      Mir ", "1991-07-27T00:00:00", "6:49", "Assemble and elevate Sofora 14.5m truss (sections 15-17).  A. helmet fogged over forcing guide down truss by K.  Jettison old suit" ]
+, [ 281, "38869184-3069-45B7-AC3A-E3177EC854C0", 281, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb. 20, 1992 \"\n  }\n}", "277", "Russia", "Alexandr Volkov      Sergei Krikalev", "Soyuz TM-13     Mir ", null, "4:13", "V. suit cooling sublimator failed so must stay on umbilical.  Base block solar panel section collected.  Material experiments deployed and retrieved on Kvant2 (Sprut, SKK, DankoM, Plenka)" ]
+, [ 282, "EF2B332C-383E-4A28-99A2-C61A2A6634DD", 282, 1406814231, "879596", 1406814231, "879596", "{\n}", "278", "Russia", "Alexandr Viktorenko      Alexandr Kaleri", "Soyuz TM-14    Mir ", "1992-07-08T00:00:00", "2:03", "Kvant 2 gyrodyne inspected after insulation blankets cut.  Test EVA binoculars" ]
+, [ 283, "83973920-5F4F-490B-A748-54BE34BD4EFC", 283, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Sept. 3, 1992\"\n  }\n}", "279", "Russia", "Anatoli Solovyov      Sergei Avdeyev", "Soyuz TM-15   Mir ", null, "3:56", "Prepare 700kg thruster box for Sofora truss.  Install truss hinge lock" ]
+, [ 284, "3C1DB215-0F50-45ED-A645-A4BEAFC114DF", 284, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Sept. 7, 1992\"\n  }\n}", "280", "Russia", "Anatoli Solovyov      Sergei Avdeyev", "Soyuz TM-15   Mir ", null, "5:08", "Install thruster control cables on Sofora truss.  Attach truss to thruster box mounted on Progress" ]
+, [ 285, "12A04BCD-D497-47B7-B7A6-210A43B04913", 285, 1406814231, "879596", 1406814231, "879596", "{\n}", "281", "Russia", "Anatoli Solovyov      Sergei Avdeyev", "Soyuz TM-15   Mir ", "1992-09-11T00:00:00", "5:44", "Install thruster box on Sofora truss and deploy to ops pos" ]
+, [ 286, "269AF8B8-9375-4011-9079-9CBBDBB7F922", 286, 1406814231, "879596", 1406814231, "879596", "{\n}", "282", "Russia", "Anatoli Solovyov      Sergei Avdeyev", "Soyuz TM-15   Mir ", "1992-09-15T00:00:00", "3:33", "Move Kurs antenna on Kristall.  Retrieve science" ]
+, [ 287, "70860F1A-82D3-4F25-BBED-72103191A929", 287, 1406814231, "879596", 1406814231, "879596", "{\n}", "283", "Russia", "Gennady Manakov     Alexandr Poleshchuk", "Soyuz TM-16     Mir 15", "1993-04-19T00:00:00", "5:25", "Relocated solar array control base from Kristall to Kvant-1.  Vent problem in 1 suit, crane handle lost" ]
+, [ 288, "216A5C57-BC60-4AF7-92CC-729E2A33657F", 288, 1406814231, "879596", 1406814231, "879596", "{\n}", "284", "Russia", "Gennady Manakov     Alexandr Poleshchuk", "Soyuz TM-16     Mir 15", "1993-06-18T00:00:00", "4:32", "Relocated second solar array base from Kristall to Kvant-1" ]
+, [ 289, "936BF7E5-2D79-4FAE-9B97-BDA6246A276E", 289, 1406814231, "879596", 1406814231, "879596", "{\n}", "285", "Russia", "Valeri Tsibliyev      Alexandr Serebrov", "Soyuz TM-17    Mir 16", "1993-09-16T00:00:00", "4:19", "Install stowed Rapana small truss on Kvant1.  Install material samples (Indikator, Plenka5, Strakhovka)" ]
+, [ 290, "C536F5E8-4F16-40E4-B42D-02AC392FA9E1", 290, 1406814231, "879596", 1406814231, "879596", "{\n}", "286", "Russia", "Valeri Tsibliyev      Alexandr Serebrov", "Soyuz TM-17    Mir 16", "1993-09-20T00:00:00", "3:13", "Deploy Rapana small truss with material samples " ]
+, [ 291, "9FA1EE72-E07B-4393-80A6-57D3FB381BF8", 291, 1406814231, "879596", 1406814231, "879596", "{\n}", "287", "Russia", "Valeri Tsibliyev      Alexandr Serebrov", "Soyuz TM-17    Mir 16", "1993-09-28T00:00:00", "1:51", "Inspect for Perseid meteor shower damage.  Place Danko-M construction materials for exposure.  Retrieve one TREK panel.  Cooling system failure in T's suit shortens EVA" ]
+, [ 292, "F5A5E81E-93E4-47D3-B2F8-57899DE5F53A", 292, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Oct. 22, 1993\"\n  }\n}", "288", "Russia", "Valeri Tsibliyev      Alexandr Serebrov", "Soyuz TM-17    Mir 16", null, "0:37", "Exterior inspections started.  SKK science deployed.  O2 failure in S's suit stops work" ]
+, [ 293, "CDB41372-D6DD-41D9-B6EA-BE78E2149FCC", 293, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Oct. 29, 1993\"\n  }\n}", "289", "Russia", "Valeri Tsibliyev      Alexandr Serebrov", "Soyuz TM-17    Mir 16", null, "4:12", "Complete Panorama exterior inspections, discard used Orlan suit" ]
+, [ 294, "A1B96577-6EC7-4EF8-97B9-3CD3C1294187", 294, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Sept. 9, 1994\"\n  }\n}", "290", "Russia", "Yuri Malenchenko    Talgat Musabeyev ", "Soyuz TM-18     Mir 17", null, "5:05", "Inspect Progress docking system, prepare base for 2nd cargo boom (with hole punch), material science deployed/retrieved (Platan 4/5, SKK)" ]
+, [ 295, "183F9AA2-F82E-461D-9FB4-C99B6159C2BA", 295, 1406814231, "879596", 1406814231, "879596", "{\n}", "291", "Russia", "Yuri Malenchenko    Talgat Musabeyev ", "Soyuz TM-18     Mir 17", "1994-09-13T00:00:00", "6:05", "Inspect Kristall solar arrays before retraction/move to Kvant-1.  Tighten restraint bolts for Sofora and solar array bases.  Mount amateur radio antenna.  Retrieve Rapana science samples.  " ]
+, [ 296, "63C7B56C-7A88-4091-A7E5-D7134938B328", 296, 1406814231, "879596", 1406814231, "879596", "{\n}", "292", "Russia", "Vladimir Dezhurov      Gennady Strekalov", "Soyuz TM-19      Mir 18", "1995-05-12T00:00:00", "6:08", "Install electrical cables and adjust solar array actuators on Kvant-1.  Practice folding 3 solar array panels on Kristall" ]
+, [ 297, "62F17C0B-9EB3-4B68-9AF3-AA89C358E7EA", 297, 1406814231, "879596", 1406814231, "879596", "{\n}", "293", "Russia", "Vladimir Dezhurov      Gennady Strekalov", "Soyuz TM-19      Mir 18", "1995-05-17T00:00:00", "6:50", "Fold one Kristall solar array, move it to Kvant-1 using cargo crane, tie off temporarily" ]
+, [ 298, "1011C11A-6A80-4343-8648-4D5AC553E45F", 298, 1406814231, "879596", 1406814231, "879596", "{\n}", "294", "Russia", "Vladimir Dezhurov      Gennady Strekalov", "Soyuz TM-19      Mir 18", "1995-05-22T00:00:00", "5:15", "Fold all but 10 feet of second Kristall solar array and finish installing other array on Kvant-1" ]
+, [ 299, "5F9D078C-6F08-48FD-94EB-6D6CAACB1782", 299, 1406814231, "879596", 1406814231, "879596", "{\n}", "295", "Russia", "Vladimir Dezhurov      Gennady Strekalov", "Soyuz TM-19      Mir 18", "1995-05-29T00:00:00", "0:21", "Move base block docking port for Kristall move" ]
+, [ 300, "36C79730-C307-408D-9712-F9A6BCC30872", 300, 1406814231, "879596", 1406814231, "879596", "{\n}", "296", "Russia", "Vladimir Dezhurov      Gennady Strekalov", "Soyuz TM-19      Mir 18", "1995-06-16T00:00:00", "0:23", "Move base block docking port in prep for Spektr docking" ]
+, [ 301, "A9AA6AFC-26A0-4A71-8A7B-0349A183DE82", 301, 1406814231, "879596", 1406814231, "879596", "{\n}", "297", "Russia", "Anatoly Solovyev     Nikola Budarin", "Soyuz TM-20      Mir 19", "1995-07-14T00:00:00", "5:34", "Cut launch restraint of Spektr solar array with U.S. tool, resecure amateur radio antenna, retether cargo crane to free Kvant-2 solar array" ]
+, [ 302, "2838EB57-C58E-4968-99E4-94CA3A94569F", 302, 1406814231, "879596", 1406814231, "879596", "{\n}", "298", "Russia", "Anatoly Solovyev     Nikola Budarin", "Soyuz TM-20      Mir 19", "1995-07-19T00:00:00", "3:06", "Recover TREK.  Install Komplast.  Recover SKK-4, SKK-12, Platan, Stuk.  H2O cooling problem on one suit prevented Miras installation" ]
+, [ 303, "07A2F8BF-2012-416E-86BE-1B1E62499DE5", 303, 1406814231, "879596", 1406814231, "879596", "{\n}", "299", "Russia", "Anatoly Solovyev     Nikola Budarin", "Soyuz TM-20      Mir 19", "1995-07-21T00:00:00", "5:44", "Deploy Miras, shake Spektr solar array to attempt deploy of end panel.  Resecure amateur radio antenna.  Open Elektron O2 system valve" ]
+, [ 304, "C9C7FBD0-8030-424A-92C7-1C0E7C5DF7FD", 304, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Oct. 20, 1995\"\n  }\n}", "300", "Russia", "Sergei Avdeyev      Thomas Reiter", "Soyuz TM-X     Mir 20", null, "5:16", "Deploy ESEF materials experiment and replace Komza cassettes on Spektr" ]
+, [ 305, "D893CAC8-75E2-4224-9BFF-40976A7B5329", 305, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Dec. 8, 1995\"\n  }\n}", "301", "Russia", "Sergei Avdeyev            Yuri Gidzenko", "Soyuz TM-X     Mir 20", null, "0:32", "Move base block docking port as prep for Priroda docking" ]
+, [ 306, "1CCBB9A2-9F4E-46B7-A48A-5AF62C1F1FF2", 306, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Feb. 8, 1996\"\n  }\n}", "302", "Russia", "Yuri Gidzenko            Thomas Reiter", "Soyuz TM-X     Mir 20", null, "3:06", "Retrieve ESEF sample cassettes from Spektr.   Relocate MMU to stow site on Kvant-2 exterior" ]
+, [ 307, "FEF692BE-9AFF-46DF-AD0F-B410EA63CB36", 307, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Mar. 15, 1996\"\n  }\n}", "303", "Russia", "Yuri Onufrenko           Yuri Usachev", "Soyuz TM-23     Mir 21", null, "5:51", "Deploy second cargo crane.  Prepare solar array install site on Kvant-1" ]
+, [ 308, "53461EF7-66EC-4554-B262-2F6340BB6A3A", 308, 1406814231, "879596", 1406814231, "879596", "{\n}", "304", "Russia", "Yuri Onufrenko           Yuri Usachev", "Soyuz TM-23     Mir 21", "1996-05-21T00:00:00", "5:20", "Relocate cooperative array from DM to Kvant-1.  Pepsi mockup photography" ]
+, [ 309, "80369380-12BF-4A35-933D-562BAC329799", 309, 1406814231, "879596", 1406814231, "879596", "{\n}", "305", "Russia", "Yuri Onufrenko           Yuri Usachev", "Soyuz TM-23     Mir 21", "1996-05-24T00:00:00", "5:43", "Install 1/2 of cooperative array cables on Kvant1" ]
+, [ 310, "359E15E7-E00A-4687-8022-5529A64234CA", 310, 1406814231, "879596", 1406814231, "879596", "{\n}", "306", "Russia", "Yuri Onufrenko           Yuri Usachev", "Soyuz TM-23     Mir 21", "1996-05-30T00:00:00", "4:20", "Deploy MOMS experiment on Priroda.  Open exp covers" ]
+, [ 311, "7E1EB107-D22D-49A1-A9E4-878AA8F7C72B", 311, 1406814231, "879596", 1406814231, "879596", "{\n}", "307", "Russia", "Yuri Onufrenko           Yuri Usachev", "Soyuz TM-23     Mir 21", "1996-06-06T00:00:00", "3:34", "Deploy U.S. PIE/MSRE experiments on Kvant-2.  Replace Komza cassettes.  Install SKK-11.  Pepsi mockup photography " ]
+, [ 312, "CCEEDEFE-C501-407D-BC0E-4962C858D96B", 312, 1406814231, "879596", 1406814231, "879596", "{\n}", "308", "Russia", "Yuri Onufrenko           Yuri Usachev", "Soyuz TM-23     Mir 21", "1996-06-13T00:00:00", "5:42", "Manually assist Priroda Travers antenna.  Tighten Sofora truss fasteners.  Retrieve samples and secure Rapana truss to Sofora.  Install and deploy Ferma-3 truss experiment" ]
+, [ 313, "2EBC3BDE-C692-4AE9-B7DA-276A4CC4557A", 313, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Dec. 2, 1996\"\n  }\n}", "309", "Russia", "Valery Korzun            Alexander Kaleri", "Soyuz TM-24       Mir 22", null, "5:57", "Install last 1/2 of cables for cooperative array on Kvant-1.  Connect solar array power cables on base block.  Relocate Rapana truss to Ferma-3 truss" ]
+, [ 314, "8FB4549C-5D44-449A-AA9D-3B6DE42F84F4", 314, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Dec. 9, 1996\"\n  }\n}", "310", "Russia", "Valery Korzun            Alexander Kaleri", "Soyuz TM-24       Mir 22", null, "6:36", "Install Kurs antenna on docking module (including routing/mating cable to Kristall).  Tighten connector of amateur radio antenna on base block" ]
+, [ 315, "B49A386C-87E3-4C9C-862F-475B3DB04E9B", 315, 1406814231, "879596", 1406814231, "879596", "{\n}", "311", "Russia", "Valeri Tsibliev            Jerry Linenger", "Soyuz TM-25       Mir 23", "1997-04-29T00:00:00", "4:57", "Deploy OPM and TLD/Benton dosimeters.  Retrieve PIE and MSRE.  Use U.S. EVA tether and 35mm camera.  First use of new Orlan M suits" ]
+, [ 316, "36FF7498-FAA6-444B-A3B2-7B7E67BFE921", 316, 1406814231, "879596", 1406814231, "879596", "{\n}", "312", "Russia", "Anatoly Solovyev        Pavel Vinogradov", "Soyuz TM-26      Mir 24", "1997-08-21T00:00:00", "5:30", "Connect solar array power cables inside Spektr.  Inspect Spektr interior for leaks.  Retrieve science and personal hardware from Spektr." ]
+, [ 317, "22DD9629-2979-4646-B8C0-2C97BEAF5813", 317, 1406814231, "879596", 1406814231, "879596", "{\n}", "313", "Russia", "Anatoly Solovyev     Mike Foale", "Soyuz TM-26      Mir 24", "1997-09-06T00:00:00", "6:00", "Inspect Spektr exterior for leak sites (video under radiator and measure gap around solar array base).  Rotate 2 Spektr solar arrays.  Retrieve Benton dosimeter." ]
+, [ 318, "B0B22875-E50B-4779-82AE-D762FA46F7D2", 318, 1406814231, "879596", 1406814231, "879596", "{\n}", "314", "Russia", "Anatoly Solovyev     Pavel Vinogradov", "Soyuz TM-26      Mir 24", "1997-10-20T00:00:00", "6:10", "Connect 2 of 3 solar array orientation cables inside Spektr.  " ]
+, [ 319, "ECFCC94F-E9F1-4A76-AFDA-364A21F1DF8C", 319, 1406814231, "879596", 1406814231, "879596", "{\n}", "315", "Russia", "Anatoly Solovyev     Pavel Vinogradov", "Soyuz TM-26      Mir 24", "1997-11-03T00:00:00", "6:05", "Release Sputnik anniversary satellite.  Tiedown old solar array from Kvant-1 to base block.  Install Vozduk CO2 system external cap.  Retrieve base block solar array sample.  Retrieve/deploy Kvant-2 science.  Kvant-2 outer hatch leaks.  Ingress via backup airlock." ]
+, [ 320, "FE6429B7-21C0-44B6-8AC4-36212457C478", 320, 1406814231, "879596", 1406814231, "879596", "{\n}", "316", "Russia", "Anatoly Solovyev     Pavel Vinogradov", "Soyuz TM-26      Mir 24", "1997-11-06T00:00:00", "6:19", "Transfer new solar array from docking module to Kvant-1.  First handoff of stowed array from one crane to second.  Remove Vozduk external cap and install outlet diffuser.  Kvant-2 outer hatch inspected then sealed with aid of backup bolts." ]
+, [ 321, "2645D6AF-0B13-4FFB-B6BD-BCC48CC651CC", 321, 1406814231, "879596", 1406814231, "879596", "{\n}", "317", "Russia", "Anatoly Solovyev     Pavel Vinogradov", "Soyuz TM-26      Mir 24", "1998-01-09T00:00:00", "3:06", "Retrieve U.S. OPM experiment from docking module.  Kvant-2 hatch inspected, videotaped and bolted closed.  " ]
+, [ 322, "B3F68D37-8A65-42FC-8079-2080034D878B", 322, 1406814231, "879596", 1406814231, "879596", "{\n}", "318", "Russia", "Anatoly Solovyev     Dave Wolf", "Soyuz TM-26      Mir 24", "1998-01-14T00:00:00", "3:52", "Use SPSR experiment on Kvant-2 radiator.  Kvant-2 airlock hatch inspected and bolted closed" ]
+, [ 323, "8AA53741-866B-424D-9C31-4AD7BB1318F0", 323, 1406814231, "879596", 1406814231, "879596", "{\n}", "319", "Russia", "Talgat Musabeyev     Nikola Budarin", "Soyuz TM-27     Mir 25", "1998-03-03T00:00:00", "0:00", "Manual wrenches inadequate to release hatch bolts.  Spektr solar array reinforcement deferred." ]
+, [ 324, "F8A7FFD0-E8AF-49BE-9F03-DFCD56081ED1", 324, 1406814231, "879596", 1406814231, "879596", "{\n}", "320", "Russia", "Talgat Musabeyev     Nikola Budarin", "Soyuz TM-27     Mir 25", "1998-04-01T00:00:00", "6:26", "Install handrails and foot restraints on Spektr around damaged solar array.  " ]
+, [ 325, "BA73F234-5FCC-4438-A4A1-6A178E7A3156", 325, 1406814231, "879596", 1406814231, "879596", "{\n}", "321", "Russia", "Talgat Musabeyev     Nikola Budarin", "Soyuz TM-27     Mir 25", "1998-04-06T00:00:00", "4:23", "Reinforce Spektr solar array.  Retrieve Komza " ]
+, [ 326, "B354B4B3-B21C-4940-B1B4-587B706B84ED", 326, 1406814231, "879596", 1406814231, "879596", "{\n}", "322", "Russia", "Talgat Musabeyev     Nikola Budarin", "Soyuz TM-27     Mir 25", "1998-04-11T00:00:00", "6:25", "Jettison VDU roll thruster package from Sofora top" ]
+, [ 327, "1FAD33D8-043A-4D17-968F-835A728ABD89", 327, 1406814231, "879596", 1406814231, "879596", "{\n}", "323", "Russia", "Talgat Musabeyev     Nikola Budarin", "Soyuz TM-27     Mir 25", "1998-04-17T00:00:00", "6:33", "Prepare new VDU for Sofora mating.  Clear Ferma-3 & Rapana trusses.  Tighten Sofora bolts" ]
+, [ 328, "70EBFA8D-E849-4B15-B6D7-B112840AEA3F", 328, 1406814231, "879596", 1406814231, "879596", "{\n}", "324", "Russia", "Talgat Musabeyev     Nikola Budarin", "Soyuz TM-27     Mir 25", "1998-04-22T00:00:00", "6:21", "Install new VDU on Sofora and erect to vertical pos.  Jettison of ???????" ]
+, [ 329, "629CDBED-4143-4ED4-98E6-5B82608FB363", 329, 1406814231, "879596", 1406814231, "879596", "{\n}", "325", "Russia", "G. Padelka                     Sergei Avdeyev", "Soyuz TM-28           Mir 26", "1998-09-15T00:00:00", "0:30", "Internal EVA inside Spektr to connect solar array orientation cable in response to avionics failure." ]
+, [ 330, "D1B1F3B0-86B0-4ACD-9438-83FCB2137859", 330, 1406814231, "879596", 1406814231, "879596", "{\n}", "326", "Russia", "G. Padelka                     Sergei Avdeyev", "Soyuz TM-28           Mir 26", "1998-11-10T00:00:00", "5:50", "Manual launch of Sputnik demo satellite.  Install Dvikon suit material exposure experiment on base block Igla antenna.  Retrieve bagged sample after thruster exhaust exposure.  Attach and deploy experimental solar array on docking module trunnion.  Replace thermal blanket over pwr connectors.  Retrieve  Keramika, Danko, Solyaris and SMMK experiments.  Deploy Komet, Spika, Migmas and Sprut experiments on Kvant2." ]
+, [ 331, "7BB87A8D-233F-46C9-B2FF-5295111C9AEF", 331, 1406814231, "879596", 1406814231, "879596", "{\n}", "327", "Russia", "Victor Afanasyev                  Jean-Pierre Heignere", "Soyuz TM-29           Mir 27", "1999-04-16T00:00:00", "6:19", "Attempted demo of leak repair device failed due to valve failure.  Deployed organic material exposure experiment and retrieved French MMOD experiment.  Manual launch of Sputnik demo satellite.  " ]
+, [ 332, "0BBCF263-534C-4D86-8DAD-BAB779629563", 332, 1406814231, "879596", 1406814231, "879596", "{\n}", "328", "Russia", "Victor Afanasyev                   Sergei Avdeyev", "Soyuz TM-29           Mir 27", "1999-07-23T00:00:00", "6:07", "Installed a new experimental 6-meter diameter antenna on Sofora truss but failed to deploy it fully.  Unsuccessfully sought source of small leak in Kvant-2 atmosphere.  Retrieved the Exobiology and Dvikon experiments.  " ]
+, [ 333, "3B453063-8F98-416E-8FF5-5B229090A1DF", 333, 1406814231, "879596", 1406814231, "879596", "{\n}", "329", "Russia", "Victor Afanasyev                   Sergei Avdeyev", "Soyuz TM-29           Mir 27", "1999-07-28T00:00:00", "5:22", "Finished full deploy of an experimental 6-meter antenna on Sofora truss.  At the end of the experiment the antenna was jettisoned.  Also installed experiments Indicator and Sprut-4, changed the cassettes of the Migmas ion spectrometer and retrieved Danko-M and Ekran-D experiments.  Problem with suit cooling ended EVA." ]
+, [ 334, "CAF9074E-DB88-4C3A-BE17-EDDA6A7ED4F0", 334, 1406814231, "879596", 1406814231, "879596", "{\n}", "330", "Russia", "Sergei Zaletin      Alexander Kaleri", "Soyuz TM-30    Mir 28", "2000-05-12T00:00:00", "5:30", "Inspected and photographed short circuit damaged solar array cable on Kvant-1.  Tested module leak repair sealant on sample panel.  Retrieved a solar array test sample from the docking module.  Conducted general inspection/photography of health of Mir exterior (panorama)" ]
+, [ 335, "B8275BAA-277B-467C-AFD7-5F47246B0A6F", 335, 1406814231, "879596", 1406814231, "879596", "{\n}", "331", "Russia", "Yuri Usachev                  Jim Voss", "ISS Incr-2", "2001-06-08T00:00:00", "0:19", "Relocated SM docking port as prep for DC1 docking.  Tested Orlan suits launched with SM." ]
+, [ 336, "8B490DB0-D7D4-428D-9CDA-CCEA1BB68F44", 336, 1406814231, "879596", 1406814231, "879596", "{\n}", "332", "Russia", "Vladimir Dezhurov     Mikhail Tyurin", "ISS Incr-3", "2001-10-08T00:00:00", "4:58", "First EVA from DC-1.  Installed Tranzit-B cable for EVA radio communications between the SM and DC-1.  Installed 4 hatch handrails, egress/ingress ladder, MLI, video camera and Strela crane operator post/boom on DC-1.  Installed Kurs antennas and docking target.  Confirmed deployment of 4 Kurs active antennas.  As planned, jettisoned MLI covers from DC-1 docking target and Kurs antenna.  Small drops of thruster contamination seen on MLI.  Suit gloves inspected, wiped down and bagged post EVA.   " ]
+, [ 337, "B123246B-7F1A-45BF-AA23-1B7EA1499CD3", 337, 1406814231, "879596", 1406814231, "879596", "{\n}", "333", "Russia", "Vladimir Dezhurov     Mikhail Tyurin", "ISS Incr-3", "2001-10-15T00:00:00", "5:52", "Installed Kromka at SM port location.  Installed Japanese contracted MPAC-SEEDS materials experiments (3) on outside of SM.  Replaced Russian flag placard with Kodak sign (material durability tests).  EVA hatch was briefly stuck in temp stow position.  Orlan gloves bagged post EVA." ]
+, [ 338, "5BA7CC45-81D5-4345-95B8-38F99067573C", 338, 1406814231, "879596", 1406814231, "879596", "{\n}", "334", "Russia", "Vladimir Dezhurov     Frank Culbertson", "ISS Incr-3", "2001-11-12T00:00:00", "5:04", "DC1-SM hatch leaked during initial depress.  Wipe of seals and reclosure resolved leak (30 minute delay).  Connected Kurs cables (4 hi freq and 3 low freq) outside Pirs DC-1.   Installed tether between DC1 egress ladder and SM.  Completed checks of the Strela crane.  Inspected and photographed a partially deployed panel of SM solar array." ]
+, [ 339, "47BD5D32-CE07-42EC-B8F7-AE3297B26CDE", 339, 1406814231, "879596", 1406814231, "879596", "{\n}", "335", "Russia", "Vladimir Dezhurov     Mikhail Tyurin", "ISS Incr-3", "2001-12-03T00:00:00", "2:46", "Removed debris on SM aft port that prevented Progress vehicle #6 from completing hard dock.  Photoed and removed Progress #5 seal debris." ]
+, [ 340, "091121D2-412F-4FDE-999F-2D0576508DB3", 340, 1406814231, "879596", 1406814231, "879596", "{\n}", "336", "Russia", "Yri Onufrienko            Carl Walz", "ISS Incr-4", "2002-01-14T00:00:00", "6:03", "Relocated a cargo boom for the Russian Strela crane from PMA-1 to Pirs DC-1.  Installed amateur radio antenna WA3 and cables onto the aft of SM.  Jettisoned gloves and wiping towels?" ]
+, [ 341, "19911B83-15DC-41E0-8F58-A4D7BD83DF08", 341, 1406814231, "879596", 1406814231, "879596", "{\n}", "337", "Russia", "Yuri Onufrienko              Dan Bursch", "ISS Incr-4", "2002-01-25T00:00:00", "5:59", "Installed 6 thruster deflector shields on SM.  Installed an amateur radio antenna (WA4) and retrieved/ replaced Kromka device to measure thruster deposits.  Installed 1 Platan-M radiation experiment and 3 SKK materials experiments." ]
+, [ 342, "0C16465E-E48B-4FC7-BAA6-3CE311B46882", 342, 1406814231, "879596", 1406814231, "879596", "{\n}", "338", "Russia", "Valery Korzun             Peggy Whitson", "ISS Incr-5", "2002-08-16T00:00:00", "4:25", "EVA delayed 1:43 due to missed opening of primary O2 bottles in both suits.  Removed 6 MMOD shield panels from PMA-1 and installed them on SM.  Deferred EVA tasks for swab of fuel/oxidizer residue and installation of Kromka experiment.  " ]
+, [ 343, "883FACF6-B734-49E2-B0C1-3D6EFB045EFC", 343, 1406814231, "879596", 1406814231, "879596", "{\n}", "339", "Russia", "Valery Korzun         Sergei Treschev", "ISS Incr-5", "2002-08-26T00:00:00", "5:21", "Installed ORU attachment frame outside FGB to house components for EVA assembly tasks.  Retrieved and replaced panel #1 of Japan's MPAC/SEEDs materials experiments outside SM.  Installed 4 fairleads on FGB for future routing of tethers.  Added two ham radio antennas on SM (WA1 & WA2).  Replaced the earlier deferred Kromka hardware.  Inspected MMOD sensor outside SM." ]
+, [ 344, "D90AD118-1443-4048-8504-DD3A0E4BA6D7", 344, 1406814231, "879596", 1406814231, "879596", "{\n}", "340", "Russia", "Alexander Kaleri         Mike Foale", "ISS Incr-8", "2004-02-26T00:00:00", "3:55", "Replaced an SKK removable materials sample cassette from DC-1.  Retrieved Japanese MPAC/SEEDS panel #2 and relocated MPAC/SEEDS panel #3.  Installed ESA \"Matryoshka\" experiment.  Removed two Velcro straps from the SM's WA2 ham radio antenna.  Replaced two SKK removable materials sample cassettes on SM.  Suit cooling system failure ended work 1.5 hours early.   Did not retrieve/relocate ATV reflectors for ESA, retrieve/install Kromka thruster contamination sampling tray, reconfigure the \"Platan-M\" payload experiment or photograph external structures.  " ]
+, [ 345, "EF17DB8B-E41A-4B35-8FC5-3D5C70EDEF97", 345, 1406814231, "879596", 1406814231, "879596", "{\n}", "341", "Russia", "Gennady Padalka      Mike Fincke", "ISS Incr-9", "2004-06-24T00:00:00", "0:14", "Fincke's Orlan O2 injector lever not in fully closed position.  EVA attempt terminated early." ]
+, [ 346, "CACB0BFA-5F54-475D-9B19-73316C41959A", 346, 1406814231, "879596", 1406814231, "879596", "{\n}", "342", "Russia", "Gennady Padalka      Mike Fincke", "ISS Incr-9", "2004-06-30T00:00:00", "5:39", "Replaced RPCM on SO truss for CMG #2 after extending and translating along Strela crane.  Completed getahead tasks on DC1 (contamination sensor, fabric handrails, 2 handrail end stops)" ]
+, [ 347, "9797D812-F7B6-41AE-8FFE-24C7F61A951E", 347, 1406814231, "879596", 1406814231, "879596", "{\n}", "343", "Russia", "Gennady Padalka      Mike Fincke", "ISS Incr-9", "2004-08-03T00:00:00", "4:30", "Installed 2 ATV antennas.  Removed 6 ATV laser reflectors and installed 3 new reflectors.  Demated cable from failed ATV camera.  Replaced several experiments (Kromka thruster contam, CKK material exposure, Platan-M cosmic rays).  Installed 2 handrail end stops on DC1 aft hatch" ]
+, [ 348, "D47B7746-9DB9-4598-9418-A857771ACED3", 348, 1406814231, "879596", 1406814231, "879596", "{\n}", "344", "Russia", "Gennady Padalka      Mike Fincke", "ISS Incr-9", "2004-09-03T00:00:00", "5:21", "Replaced FGB thermal system fluid control unit.  Installed 4 safety tether fairleads on FGB.  Stopped motion to aid test for phantom torque upon CMGs.  Installed 3 ATV antennas on SM and removed 5 antenna covers.  Installed 3 of 4 handrail end stops on DC1 fwd hatch.  Photographed MPAC/SEEDS experiment.  Jettisoned antenna covers, glove wipe towels & container with old FGB ORU (~ 10 items)" ]
+, [ 349, "E6784E15-529A-4FF3-A035-999D65ED08E7", 349, 1406814231, "879596", 1406814231, "879596", "{\n}", "345", "Russia", "Leroy Chiao            Salizhan Sharipov", "ISS Incr-10", "2005-01-26T00:00:00", "5:28", "Installed science workstation and German Rokviss robotic experiment on SM.  Transfered MPAC/SEEDs experiment panel to new location on same stand.  Installed Rokviss antenna on MPAC/SEEDs mounting structure (cable reconnection due to initial mating error).  Photoed contamination on vent valves of Elektron, Vozdukh and trace gas system to aid MCC-M troubleshooting.  Installed BioRisk experiment on DC1.  19 items jettisoned (elec caps, glove wipes)" ]
+, [ 350, "15510755-7636-474F-9DE6-3899F2DDC77C", 350, 1406814231, "879596", 1406814231, "879596", "{\n}", "346", "Russia", "Leroy Chiao            Salizhan Sharipov", "ISS Incr-10", "2005-03-28T00:00:00", "4:30", "Installed 3 ATV antennas on SM fwd end.  Jettisoned German Nanosputnik experiment.  Installed ATV GPS antenna on SM aft end.  Photographed/observed ONA antenna drive to aid MCC-M troubleshooting.  Inpected ATV retroreflector for contamination (little found).  Jettisoned elec caps, antenna covers, glove wipe towels" ]
+, [ 351, "98B6F6F9-499A-4541-8596-10A3203D2BD0", 351, 1406814231, "879596", 1406814231, "879596", "{\n}", "347", "Russia", "Sergei Krikalev            John Phillips", "ISS Incr-11", "2005-08-18T00:00:00", "4:58", "Retrieve canister #1 of the Biorisk experiment can #1,  MPAC/SEEDS materials experiment panel #3 and Matryoshka radiation dosimetry experiment.  Install Automated Transfer Vehicle (ATV) backup docking camera.  Relocate SKK material experiment #4 and install #5.  Ran out of time to relocate Russian cargo crane grapple fixture adapter from FGB to PMA3 (prep for STS-116/12A.1)" ]
+, [ 352, "DD880121-143F-4049-B541-C6817DB90E6B", 352, 1406814231, "879596", 1406814231, "879596", "{\n}", "348", "Russia", "Valeri Tokarev           Bill McArthur        ", "ISS Incr-12", "2006-02-03T00:00:00", "5:44", "Jettisoned life expired Orlan suit with Ham radio inside (RadioSkaf or Suit Sat).  Relocated Strela adapter from FGB to PMA-3. Removed zenith TUS cable from IUA, secured to MT handrail because safing bolt would not engage adequately. Retrieved science experiment (Biorisk) and photographed exterior of Service Module." ]
+, [ 353, "B8F4F0EB-04D6-4607-A60E-0B7B4940BA76", 353, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"June 1-2, 2006\"\n  }\n}", "349", "Russia", "Pavel Vinogradov         Jeff Williams", "ISS Incr-13", null, "6:31", "Installed new hydrogen vent for Elektron O2 generator.  Retrieved Kromka, BKHD and Biorisk experiments.  Relocated ATV WAL3 antenna cable to improve system performance.  Photographed ATV WAL2 antenna and SM reboost engine to aid engine cover troubleshooting.  Lost crane foot restraint adapter.  Replaced MBS camera (EVA extended by 50 min to permit task)." ]
+, [ 354, "25FB6918-0198-4298-9692-187025A4498B", 354, 1406814231, "879596", 1406814231, "879596", "{\n}", "350", "Russia", "Mikhail Tyurin    Michael Lopez-Alegria", "ISS Incr-14", "2006-11-22T00:00:00", "5:38", "Performed golf demo (one ball jettisoned).  Inspected but unable to stow Progress antenna.  Relocated ATV antenna impairing SM reboost engine.  Installed solar radiation experiment (minus data cable)" ]
+, [ 355, "3C1F17D3-DE55-4DA1-AC0A-4D9C739342E1", 355, 1406814231, "879596", 1406814231, "879596", "{\n}", "351", "Russia", "Mikhail Tyurin    Michael Lopez-Alegria", "ISS Incr-14", "2007-02-22T00:00:00", "6:18", "Cut/cleared Progress antenna interfering with undocking. Adjusted ATV antenna interfaces. Replaced a materials experiment. Installed data cable of radiation experiment. Photographed ATV reflectors and numerous experiments. Installed 2 foot restraints outside airlock. Inspected safety of cargo crane mechanisms.  Successfully used new LED helmet lights.  EV1's sublimator breakthru caused helmet fogging before reset correction." ]
+, [ 356, "C2DAC7D7-1DC4-4DB5-A5E6-C6DB79A26B1E", 356, 1406814231, "879596", 1406814231, "879596", "{\n}", "352", "Russia", "Fyodor Yurchikhin              Oleg Kotov ", "ISS Incr-15", "2007-05-30T00:00:00", "5:25", "Start delayed 45 minutes due to comm misconfig.  Transferred MMOD panels from PMA3 to SM and installed 5 of 17 panels.  Installed ATV GPS antenna cable.  Suit wrist mirror lost overboard." ]
+, [ 357, "D465901F-4910-42ED-B843-21798098D1CD", 357, 1406814231, "879596", 1406814231, "879596", "{\n}", "353", "Russia", "Fyodor Yurchikhin              Oleg Kotov ", "ISS Incr-15", "2007-06-06T00:00:00", "5:37", "Installed SM-FGB cable for local area network (LAN) and Biorisk science experiment.  Installed last 12 MMOD shields on SM.  " ]
+, [ 358, "E95D879A-4789-488D-A94C-A3DABFA50D08", 358, 1406814231, "879596", 1406814231, "879596", "{\n}", "354", "Russia", "Sergei Volkov              Oleg Kononenko", "ISS Incr-17", "2008-07-10T00:00:00", "6:19", "Removed a pyrobolt from 1 of 5 Soyuz capsule restraints.  First use of US helmet TV on Orlan.  Lost tool and insulation fragments overboard.  Jettisoned thruster cover bounced off radiator in wrong direction." ]
+, [ 359, "CD675934-5FF2-43C2-99BC-983E88E1D164", 359, 1406814231, "879596", 1406814231, "879596", "{\n}", "355", "Russia", "Sergei Volkov              Oleg Kononenko", "ISS Incr-17", "2008-07-15T00:00:00", "5:54", "Prepped for new module (MRM2) installation by installing a SM docking target and inspecting antenna attach points.  Installed Vsplesk cosmic radiation experiment and retrieved Biorisk experiment.  Unbent a ham radio antenna." ]
+, [ 360, "8C50D1AC-3033-43F5-94D0-6F699DE182BE", 360, 1406814231, "879596", 1406814231, "879596", "{\n  \"invalidCells\" : {\n    \"21110586\" : \"Dec 22-23, 2008\"\n  }\n}", "356", "Russia", "Yuri Lonchakov         Mike Fincke", "ISS Incr-18", null, "5:39", "Installed Langmuir probe to aid Soyuz reentry sep analysis.  Retrieved a BIORISK can.  Installed EXPOSE R and Impulse experiments.  Had to deinstall and return EXPOSE R to cabin when it wouldnÂt activate.  Deferred other tasks.  Failed valve forced use of stored gas to repress airlock." ]
+, [ 361, "4F794533-0FD4-4ABC-900B-C86206224C1A", 361, 1406814231, "879596", 1406814231, "879596", "{\n}", "357", "Russia", "Yuri Lonchakov         Mike Fincke", "ISS Incr-18", "2009-03-10T00:00:00", "4:48", "Cut off excess length of fabric straps near DC1 antennas and docking target.  Reinstalled EXPOSE-R experiment and adjusted orientation of SKK experiment panel.  Closed thermal insulation flap over electrical connector panel.  Photographed external hardware" ]
+, [ 362, "2F3315B3-5170-4992-8E99-AA53DA2CFA17", 362, 1406814231, "879596", 1406814231, "879596", "{\n}", "358", "Russia", "Gennady Padalka      Mike Barratt", "ISS Incr-19", "2009-06-05T00:00:00", "4:54", "First use of new Orlan MK suits with digital caution/warning electronics.  Started 1 hour late due to faulty CO2 readings.  Installed two docking navigation antennas on zenith port of service module as prep for MRM2 arrival" ]
+, [ 363, "F4EA9CD2-ACCB-41AC-9E6A-1D6DE3A6375A", 363, 1406814231, "879596", 1406814231, "879596", "{\n}", "359", "Russia", "Gennady Padalka      Mike Barratt", "ISS Incr-19", "2009-06-10T00:00:00", "0:12", "Relocated docking cone to zenith port of Service Module as prep for MRM2 arrival" ]
+, [ 364, "1BF5DBEF-B30D-4515-8F9F-DED6E8E9776F", 364, 1406814231, "879596", 1406814231, "879596", "{\n}", "360", "Russia", "Oleg Kotov         Maxim Suraev", "ISS Incr-22", "2010-01-14T00:00:00", "5:44", "Prepped new module (MRM2) for Soyuz/Progress usage by installing Kurs navigation antennas/cables and docking targets.  Installed 2 hatch handrails, jettisoned excess thermal blankets and retrieved can of Biorisk experiment" ]
+, [ 365, "F223169B-0D0F-4E7E-BD9A-2765CB0DC7BB", 365, 1406814231, "879596", 1406814231, "879596", "{\n}", "361", "Russia", "Fyodor Yurchikin    Mikhail Kornienko", "ISS Incr-24", "2010-07-27T00:00:00", "6:42", "Replaced degraded ATV docking camera and jettisoned old unit.  Removed launch restraints from MRM1 camera.  Installed cables to enable dockings to MRM1.  Lost cable clamp" ]
+, [ 366, "2F0895B1-18A8-4CE6-8071-D76207D54FB5", 366, 1406814231, "879596", 1406814231, "879596", "{\n}", "362", "Russia", "Fyodor Yurchikin     Oleg Skripochka", "ISS Incr-25", "2010-10-15T00:00:00", "6:27", "Installed experiment platform on SM large diameter, CKK materials experiment on MRM2 and two handrail gap spanners.  Collected sample wipes of prop byproducts and microbes from thermal blankets.  Retrieved ROKVISS robot experiment and jettisoned wipedown towels.  Removed but not able to relocate MRM1 TV camera due to thermal blanket.  FGB paint chips lost overboard" ]
+, [ 367, "9461DB09-8B7D-41E4-9EC5-E074FD77ACD1", 367, 1406814231, "879596", 1406814231, "879596", "{\n}", "363", "Russia", "Dmitry Kondratiev         Oleg Skripochka", "ISS Incr-26", "2011-01-21T00:00:00", "5:23", "Installed 100Mb/sec data downlink antenna and its cables.  Retrieved plasma and ExposeR materials exposure experiments.  Finished installation of MRM1 docking TV camera by cutting into impeding thermal blanket.  Jettisoned antenna cover and cable reel" ]
+, [ 368, "C5243ECF-FE7A-4776-BC1B-067B7B111583", 368, 1406814231, "879596", 1406814231, "879596", "{\n}", "364", "Russia", "Dmitry Kondratiev         Oleg Skripochka", "ISS Incr-26", "2011-02-16T00:00:00", "4:51", "Installed Photon-Gamma and Radiometria experiments on SM.  Jettisoned foot restraint.  Retrieved Komplast panels from FGB." ]
+, [ 369, "97CAF03E-3AF0-4EC0-9F88-0709B7138EAF", 369, 1406814231, "879596", 1406814231, "879596", "{\n}", "365", "Russia", "Sergei Volkov       Alexander Samokutyaev ", "ISS Incr-28", "2011-08-03T00:00:00", "6:23", "Installed laser comm and Biorisk experiments.  Jettisoned covers of laser experiment. After delay due to broken rcvr antenna, deployed ham radio satellite Radioskaf-V/Arissat-1.  Removed SM-MRM1 Kurs antenna from SM.  Took photos of materials experiments, degraded antenna and images of Russian space heroes.  Due to time, did not relocate strela crane from DC1 to MRM1.  " ]
+, [ 370, "D59EA642-AA24-4E67-9B6A-0BB45BFA5474", 370, 1406814231, "879596", 1406814231, "879596", "{\n}", "366", "Russia", "Oleg Kononenko                   Anton Shkaplerov", "ISS Incr-30", "2012-02-16T00:00:00", "6:15", "Relocated 1st strela crane from DC1 to MRM1 and jettisoned base thermal cover.  Installed materials exposure experiment and took 1 of 2 swab samples of contamination under thermal blanket.  Due to time, did not install SM MMOD shields" ]
+, [ 371, "8F646F17-135A-4126-9037-55F336CBDF36", 371, 1406814231, "879596", 1406814231, "879596", "{\n}", "367", "Russia", "Gennady Padalka  Yuri Malenchenko ", "ISS Incr-32", "2012-08-20T00:00:00", "5:51", "1 hr late start due to airlock valve.  Relocated cargo crane from DC1 to FGB as prep for MLM.  Installed MMOD shields on Service Module and support struts for airlock exit ladder.  Deployed small satellite and retrieved Biorisk experiment canister" ]
+, [ 372, "4C467A6C-1AA1-4D04-BD46-43E699E28224", 372, 1406814231, "879596", 1406814231, "879596", "{\n}", "368", "Russia", "Pavel Vinogradov     Roman Romanenko", "ISS Incr-35", "2013-04-19T00:00:00", "6:38", "Installed plasma experiment/cables/probes, replaced degraded ATV navigation reflector, jettisoned cable reel, towels and probe boxes, retrieved biorisk canister. Lost materials exposure experiment overboard" ]
+, [ 373, "28D05DE2-7BE0-4BC5-A905-5ED7542309FE", 373, 1406814231, "879596", 1406814231, "879596", "{\n}", "369", "Russia", "Fyodor Yurchikhin                  Alexander Misurkin ", "ISS Incr-36", "2013-06-24T00:00:00", "6:34", "Power cable clamps installed and Kurs tested in prep for MLM. Replaced FGB flow control valve. Installed INDICATOR of CONTROL space experiment on MRM2.  Removed VINOSLIVOST  experiment from MRM-2 and PHOTON-GAMMA from SM.  Installed 3 of 5 SM handrail gap spanners" ]
+, [ 374, "B9F61D90-58C6-45E8-9810-CCCCAC9DEFDA", 374, 1406814231, "879596", 1406814231, "879596", "{\n}", "370", "Russia", "Fyodor Yurchikhin                  Alexander Misurkin ", "ISS Incr-36", "2013-08-16T00:00:00", "7:29", "Â Installed VINOSLIVOST experiment on MRM2, 2 MLMÂUSOS power cables, FGB Â MRM2 gap spanners, MLM-USOS ETHERNET cable\nÂ Installation of gap spanners SM Â MRM2 (if time allows)\nÂ Retracted & stowed Strela-1 on DC1" ]
+, [ 375, "E6FA777B-EE2B-4965-BB62-9FBFC4F9F221", 375, 1406814231, "879596", 1406814231, "879596", "{\n}", "371", "Russia", "Fyodor Yurchikhin                  Alexander Misurkin ", "ISS Incr-36", "2013-08-22T00:00:00", "5:58", "Â Retrieved laser downlink comm experiment from SM and replaced it with a biaxial camera pointing system.  \nÂ Inspected all 6 ATV WAL PCE antennas and tightened loose screws that lost an antenna cover overboard. \nÂ collected surface ÂTestÂ samples on MRM2 EV Hatch 2\nÂ Installed 2 gap spanners on SM\n Displayed Russian flag for national holiday" ]
+ ]
+}
